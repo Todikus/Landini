@@ -222,7 +222,6 @@ supremeFood.add(<EnderIO:itemEnderFood>);
 
 var waterTank = <ThermalExpansion:Tank:4>.withTag({Fluid: {FluidName: "water", Amount: 512000}}).onlyWithTag({Fluid: {FluidName: "water", Amount: 512000}});
 var enderCapacitor = <ThermalExpansion:capacitor:5>.withTag({Energy: 20000000}).onlyWithTag({Energy: 20000000});
-var phaser = <mo:phaser>.withTag({Slot0: {id: 9056, tag: {Energy: 1048576}}, Slot2: {id: 9048}}).onlyWithTag({Slot0: {id: 9056, tag: {Energy: 1048576}}, Slot2: {id: 9048}});
 var cyberParts = <Techguns:TechgunsAmmo:91>;
 var advancedAmmo = <Techguns:TechgunsAmmo:23>;
 var entropyManipulator = <appliedenergistics2:item.ToolEntropyManipulator>.withTag({internalCurrentPower:200000.0}).onlyWithTag({internalCurrentPower:200000.0});
@@ -245,7 +244,7 @@ var goldenApple = <minecraft:golden_apple:1>;
 var hammerHead = <TConstruct:hammerHead:12>;
 var diamondBlock = <minecraft:diamond_block>;
 
-recipes.addShapeless(suppliesHigh, [suppliesMedium, supremeFood, waterTank, enderCapacitor, phaser, cyberParts, advancedAmmo, entropyManipulator, cartographer]);
+recipes.addShapeless(suppliesHigh, [suppliesMedium, supremeFood, waterTank, enderCapacitor, cyberParts, advancedAmmo, entropyManipulator, cartographer]);
 //recipes.addShapeless(suppliesHigh, [suppliesMedium, supremeFood, seaStaff, manaBand]);
 recipes.addShapeless(suppliesHigh, [suppliesMedium, supremeFood, waterBrew, attunedStone, redstoneSoup, deathPoppet, flowingSpirit, focusedWill, impregnatedLeather]);
 recipes.addShapeless(suppliesHigh, [suppliesMedium, supremeFood, waterBucket, waterBucket, lavaCrystal, toolForge, goldenApple, hammerHead, diamondBlock]);

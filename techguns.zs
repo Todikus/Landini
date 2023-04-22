@@ -201,7 +201,7 @@ recipes.remove(heatRay);
 
 recipes.addShaped(stielGranate, [[null, steel, tnt], [null, <ore:plankTreatedWood>, steel], [iron, null, null]]);
 recipes.addShaped(fragGrenade, [[null, steel, <minecraft:flint_and_steel>], [steel, tnt, steel], [null, steel, null]]);
-recipes.addShaped(rocket, [[null, darkSteel, null], [steel, tnt, steel], [steel, <simplyjetpacks:components:12>, steel]]);
+recipes.addShaped(rocket, [[null, darkSteel, null], [steel, tnt, steel], [steel, tnt, steel]]);
 recipes.addShaped(explosiveCharge, [[tnt, <ore:sheetPlastic>, tnt], [<ore:sheetPlastic>, circuit, <ore:sheetPlastic>], [tnt, <ore:sheetPlastic>, tnt]]);
 recipes.addShaped(explosiveChargeAdvanced, [[tgx, explosiveCharge, tgx], [<ore:sheetPlastic>, eliteCircuit, <ore:sheetPlastic>], [tgx, explosiveCharge, tgx]]);
 recipes.addShaped(nuclearWarhead, [[<ore:plateLead>, eliteCircuit, <ore:plateLead>], [tgx, enrichedUranium, tgx], [<ore:plateLead>, eliteCircuit, <ore:plateLead>]]);
@@ -441,8 +441,8 @@ recipes.addShaped(<Techguns:t3_exo_chestplate>, [[fluctCore, meUpgrade, fluctCor
 recipes.addShaped(<Techguns:t3_exo_helmet>, [[fluctCore, meUpgrade, fluctCore], [titanArmorPlate, <Techguns:t3_combat_helmet>, titanArmorPlate], [titanArmorPlate, titanArmorPlate, titanArmorPlate]]);
 recipes.addShaped(<Techguns:t3_exo_leggings>, [[fluctCore, meUpgrade, fluctCore], [titanArmorPlate, <Techguns:t3_combat_leggings>, titanArmorPlate], [titanArmorPlate, null, titanArmorPlate]]);
 
-recipes.addShaped(<Techguns:t3_miner_boots>, [[fluctCore, null, fluctCore], [titanArmorPlate, <Techguns:t3_combat_boots>, titanArmorPlate], [<simplyjetpacks:components:15>, null, <simplyjetpacks:components:15>]]);
-recipes.addShaped(<Techguns:t3_miner_chestplate>, [[fluctCore, <mo:spacetime_equalizer>, fluctCore], [titanArmorPlate, <Techguns:t3_combat_chestplate>, titanArmorPlate], [fluctCore, antigrav, fluctCore]]);
+recipes.addShaped(<Techguns:t3_miner_boots>, [[fluctCore, null, fluctCore], [titanArmorPlate, <Techguns:t3_combat_boots>, titanArmorPlate]]);
+recipes.addShaped(<Techguns:t3_miner_chestplate>, [[fluctCore, fluctCore, fluctCore], [titanArmorPlate, <Techguns:t3_combat_chestplate>, titanArmorPlate], [fluctCore, antigrav, fluctCore]]);
 recipes.addShaped(<Techguns:t3_miner_helmet>, [[fluctCore, titanArmorPlate, fluctCore], [titanArmorPlate, <Techguns:t3_combat_helmet>, titanArmorPlate], [titanArmorPlate, <Techguns:tacticalMask>, titanArmorPlate]]);
 recipes.addShaped(<Techguns:t3_miner_leggings>, [[fluctCore, capacitor, fluctCore], [titanArmorPlate, <Techguns:t3_combat_leggings>, titanArmorPlate], [titanArmorPlate, null, titanArmorPlate]]);
 
