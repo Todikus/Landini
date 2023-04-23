@@ -6,6 +6,10 @@ recipes.remove(<harvestcraft:bakewareItem>);
 recipes.remove(<harvestcraft:mortarandpestleItem>);
 recipes.remove(<harvestcraft:mixingbowlItem>);
 recipes.remove(<harvestcraft:juicerItem>);
+recipes.remove(<harvestcraft:fishtrap>);
+recipes.remove(<harvestcraft:animaltrap>);
+recipes.remove(<harvestcraft:presser>);
+recipes.remove(<harvestcraft:waxItem>);
 
 recipes.addShaped(<harvestcraft:cuttingboardItem>,
  [[<TConstruct:knifeBlade:2>, null, null],
@@ -41,3 +45,18 @@ recipes.addShaped(<harvestcraft:mixingbowlItem>,
 recipes.addShaped(<harvestcraft:juicerItem>,
  [[<ore:stone>],
   [<TConstruct:heavyPlate:1>]]);
+  
+recipes.addShaped(<harvestcraft:fishtrap>,
+ [[<TConstruct:toolRod>, <minecraft:fishing_rod>, <TConstruct:toolRod>],
+  [<harvestcraft:hardenedleatherItem>, <minecraft:chest>, <harvestcraft:hardenedleatherItem>],
+  [<TConstruct:toolRod>, <harvestcraft:hardenedleatherItem>, <TConstruct:toolRod>]]);
+  
+recipes.addShaped(<harvestcraft:animaltrap>,
+ [[<TConstruct:toolRod>, <minecraft:trapdoor>, <TConstruct:toolRod>],
+  [<harvestcraft:hardenedleatherItem>, <minecraft:chest>, <harvestcraft:hardenedleatherItem>],
+  [<TConstruct:toolRod>, <harvestcraft:hardenedleatherItem>, <TConstruct:toolRod>]]);
+  
+recipes.addShaped(<harvestcraft:presser>,
+ [[<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <ore:materialPressedwax>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <minecraft:piston>, <minecraft:iron_ingot>]]);
