@@ -1,5 +1,5 @@
-var mainpart = <flansmod:dwGunBarrel>;
-var subpart = <flansmod:dwGunPart>;
+var subpart = <flansmod:dwGunBarrel>;
+var mainpart = <flansmod:dwGunPart>;
 var badsteel = <flansmod:dwSteelIngot>;
 var medsteel = <flansmod:dwMidSteelIngot>;
 var topsteel = <flansmod:dwHighSteelIngot>;
@@ -19,6 +19,8 @@ var receiver = <flansmod:dwReceiverPart>;
 var scope = <flansmod:dwScopePart>;
 var pumppart = <flansmod:dwPumpPart>;
 var skyrifle = <flansmod:dwSkyReceiverPart>;
+var redwood = <flansmod:dwRedwood>;
+var stock = <flansmod:dwStockPart>;
 
 
 
@@ -47,9 +49,7 @@ recipes.remove(<flansmod:dwDustIron>);
 recipes.addShapeless(<flansmod:dwBrassDust>*2,
 [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustZinc>]);
 recipes.addShapeless(<flansmod:dwDustIron>,
-[[iron, coal, null],
-[coal, coal, coal],
-[null, null, null]]);
+[[iron, coal, coal, coal]]);
 recipes.addShaped(<flansmod:dwWinnow>, 
 [[subpart, mainpart, badsteel],
 [null, liqglow, badsteel],
@@ -59,4 +59,31 @@ recipes.addShaped(<flansmod:dwWinnowBp>,
 [null, liqglow, badsteel],
 [null, brasscog, null]]);
 recipes.addShaped(<flansmod:dwOverwatch>, 
-[
+[[subpart, mainpart, scope],
+[null, redwood, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwWinnowMp>,
+[[<flansmod:dwWinnow>, mainpart, badsteel],
+[null, null, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwWolfstedt>,
+[[mainpart, brasscog, redwood],
+[null, brassingot, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwWolfstedtM2088>,
+[[<flansmod:dwWolfstedt>, scope, stock],
+[null, badsteel, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAt51sp>,
+[[<flansmod:dwWinnowMp>, medsteel, redwood],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwPepperbox>,
+[[subpart, mainpart, brassingot],
+[brasscog, medsteel, medsteel],
+[liqglow, liqglow, null]]);
+recipes.addShaped(<flansmod:dwSteelBluss>,
+[[mainpart, brassingot, badsteel],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped
