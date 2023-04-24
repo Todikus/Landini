@@ -22,6 +22,39 @@ var skyrifle = <flansmod:dwSkyReceiverPart>;
 var redwood = <flansmod:dwRedwood>;
 var stock = <flansmod:dwStockPart>;
 
+var heavyCloth = <Techguns:TechgunsAmmo:39>;
+var treatedLeather = <Techguns:TechgunsAmmo:109>;
+var tar = <Metallurgy:tar>;
+var hardenedLeather = <harvestcraft:hardenedleatherItem>;
+var wax = <ore:materialPressedwax>;
+var leather = <ore:itemLeather>;
+var itemString = <minecraft:string>;
+var diamond = <minecraft:diamond>;
+var blazePowder = <minecraft:blaze_powder>;
+var blazeRod = <minecraft:blaze_rod>;
+var quartz = <minecraft:quartz>;
+var flint = <minecraft:flint>;
+var rawPlastic = <MineFactoryReloaded:plastic.raw>;
+var plasticSheet = <MineFactoryReloaded:plastic.sheet>;
+var hardenedGlass = <ore:blockGlassHardened>;
+var biomass = <Techguns:TechgunsAmmo:38>;
+var slimeball = <ore:slimeball>;
+var greenDye = <ore:dyeGreen>;
+var gunpowder = <minecraft:gunpowder>;
+var redstone = <minecraft:redstone>;
+var glowstone = <minecraft:glowstone_dust>;
+var lapis = <minecraft:dye:4>;
+
+var darkSteel = <EnderIO:itemAlloy:6>;
+var iron = <ore:ingotIron>;
+var steel = <ore:ingotSteel>;
+var bronze = <ore:ingotBronze>;
+var steelPlate = <ore:plateSteel>;
+var bronzePlate = <Techguns:TechgunsAmmo:44>;
+var steamPlate = <Techguns:TechgunsAmmo:67>;
+var bronzeBlock = <ThermalFoundation:Storage:9>;
+var coal = <minecraft:coal>;
+
 
 
 recipes.remove(<flansmod:flansWorkbench>);
