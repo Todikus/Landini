@@ -11,24 +11,27 @@ recipes.remove(<BiomesOPlenty:scytheGold>);
 recipes.addShaped(<BiomesOPlenty:swordAmethyst>,
  [[<ExtraTiC:swordBlade:164>],
   [<ExtraTiC:mediumGuard:164>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:toolrod:164>]]);
   
 recipes.addShaped(<BiomesOPlenty:pickaxeAmethyst>,
  [[<ExtraTiC:pickaxeHead:164>],
   [<ExtraTiC:binding:164>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:toolrod:164>]]);
   
 recipes.addShaped(<BiomesOPlenty:axeAmethyst>,
  [[<ExtraTiC:axeHead:164>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:binding:164>],
+  [<ExtraTiC:toolrod:164>]]);
   
 recipes.addShaped(<BiomesOPlenty:shovelAmethyst>,
  [[<ExtraTiC:shovelHead:164>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:binding:164>],
+  [<ExtraTiC:toolrod:164>]]);
   
 recipes.addShaped(<BiomesOPlenty:hoeAmethyst>,
  [[<BiomesOPlenty:gems>, <BiomesOPlenty:gems>],
-  [null, <TConstruct:toolRod:2>]]);
+  [<ExtraTiC:binding:164>],
+  [null, <ExtraTiC:toolrod:164>]]);
   
 recipes.addShaped(<BiomesOPlenty:scytheAmethyst>,
  [[<ExtraTiC:scytheHead:164>],

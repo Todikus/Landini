@@ -19,51 +19,55 @@ recipes.addShaped(<Botania:glassPick>,
 recipes.addShaped(<Botania:manasteelPick>,
  [[<ExtraTiC:pickaxeHead:145>],
   [<ExtraTiC:binding:145>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:toolrod:145>]]);
 
 recipes.addShaped(<Botania:manasteelSword>,
  [[<ExtraTiC:swordBlade:145>],
   [<ExtraTiC:mediumGuard:145>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:toolrod:145>]]);
 
 recipes.addShaped(<Botania:manasteelAxe>,
  [[<ExtraTiC:axeHead:145>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:binding:145>],
+  [<ExtraTiC:toolrod:145>]]);
 
 recipes.addShaped(<Botania:manasteelShovel>,
  [[<ExtraTiC:shovelHead:145>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:binding:145>],
+  [<ExtraTiC:toolrod:145>]]);
 
 recipes.addShaped(<Botania:elementiumPick>,
  [[<ExtraTiC:pickaxeHead:147>],
   [<ExtraTiC:binding:147>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:toolrod:147>]]);
 
 recipes.addShaped(<Botania:elementiumSword>,
  [[<ExtraTiC:swordBlade:147>],
   [<ExtraTiC:mediumGuard:147>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:toolrod:147>]]);
 
 recipes.addShaped(<Botania:elementiumAxe>,
  [[<ExtraTiC:axeHead:147>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:binding:147>],
+  [<ExtraTiC:toolrod:147>]]);
 
 recipes.addShaped(<Botania:elementiumShovel>,
  [[<ExtraTiC:shovelHead:147>],
-  [<TConstruct:toolRod:2>]]);
+  [<ExtraTiC:binding:147>],
+  [<ExtraTiC:toolrod:147>]]);
 
 recipes.addShaped(<Botania:terraSword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:largeSwordBlade:146>, null],
+  [null, <ExtraTiC:fullGuard:146>, null],
+  [<Botania:manaResource:3>, <ExtraTiC:toughrod:146>, <Botania:manaResource:3>]]);
 
 recipes.addShaped(<Botania:terraPick>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ExtraTiC:pickaxeHead:146>, <Botania:livingwood>, <ExtraTiC:pickaxeHead:146>],
+  [null, <ExtraTiC:binding:146>, null],
+  [null, <ExtraTiC:toolrod:146>, null]]);
 
 recipes.addShaped(<Botania:terraAxe>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:lumberaxeHead:146>, null],
+  [null, <ExtraTiC:toughbind:146>, null],
+  [null, <ExtraTiC:toughrod:146>, null]]);
 

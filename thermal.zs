@@ -204,3 +204,42 @@ recipes.addShaped(<ThermalFoundation:tool.sickleElectrum>,
   [null, null, <ThermalFoundation:material:71>],
   [<TConstruct:toolRod>, <ThermalFoundation:material:71>, null]]);
   
+recipes.addShaped(<ThermalFoundation:tool.hoeCopper>,
+ [[<ThermalFoundation:material:64>, <ThermalFoundation:material:64>],
+  [null, <TConstruct:binding:13>],
+  [null, <TConstruct:toolRod:13>]]);
+
+recipes.addShaped(<ThermalFoundation:tool.hoeSilver>,
+ [[<ThermalFoundation:material:66>, <ThermalFoundation:material:66>],
+  [null, <TConstruct:binding:1023>],
+  [null, <TConstruct:toolRod:1023>]]);
+  
+recipes.addShaped(<ThermalFoundation:tool.hoeLead>,
+ [[<ThermalFoundation:material:67>, <ThermalFoundation:material:67>],
+  [null, <TConstruct:binding:1022>],
+  [null, <TConstruct:toolRod:1022>]]);
+  
+recipes.addShaped(<ThermalFoundation:tool.hoeNickel>,
+ [[<ThermalFoundation:material:68>, <ThermalFoundation:material:68>],
+  [null, <TConstruct:binding:1021>],
+  [null, <TConstruct:toolRod:1021>]]);
+  
+recipes.addShaped(<ThermalFoundation:tool.hoeElectrum>,
+ [[<ThermalFoundation:material:71>, <ThermalFoundation:material:71>],
+  [null, <TConstruct:binding:1025>],
+  [null, <TConstruct:toolRod:1025>]]);
+  
+recipes.addShaped(<ThermalFoundation:tool.hoeInvar>,
+ [[<ThermalFoundation:material:72>, <ThermalFoundation:material:72>],
+  [null, <TConstruct:binding:1020>],
+  [null, <TConstruct:toolRod:1020>]]);
+  
+recipes.addShaped(<ThermalFoundation:tool.hoeBronze>,
+ [[<ThermalFoundation:material:73>, <ThermalFoundation:material:73>],
+  [null, <TConstruct:binding:14>],
+  [null, <TConstruct:toolRod:14>]]);
+  
+recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
+ [[<ThermalFoundation:material:69>, <ThermalFoundation:material:69>],
+  [null, <ExtraTiC:binding:105>],
+  [null, <ExtraTiC:toolrod:105>]]);
