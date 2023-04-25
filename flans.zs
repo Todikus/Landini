@@ -82,7 +82,7 @@ recipes.remove(<flansmod:dwDustIron>);
 recipes.addShapeless(<flansmod:dwBrassDust>*2,
 [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustZinc>]);
 recipes.addShapeless(<flansmod:dwDustIron>,
-[[iron, coal, coal, coal]]);
+[[steel, coal, coal, coal]]);
 recipes.addShaped(<flansmod:dwWinnow>, 
 [[subpart, mainpart, badsteel],
 [null, liqglow, badsteel],
@@ -119,4 +119,6 @@ recipes.addShaped(<flansmod:dwSteelBluss>,
 [[mainpart, brassingot, badsteel],
 [null, null, null],
 [null, null, null]]);
-recipes.addShaped
+recipes.addShaped(<flansmod:dwMatriarchScatter>,
+[[mainpart, brassingot, medsteel],
+[null, 
