@@ -78,11 +78,17 @@ recipes.remove(<flansmod:gunBox.lupineMilitary>);
 recipes.remove(<flansmod:gunBox.penbarUrbanPolice>);
 recipes.remove(<flansmod:gunBox.skymareCorporation>);
 recipes.remove(<flansmod:dwDustIron>);
+recipes.remove(<flansmod:dwCompSteelIngot>);
+recipes.remove(<flansmod:dwRedwood>);
 
 recipes.addShapeless(<flansmod:dwBrassDust>*2,
 [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustZinc>]);
 recipes.addShapeless(<flansmod:dwDustIron>,
-[[steel, coal, coal, coal]]);
+[[iron, coal, coal, coal]]);
+recipes.addShapeless(<flansmod:dwCompSteelIngot>,
+[[steel, badsteel, badsteel, coal]]);
+recipes.addShapeless(<flansmod:dwRedwood>,
+[[<Techguns:TechgunsAmmo:26>, 
 recipes.addShaped(<flansmod:dwWinnow>, 
 [[subpart, mainpart, badsteel],
 [null, liqglow, badsteel],
