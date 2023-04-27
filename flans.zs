@@ -80,6 +80,8 @@ recipes.remove(<flansmod:gunBox.skymareCorporation>);
 recipes.remove(<flansmod:dwDustIron>);
 recipes.remove(<flansmod:dwCompSteelIngot>);
 recipes.remove(<flansmod:dwRedwood>);
+recipes.remove(<flansmod:dwPumpPart>);
+recipes.remove(<flansmod:dwStockPart>);
 
 recipes.addShapeless(<flansmod:dwBrassDust>*2,
 [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustZinc>]);
@@ -88,7 +90,17 @@ recipes.addShapeless(<flansmod:dwDustIron>,
 recipes.addShapeless(<flansmod:dwCompSteelIngot>,
 [[steel, badsteel, badsteel, coal]]);
 recipes.addShapeless(<flansmod:dwRedwood>,
-[[<Techguns:TechgunsAmmo:26>, 
+[[<Techguns:TechgunsAmmo:26>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+recipes.addShaped(<flansmod:dwPumpPart>,
+[[badsteel, medsteel, badsteel],
+[steel, redwood, steel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwStockPart>,
+[[medsteel, medsteel, badsteel],
+[medsteel, badsteel, plasticSheet],
+[null, null, null]]);
+
+
 recipes.addShaped(<flansmod:dwWinnow>, 
 [[subpart, mainpart, badsteel],
 [null, liqglow, badsteel],
@@ -110,8 +122,12 @@ recipes.addShaped(<flansmod:dwWolfstedt>,
 [null, brassingot, medsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwWolfstedtM2088>,
-[[<flansmod:dwWolfstedt>, scope, stock],
-[null, badsteel, null],
+[[<flansmod:dwWolfstedt>, scope, medsteel],
+[null, brasscog, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwWolfstedtRep>,
+[[<flansmod:dwWolfstedtM2088>, mediumsteel, stock],
+[null, brassingot, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAt51sp>,
 [[<flansmod:dwWinnowMp>, medsteel, redwood],
@@ -119,12 +135,51 @@ recipes.addShaped(<flansmod:dwAt51sp>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPepperbox>,
 [[subpart, mainpart, brassingot],
-[brasscog, medsteel, medsteel],
+[brasscog, pumppart, medsteel],
 [liqglow, liqglow, null]]);
 recipes.addShaped(<flansmod:dwSteelBluss>,
 [[mainpart, brassingot, badsteel],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwMatriarchScatter>,
-[[mainpart, brassingot, medsteel],
-[null, 
+[[mainpart, pumppart, medsteel],
+[null, brasscog, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwRoselup>,
+[[mainpart, pumppart, medsteel],
+[brasscog, brassingot, stock],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwRoselupHca>,
+[[<flansmod:dwRoselup>, brasscog, brasscog],
+[liqglow, mainpart, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAmbirconSteamRifle>,
+[[subpart, mainpart, redwood],
+[brasscog, brassingot, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAmbirconSteamRifle2>,
+[[<flansmod:dwAmbirconSteamRifle>, medsteel, medsteel],
+[liqglow, brasscog, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwStumbreonSV>,
+[[<flansmod:dwWinnowMp>, badsteel, redwood],
+[null, brasscog, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwCinderfire>,
+[[subpart, mainpart, redwood],
+[null, brasscog, brasscog],
+[null, null, badsteel]]);
+recipes.addShaped(<flansmod:dwMk47>,
+[[<flansmod:dwCinderfire>, scope, redwood],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwClockwing>,
+[[<flansmod:dwCinderfire>, medsteel, stock],
+[brasscog, medsteel, medsteel],
+[null, null, brassingot]]);
+recipes.addShaped(<flansmod:dwHVFPeforator>,
+[[<flansmod:dwMk47>, medsteel, liqglow],
+[null, medsteel, brasscog],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAutoRifle2097>,
+[[receiver, <flansmod:dwAmbirconSteamRifle>, stock
