@@ -21,6 +21,27 @@ var pumppart = <flansmod:dwPumpPart>;
 var skyrifle = <flansmod:dwSkyReceiverPart>;
 var redwood = <flansmod:dwRedwood>;
 var stock = <flansmod:dwStockPart>;
+var brassammo = <flansmod:dwBrassRounds>;
+var flamesky = <flansmod:dwBrassRounds>;
+var basesky = <flansmod:dwShockRound>;
+var penetrate = <flansmod:dwApRound>;
+var apammo = <flansmod:dwHpRound>;
+var he = <flansmod:dwHeRound>;
+var poisonammo = <flansmod:dwPoisonRound>;
+var 12g = <flansmod:dwShotgunPelletAmmo>;
+var 12gshock = <flansmod:dwShotgunShockAmmo>;
+var 12gpoison = <flansmod:dwShotgunPoisonAmmo>;
+var 12gflame = <flansmod:dwShotgunIncendiaryAmmo>;
+var 12ghe = <flansmod:dwShotgunHEAmmo>;
+var 12gap = <flansmod:dwShotgunAPAmmo>;
+var 12gtungsten = <flansmod:dwShotgunTungstenAmmo>;
+var 40mm = <flansmod:dw40mmFrag>;
+var 40mmpoison = <flansmod:dw40mmGas>;
+var 40mmsmoke = <flansmod:dw40mmSmoke>;
+var 40mmAP = <flansmod:dw40mmAP>;
+var 40mmtimed = <flansmod:dw40mmTimed>;
+var 40mmHe = <flansmod:dw40mmHE>;
+var 40mmShock = <flansmod:dw40mmShock>;
 
 var heavyCloth = <Techguns:TechgunsAmmo:39>;
 var treatedLeather = <Techguns:TechgunsAmmo:109>;
@@ -82,6 +103,7 @@ recipes.remove(<flansmod:dwCompSteelIngot>);
 recipes.remove(<flansmod:dwRedwood>);
 recipes.remove(<flansmod:dwPumpPart>);
 recipes.remove(<flansmod:dwStockPart>);
+recipes.remove(<flansmod:dwBrassRounds>);
 
 recipes.addShapeless(<flansmod:dwBrassDust>*2,
 [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustZinc>]);
@@ -99,6 +121,14 @@ recipes.addShaped(<flansmod:dwStockPart>,
 [[medsteel, medsteel, badsteel],
 [medsteel, badsteel, plasticSheet],
 [null, null, null]]);
+recipes.addShaped(<flansmod:dwBrassRounds>*8,
+[[gunpowder, null, null],
+[gunpowder, null, null],
+[brassingot, null, null]]);
+recipes.addShaped(<flansmod:dwBrassRounds>*8,
+[[blazePowder, null, null],
+[blazePowder, null, null],
+[skyglass, null, null]]);
 
 
 recipes.addShaped(<flansmod:dwWinnow>, 
@@ -182,4 +212,14 @@ recipes.addShaped(<flansmod:dwHVFPeforator>,
 [null, medsteel, brasscog],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAutoRifle2097>,
-[[receiver, <flansmod:dwAmbirconSteamRifle>, stock
+[[receiver, <flansmod:dwAmbirconSteamRifle>, stock],
+[null, badsteel, brasscog],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwHeavyDupletMG>,
+[[receiver, mainpart, redwood],
+[null, badsteel, brasscog],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSCSpinnaker,
+[[subpart, mainpart, badsteel],
+[null, brasscog, badsteel],
+[null, null, null]]);
