@@ -140,3 +140,5 @@ recipes.addShapeless(<TConstruct:CrossbowBodyPart:31>,
 recipes.addShapeless(<TConstruct:BowLimbPart:31>,
  [<Thaumcraft:ItemResource:2>, <TConstruct:toolShard:31>]);
  
+
+recipes.remove(<Thaumcraft:blockStoneDevice>);
