@@ -423,6 +423,11 @@ recipes.addShaped(<more:nodachi>,
  [[null, null, null],
   [null, null, null],
   [null, null, null]]);
+  
+recipes.addShaped(<more:sewing_scissors>,
+ [[<TConstruct:swordBlade:1025>, null, <ExtraTiC:swordBlade:190>],
+  [null, <ExtraTiC:binding:190>, null],
+  [<ExtraTiC:toolrod:190>, <ExtraTiC:binding:190>, <TConstruct:toolRod:1025>]]);
 
 recipes.addShaped(casing, [[plastic, copperCoil, plastic], [copperCoil, null, copperCoil], [plastic, copperCoil, plastic]]);
 recipes.addShaped(radio, [[cardBase, copperWireCoil, wirelessCard], [null, casing, null], [null, buttonGroup, null]]);

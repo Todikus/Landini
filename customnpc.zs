@@ -1,4 +1,11 @@
 recipes.remove(<customnpcs:npcCarpentyBench>);
+recipes.remove(<customnpcs:npcWoodenBullet>);
+recipes.remove(<customnpcs:npcStoneBullet>);
+recipes.remove(<customnpcs:npcIronBullet>);
+recipes.remove(<customnpcs:npcDiamondBullet>);
+recipes.remove(<customnpcs:npcBronzeBullet>);
+recipes.remove(<customnpcs:npcEmeraldBullet>);
+recipes.remove(<customnpcs:npcGoldenBullet>);
 
 recipes.addShaped(<customnpcs:npcWoodenTrident>,
  [[null, <TConstruct:knifeBlade>, <TConstruct:knifeBlade>],
@@ -490,110 +497,103 @@ recipes.addShaped(<customnpcs:npcMithrilBroadsword>,
   [null, <ExtraTiC:largeGuard:126>, null],
   [<TConstruct:toolRod>, null, null]]);
   
-recipes.addShaped(<customnpcs:npcKunai>*16,
+recipes.addShaped(<customnpcs:npcKunai>*8,
  [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+  [null, <TConstruct:knifeBlade:16>, null],
+  [<TConstruct:toolRod>, null, null]]);
   
-recipes.addShaped(<customnpcs:npcReverseKunai>*16,
- [[null, null, null],
-  [null, null, null],
+recipes.addShaped(<customnpcs:npcReverseKunai>*8,
+ [[null, null, <TConstruct:toolRod>],
+  [null, <TConstruct:knifeBlade:16>, null],
   [null, null, null]]);
   
 recipes.addShaped(<customnpcs:npcShuriken>*16,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <TConstruct:ShurikenPart:16>, null],
+  [<TConstruct:ShurikenPart:16>, <TConstruct:materials:33>, <TConstruct:ShurikenPart:16>],
+  [null, <TConstruct:ShurikenPart:16>, null]]);
   
 recipes.addShaped(<customnpcs:npcGiantShuriken>*8,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<TConstruct:ShurikenPart:16>, null, <TConstruct:ShurikenPart:16>],
+  [null, <TConstruct:materials:33>, null],
+  [<TConstruct:ShurikenPart:16>, null, <TConstruct:ShurikenPart:16>]]);
   
 recipes.addShaped(<customnpcs:npcKatana>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:swordBlade:16>],
+  [<minecraft:gold_nugget>, <TConstruct:handGuard:16>, null],
+  [<TConstruct:toolRod>, <minecraft:gold_nugget>, null]]);
   
 recipes.addShaped(<customnpcs:npcKukri>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:swordBlade:101>],
+  [<minecraft:gold_nugget>, <ExtraTiC:mediumGuard:101>, null],
+  [<TConstruct:toolRod>, <minecraft:gold_nugget>, null]]);
   
 recipes.addShaped(<customnpcs:npcGolfClub>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
-  
-recipes.addShaped(<customnpcs:npcChickenSword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<TConstruct:materials:16>, <TConstruct:materials:33>],
+  [<TConstruct:toolRod:16>, null],
+  [<TConstruct:toolRod:16>, null]]);
   
 recipes.addShaped(<customnpcs:npcHandCuffs>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <battlegear2:chain>, <TConstruct:materials:16>],
+  [null, <battlegear2:chain>, null],
+  [<TConstruct:materials:16>, <battlegear2:chain>, null]]);
   
 recipes.addShaped(<customnpcs:npcHammer>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<TConstruct:hammerHead:16>],
+  [<TConstruct:toolRod:16>],
+  [<minecraft:gold_nugget>]]);
   
 recipes.addShaped(<customnpcs:npcBaseballBat>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ore:plankWood>],
+  [<ore:plankWood>],
+  [<ore:stickWood>]]);
   
 recipes.addShaped(<customnpcs:npcLeadPipe>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ThermalFoundation:material:67>],
+  [null, <ThermalFoundation:material:67>, null],
+  [<ThermalFoundation:material:67>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcCleaver>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<TConstruct:knifeBlade:16>, <TConstruct:materials:16>],
+  [null, <TConstruct:toolRod>]]);
   
 recipes.addShaped(<customnpcs:npcSaber>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:swordBlade:16>],
+  [<TConstruct:materials:33>, <TConstruct:handGuard:16>, null],
+  [<TConstruct:toolRod>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcHockeyStick>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ore:plankWood>, <ore:plankWood>],
+  [<TConstruct:toolRod>, null],
+  [<TConstruct:toolRod>, null]]);
   
 recipes.addShaped(<customnpcs:npcSledgeHammer>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:hammerHead:16>],
+  [null, <TConstruct:toolRod>, null],
+  [<TConstruct:toolRod>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcCombatKnive>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:knifeBlade:2>],
+  [null, <ThermalFoundation:material:8>, null],
+  [<TConstruct:toolRod:2>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcMacuahuitl>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <minecraft:stick>, <TConstruct:toolRod>],
+  [<minecraft:stick>, <TConstruct:toolRod>, <minecraft:stick>],
+  [<TConstruct:toolRod>, <minecraft:stick>, null]]);
   
 recipes.addShaped(<customnpcs:npcBoStaff>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ore:dyeBlue>, <TConstruct:toolRod>],
+  [<ore:dyeBlue>, <TConstruct:toolRod>, <ore:dyeBlue>],
+  [<TConstruct:toolRod>, <ore:dyeBlue>, null]]);
   
 recipes.addShaped(<customnpcs:npcSaiBlade>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+  [[<TConstruct:materials:33>, <TConstruct:knifeBlade:16>, <TConstruct:materials:33>],
+  [null, <TConstruct:toolRod:16>, null]]);
   
 recipes.addShaped(<customnpcs:npcSlingshot>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ore:stickWood>, <minecraft:string>, <ore:stickWood>],
+  [null, <ore:stickWood>, null],
+  [null, <ore:stickWood>, null]]);
   
 recipes.addShaped(<customnpcs:npcMusket>,
  [[<Techguns:TechgunsAmmo:27>, <ImmersiveEngineering:metal:30>, null],
@@ -606,49 +606,49 @@ recipes.addShaped(<customnpcs:npcBlackBullet>*4,
   [null, null, null]]);
   
 recipes.addShaped(<customnpcs:npcCrossbow>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<TConstruct:CrossbowLimbPart>, <TConstruct:bowstring>, null],
+  [<TConstruct:bowstring>, <ImmersiveEngineering:material:12>, null],
+  [null, null, <TConstruct:CrossbowBodyPart>]]);
   
-recipes.addShaped(<customnpcs:npcCrossBolt>*8,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+recipes.addShaped(<customnpcs:npcCrossBolt>*16,
+ [[<TConstruct:arrowhead:2>],
+  [<TConstruct:toolRod>],
+  [<TConstruct:fletching>]]);
   
 recipes.addShaped(<customnpcs:npcBatton>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ore:dyeBlack>, <TConstruct:materials:16>],
+  [<ore:dyeBlack>, <TConstruct:materials:16>, <ore:dyeBlack>],
+  [<TConstruct:toolRod:2>, <ore:dyeBlack>, null]]);
   
 recipes.addShaped(<customnpcs:npcGunChainsaw>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <battlegear2:chain>, <TConstruct:swordBlade:16>],
+  [<battlegear2:chain>, <ImmersiveEngineering:material:12>, <battlegear2:chain>],
+  [<TConstruct:toolRod>, <battlegear2:chain>, null]]);
   
 recipes.addShaped(<customnpcs:npcRapier>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:toolRod:2>],
+  [<minecraft:gold_nugget>, <TConstruct:handGuard:16>, null],
+  [<TConstruct:toolRod>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcCrowbar>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:toolRod:16>],
+  [<TConstruct:materials:33>, <TConstruct:toolRod:16>, <TConstruct:materials:33>],
+  [<TConstruct:toolRod:16>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcPipeWrench>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <TConstruct:materials:33>, null],
+  [null, <TConstruct:toolRod:16>, <TConstruct:materials:33>],
+  [<TConstruct:toolRod:16>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcSwissArmyKnife>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ore:dyeRed>, <TConstruct:knifeBlade:16>],
+  [<ore:dyeRed>, <ImmersiveEngineering:material:12>, <ore:dyeRed>],
+  [<TConstruct:chiselHead:16>, <ore:dyeRed>, null]]);
   
 recipes.addShaped(<customnpcs:npcWrench>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:materials:33>],
+  [null, <TConstruct:toolRod:16>, null],
+  [<TConstruct:materials:33>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcNinjaClaw>,
  [[null, <TConstruct:knifeBlade:16>, <TConstruct:knifeBlade:16>],
@@ -759,3 +759,44 @@ recipes.addShaped(<customnpcs:npcTowerShield>,
  [[<TConstruct:materials:16>, <ImmersiveEngineering:metal:38>, <TConstruct:materials:16>],
   [<TConstruct:materials:16>, <ImmersiveEngineering:metal:38>, <TConstruct:materials:16>],
   [null, <ImmersiveEngineering:metal:38>, null]]);
+
+recipes.addShaped(<customnpcs:npcBanjo>,
+ [[null, <minecraft:string>, <TConstruct:toolRod>],
+  [<minecraft:string>, <TConstruct:toolRod>, <minecraft:string>],
+  [<ore:plankWood>, <minecraft:string>, null]]);
+  
+recipes.addShaped(<customnpcs:npcViolin>,
+ [[null, <minecraft:string>, <TConstruct:toolRod>],
+  [<minecraft:string>, <ore:plankWood>, <minecraft:string>],
+  [<ore:plankWood>, <minecraft:string>, null]]);
+  
+recipes.addShaped(<customnpcs:npcViolinBow>,
+ [[null, null, <TConstruct:toolRod>],
+  [null, <TConstruct:toolRod>, <minecraft:string>],
+  [<TConstruct:toolRod>, <minecraft:string>, null]]);
+  
+recipes.addShaped(<customnpcs:npcHarp>,
+ [[<minecraft:gold_nugget>, <minecraft:string>, <minecraft:gold_nugget>],
+  [<minecraft:gold_nugget>, <minecraft:string>, <minecraft:gold_nugget>],
+  [null, <minecraft:gold_ingot>, null]]);
+  
+recipes.addShaped(<customnpcs:npcGuitar>,
+ [[null, <minecraft:string>, <TConstruct:toughRod>],
+  [<minecraft:string>, <ore:plankWood>, <minecraft:string>],
+  [<ore:plankWood>, <minecraft:string>, null]]);
+  
+recipes.addShaped(<customnpcs:npcFrenchHorn>,
+ [[null, null, <minecraft:gold_ingot>],
+  [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_ingot>],
+  [<minecraft:gold_nugget>, <minecraft:gold_nugget>, null]]);
+  
+recipes.addShaped(<customnpcs:npcOcarina>,
+ [[<ore:slabWood>, <ore:dyeBlue>, <ore:dyeBlue>],
+  [<ore:plankWood>, <ore:plankWood>, <ore:plankWood>],
+  [<ore:dyeBlue>, <ore:dyeBlue>, <ore:dyeBlue>]]);
+  
+recipes.addShaped(<customnpcs:npcClarinet>,
+ [[null, <ore:dyeBlack>, <ore:plankWood>],
+  [<ore:dyeBlack>, <ore:plankWood>, <ore:dyeBlack>],
+  [<ore:plankWood>, <ore:dyeBlack>, null]]);
+  
