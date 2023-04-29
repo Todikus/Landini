@@ -65,6 +65,7 @@ var gunpowder = <minecraft:gunpowder>;
 var redstone = <minecraft:redstone>;
 var glowstone = <minecraft:glowstone_dust>;
 var lapis = <minecraft:dye:4>;
+var sand = <minecraft:sand>;
 
 var darkSteel = <EnderIO:itemAlloy:6>;
 var iron = <ore:ingotIron>;
@@ -75,6 +76,7 @@ var bronzePlate = <Techguns:TechgunsAmmo:44>;
 var steamPlate = <Techguns:TechgunsAmmo:67>;
 var bronzeBlock = <ThermalFoundation:Storage:9>;
 var coal = <minecraft:coal>;
+var spider = <minecraft:spider_eye>
 
 
 
@@ -104,6 +106,12 @@ recipes.remove(<flansmod:dwRedwood>);
 recipes.remove(<flansmod:dwPumpPart>);
 recipes.remove(<flansmod:dwStockPart>);
 recipes.remove(<flansmod:dwBrassRounds>);
+recipes.remove(<flansmod:dwShockRound>);
+recipes.remove(<flansmod:dwBrassRounds>);
+recipes.remove(<flansmod:dwApRound>);
+recipes.remove(<flansmod:dwHpRound>);
+recipes.remove(<flansmod:dwHeRound>);
+recipes.remove(<flansmod:dwPoisonRound>);
 
 recipes.addShapeless(<flansmod:dwBrassDust>*2,
 [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustZinc>]);
@@ -121,14 +129,35 @@ recipes.addShaped(<flansmod:dwStockPart>,
 [[medsteel, medsteel, badsteel],
 [medsteel, badsteel, plasticSheet],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwBrassRounds>*8,
+recipes.addShaped(<flansmod:dwBrassRounds>,
 [[gunpowder, null, null],
 [gunpowder, null, null],
 [brassingot, null, null]]);
-recipes.addShaped(<flansmod:dwBrassRounds>*8,
+recipes.addShaped(<flansmod:dwBrassRounds>,
 [[blazePowder, null, null],
 [blazePowder, null, null],
 [skyglass, null, null]]);
+recipes.addShaped(<flansmod:dwShockRound>,
+[[skydust, null, null],
+[[skydust, null, null],
+[skyglass, null, null]]);
+recipes.addShaped(<flansmod:dwApRound>,
+[[compos, null, null],
+[gunpowder, null, null],
+[badsteel, null, null]]);
+recipes.addShaped(<flansmod:dwHpRound>,
+[[flint, null, null],
+[gunpowder, null, null],
+[badsteel, null, null]]);
+recipes.addShaped(<flansmod:dwHeRound>,
+[[sand, gunpowder, sand],
+[null, gunpowder, sand]
+[null, badsteel, sand]
+recipes.addShaped(<flansmod:dwPoisonRound>,
+[[spuder, null, null],
+[gunpowder, null, null],
+[badsteel, null, null]]);
+
 
 
 recipes.addShaped(<flansmod:dwWinnow>, 
