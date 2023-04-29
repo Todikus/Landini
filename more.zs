@@ -32,8 +32,9 @@ recipes.addShaped(<more:blader_cutter_1>,
   [null, <Techguns:TechgunsAmmo:8>, <TConstruct:materials:16>]]);
 
 recipes.addShaped(<more:blue_laser_sword>,
- [[<ImmersiveEngineering:metal:32>, <Techguns:TechgunsAmmo:63>, <ImmersiveEngineering:metal:32>],
-  [<ImmersiveEngineering:metal:32>, <ThermalExpansion:capacitor:3>, <ImmersiveEngineering:metal:32>]]);
+ [[<EnderIO:itemAlloy:2>, <EnderIO:itemMaterial:6>, <EnderIO:itemAlloy:2>],
+  [<EnderIO:itemAlloy:6>, <EnderIO:itemBasicCapacitor:2>, <EnderIO:itemAlloy:6>],
+  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:4>, <EnderIO:itemAlloy:6>]]);
 
 recipes.addShaped(<more:chainsaw>,
  [[null, <EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:6>],
@@ -56,9 +57,9 @@ recipes.addShaped(<more:curved_sword>,
   [<TConstruct:toolRod>]]);
 
 recipes.addShaped(<more:cutter>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<EnderIO:itemMaterial:6>, <EnderIO:itemAlloy:2>, <EnderIO:itemMaterial:6>],
+  [<EnderIO:itemBasicCapacitor:1>, <ThermalExpansion:capacitor:4>, <EnderIO:itemBasicCapacitor:1>],
+  [null, <EnderIO:itemAlloy:6>, null]]);
 
 recipes.addShaped(<more:dagger>,
  [[<TConstruct:knifeBlade:16>],
@@ -66,34 +67,34 @@ recipes.addShaped(<more:dagger>,
   [<TConstruct:toolRod:16>]]);
 
 recipes.addShaped(<more:deepdrill>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ImmersiveEngineering:metal:38>, <ThermalExpansion:capacitor:2>, <ImmersiveEngineering:metal:38>],
+  [<ImmersiveEngineering:metal:38>, <rfdrills:motor_te>, <ImmersiveEngineering:metal:38>],
+  [null, <Techguns:TechgunsAmmo:75>, null]]);
 
 recipes.addShaped(<more:dragon_wrath>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <minecraft:blaze_rod>],
+  [<EnderIO:itemBasicCapacitor:1>, <minecraft:blaze_rod>, null],
+  [<ImmersiveEngineering:material:16>, <ThermalExpansion:capacitor:4>, null]]);
 
 recipes.addShaped(<more:drill>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ImmersiveEngineering:material:14>, null, null],
+  [<ImmersiveEngineering:metal:30>, <ImmersiveEngineering:material:14>, <ImmersiveEngineering:metal:30>],
+  [null, <ThermalExpansion:capacitor:2>, <Techguns:TechgunsAmmo:30>]]);
 
 recipes.addShaped(<more:electroaxe>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<EnderIO:itemAlloy:1>, <EnderIO:itemBasicCapacitor:1>, null],
+  [<EnderIO:itemAlloy:1>, <ThermalExpansion:capacitor:4>, null],
+  [null, <TConstruct:materials:16>, null]]);
 
 recipes.addShaped(<more:energy_glavie>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <Techguns:TechgunsAmmo:69>, <EnderIO:itemAlloy:1>],
+  [null, <ThermalExpansion:capacitor:3>, null],
+  [<EnderIO:itemBasicCapacitor:1>, <Techguns:TechgunsAmmo:69>, null]]);
 
 recipes.addShaped(<more:energy_whip>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ImmersiveEngineering:coil:4>, <ImmersiveEngineering:coil:4>],
+  [<ImmersiveEngineering:coil:4>, <ThermalExpansion:capacitor:2>, null],
+  [<EnderIO:itemBasicCapacitor>, <Techguns:TechgunsAmmo:69>, null]]);
 
 recipes.addShaped(<more:fireaxe>,
  [[null, <ore:dyeRed>, <TConstruct:broadAxeHead:16>],
@@ -106,323 +107,314 @@ recipes.addShaped(<more:garmonizator>,
   [<ExtraTiC:toolrod:146>, <minecraft:gold_ingot>, null]]);
 
 recipes.addShaped(<more:glavie>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:binding:101>, <ExtraTiC:swordBlade:101>],
+  [null, <ExtraTiC:toolrod:101>, null],
+  [<ExtraTiC:swordBlade:101>, <ExtraTiC:binding:101>, null]]);
 
 recipes.addShaped(<more:hammer>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<TConstruct:materials:16>],
+  [<TConstruct:binding:16>],
+  [<TConstruct:toolRod:16>]]);
 
 recipes.addShaped(<more:hand_drill>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ImmersiveEngineering:material:15>, null, null],
+  [<ImmersiveEngineering:metal:38>, <ImmersiveEngineering:material:15>, <ImmersiveEngineering:metal:38>],
+  [null, <ThermalExpansion:capacitor:3>, <Techguns:TechgunsAmmo:34>]]);
 
 recipes.addShaped(<more:industrial_hammer>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<EnderIO:blockIngotStorage:2>, <Techguns:TechgunsAmmo:106>, <EnderIO:blockIngotStorage:2>],
+  [<EnderIO:itemBasicCapacitor:2>, <EnderIO:itemAlloy:6>, <EnderIO:itemBasicCapacitor:2>],
+  [null, <EnderIO:itemAlloy:6>, null]]);
 
 recipes.addShaped(<more:katana>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:swordBlade:121>],
+  [null, <ExtraTiC:mediumGuard:121>, null],
+  [<ExtraTiC:toolrod:121>, null, null]]);
 
 recipes.addShaped(<more:khopesh>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ExtraTiC:swordBlade:101>, null],
+  [<ExtraTiC:swordBlade:101>, <ExtraTiC:largeGuard:101>],
+  [null, <ExtraTiC:toolrod:101>]]);
 
 recipes.addShaped(<more:knife>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<TConstruct:knifeBlade:2>],
+  [<TConstruct:crossbar:2>],
+  [<TConstruct:toolRod:2>]]);
 
 recipes.addShaped(<more:kris>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ExtraTiC:swordBlade:101>, null],
+  [<ExtraTiC:crossbar:101>, null],
+  [null, <TConstruct:toolRod>]]);
 
 recipes.addShaped(<more:laser_razor>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<EnderIO:itemMaterial:6>, <EnderIO:itemBasicCapacitor:2>, null],
+  [<EnderIO:itemMaterial:6>, <ThermalExpansion:capacitor:4>, null],
+  [<EnderIO:itemMaterial:6>, <EnderIO:itemAlloy:6>, null]]);
 
 recipes.addShaped(<more:laser_sword>,
- [[<ImmersiveEngineering:metal:32>, <Techguns:TechgunsAmmo:63>, <ImmersiveEngineering:metal:32>],
-  [<ImmersiveEngineering:metal:32>, <ThermalExpansion:capacitor:4>, <ImmersiveEngineering:metal:32>]]);
+ [[<EnderIO:itemAlloy:6>, <EnderIO:blockIngotStorage:2>, <EnderIO:itemAlloy:6>],
+  [<EnderIO:itemAlloy:6>, <EnderIO:itemBasicCapacitor:2>, <EnderIO:itemAlloy:6>],
+  [<EnderIO:itemAlloy:6>, <Techguns:TechgunsAmmo:106>, <EnderIO:itemAlloy:6>]]);
 
-recipes.addShaped(<more:light_item>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+recipes.addShapeless(<more:light_item>,
+ [<minecraft:glass_bottle>]);
 
 recipes.addShaped(<more:long_dagger>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ExtraTiC:swordBlade:171>],
+  [<ExtraTiC:crossbar:171>],
+  [<ExtraTiC:Blot:171>]]);
 
 recipes.addShaped(<more:mace>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<Metallurgy:black.steel.ingot>],
+  [<battlegear2:chain>],
+  [<TConstruct:toolRod>]]);
 
 recipes.addShaped(<more:machete>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:largeSwordBlade:124>],
+  [null, <ExtraTiC:mediumGuard:124>, null],
+  [<ExtraTiC:toolrod:124>, null, null]]);
 
 recipes.addShaped(<more:machete_1>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:swordBlade:121>],
+  [null, <ExtraTiC:mediumGuard:121>, null],
+  [<ExtraTiC:toolrod:121>, null, null]]);
 
 recipes.addShaped(<more:magnet_mace>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <EnderIO:blockIngotStorage:6>],
+  [<EnderIO:itemBasicCapacitor:1>, <EnderIO:itemMaterial:6>, null],
+  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:4>, null]]);
 
 recipes.addShaped(<more:monomolecural_blade>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <EnderIO:itemMaterial:5>],
+  [<EnderIO:itemBasicCapacitor:1>, <EnderIO:itemAlloy:6>, null],
+  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:3>, null]]);
 
 recipes.addShaped(<more:negotiator>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <EnderIO:itemMaterial:5>],
+  [null, <EnderIO:itemAlloy:6>, null],
+  [<EnderIO:itemAlloy:6>, null, null]]);
 
 recipes.addShaped(<more:plasma_torch>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <EnderIO:itemMaterial:5>],
+  [null, <EnderIO:itemAlloy:6>, null],
+  [<EnderIO:itemBasicCapacitor:1>, null, null]]);
 
 recipes.addShaped(<more:poison_dagger>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ExtraTiC:knifeBlade:129>],
+  [<ExtraTiC:crossbar:105>],
+  [<ExtraTiC:toolrod:105>]]);
 
 recipes.addShaped(<more:positron_opressor>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <EnderIO:itemBasicCapacitor:2>, <EnderIO:blockIngotStorage:2>],
+  [null, <Techguns:TechgunsAmmo:106>, <EnderIO:itemBasicCapacitor:2>],
+  [<EnderIO:itemAlloy:6>, null, null]]);
 
 recipes.addShaped(<more:rogosvet>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <EnderIO:itemMaterial:5>],
+  [<EnderIO:itemBasicCapacitor:1>, <Botania:manaResource:9>, <EnderIO:itemMaterial:5>],
+  [<Botania:manaResource:4>, <ThermalExpansion:capacitor:4>.withTag({Energy: 0}), null]]);
 
 recipes.addShaped(<more:rope_hook>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:toolRod:16>],
+  [null, null, <Growthcraft:grc.rope>],
+  [<TConstruct:materials:33>, <Growthcraft:grc.rope>, null]]);
 
 recipes.addShaped(<more:rusty_sword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:largeSwordBlade:124>],
+  [<ExtraTiC:toughrod:124>, null]]);
 
 recipes.addShaped(<more:saw>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ore:stick>, <ImmersiveEngineering:metal:30>, <ImmersiveEngineering:metal:30>],
+  [<ore:stickWood>, null, null]]);
 
 recipes.addShaped(<more:shock_baton>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ImmersiveEngineering:storage:10>],
+  [<ImmersiveEngineering:coil>, <ImmersiveEngineering:material:15>, null],
+  [<ImmersiveEngineering:material:16>, <ThermalExpansion:capacitor:2>, null]]);
 
 recipes.addShaped(<more:short_blade>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:swordBlade:121>],
+  [null, <ExtraTiC:crossbar:121>, null],
+  [<ExtraTiC:toolrod:121>, null, null]]);
 
 recipes.addShaped(<more:spear>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <minecraft:string>, <minecraft:flint>],
+  [null, <ore:stickWood>, <minecraft:string>],
+  [<ore:stickWood>, null, null]]);
 
 recipes.addShaped(<more:zweihander>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:largeSwordBlade:115>],
+  [null, <ExtraTiC:largeGuard:115>, null],
+  [<ExtraTiC:toolrod:115>, null, null]]);
 
 recipes.addShaped(<more:thermal_blade>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <EnderIO:itemMaterial:6>],
+  [<EnderIO:itemBasicCapacitor:1>, <EnderIO:itemAlloy:6>, null],
+  [<ImmersiveEngineering:material:15>, <ThermalExpansion:capacitor:4>, null]]);
 
 recipes.addShaped(<more:vibroblade>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:swordBlade:126>],
+  [null, <ExtraTiC:largeGuard:126>, null],
+  [<ExtraTiC:toolrod:126>, null, null]]);
 
 recipes.addShaped(<more:vibroblade_1>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:largeSwordBlade:119>],
+  [null, <ExtraTiC:largeGuard:119>, null],
+  [<ExtraTiC:toolrod:119>, null, null]]);
 
 recipes.addShaped(<more:winged_sword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:largeSwordBlade:108>, <ExtraTiC:toolrod:108>],
+  [<ExtraTiC:binding:108>, <ExtraTiC:toolrod:108>, <ExtraTiC:largeSwordBlade:108>],
+  [<ExtraTiC:toolrod:108>, <ExtraTiC:binding:108>, null]]);
 
 recipes.addShaped(<more:axesword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:hatchetHead:16>],
+  [null, <TConstruct:largeSwordBlade:16>, null],
+  [<TConstruct:toolRod:16>, null, null]]);
 
 recipes.addShaped(<more:cuauhololli>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <minecraft:string>, <TConstruct:swordBlade:4>],
+  [null, <TConstruct:toolRod>, <minecraft:string>],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:dao_sword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:knifeBlade:121>],
+  [null, <ExtraTiC:crossbar:121>, null],
+  [<ExtraTiC:toolrod:121>, null, null]]);
 
 recipes.addShaped(<more:dark_battleaxe>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:broadAxeHead:12>],
+  [null, <ExtraTiC:binding:171>, null],
+  [<ExtraTiC:toughrod:171>, null, null]]);
 
 recipes.addShaped(<more:dark_blade>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:largeSwordBlade:172>],
+  [null, <ExtraTiC:largeGuard:171>, null],
+  [<ExtraTiC:toolrod:171>, null, null]]);
 
 recipes.addShaped(<more:dwarven_axe>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:lumberaxeHead:124>],
+  [null, <ExtraTiC:binding:124>, null],
+  [<TConstruct:toughRod>, null, null]]);
 
 recipes.addShaped(<more:feathered_macuahuitl>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <minecraft:feather>, <TConstruct:swordBlade:4>],
+  [null, <TConstruct:handGuard>, null],
+  [<TConstruct:toolRod>, <minecraft:feather>, null]]);
 
 recipes.addShaped(<more:halberd>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:axeHead:124>, <ExtraTiC:swordBlade:124>],
+  [null, <TConstruct:toolRod>, null],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:heavy_greatsword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:largeSwordBlade:171>],
+  [null, <ExtraTiC:largeGuard:171>, null],
+  [<ExtraTiC:toughrod:171>, null, null]]);
 
 recipes.addShaped(<more:large_axe>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:axeHead:121>],
+  [null, <ExtraTiC:binding:121>, null],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:orcish_blade>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:swordBlade:6>],
+  [null, <TConstruct:handGuard:6>, <TConstruct:materials:27>],
+  [<TConstruct:toolRod:6>, null, null]]);
 
 recipes.addShaped(<more:orcish_twohander>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:largeSwordBlade:6>],
+  [null, <TConstruct:wideGuard:6>, null],
+  [<TConstruct:toolRod:6>, null, null]]);
 
 recipes.addShaped(<more:pitchfork>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <TConstruct:swordBlade:16>, <TConstruct:swordBlade:16>],
+  [null, <TConstruct:toolRod>, <TConstruct:swordBlade:16>],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:polearm>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:axeHead:121>, <ExtraTiC:binding:121>],
+  [null, <TConstruct:toolRod>, null],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:polehammer>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:hammerHead:16>],
+  [null, <TConstruct:binding:16>, null],
+  [<TConstruct:toughRod>, null, null]]);
 
 recipes.addShaped(<more:short_spear>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:swordBlade:16>],
+  [null, <TConstruct:toolRod>, null],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:trident>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:swordBlade:121>, <ExtraTiC:swordBlade:121>],
+  [null, <TConstruct:toolRod>, <ExtraTiC:swordBlade:121>],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:trollhunter_axe>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <TConstruct:hatchetHead:16>],
+  [<TConstruct:toolRod:16>, <TConstruct:binding:16>]]);
 
 recipes.addShaped(<more:wooden_axesword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:largeSwordBlade>],
+  [null, <TConstruct:binding>, null],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:yari>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <TConstruct:materials:33>, <ExtraTiC:toolrod:171>],
+  [null, <TConstruct:toolRod>, <TConstruct:materials:33>],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:microphone>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <MineFactoryReloaded:plastic.sheet>, <minecraft:wool:15>],
+  [<MineFactoryReloaded:plastic.sheet>, <ThermalExpansion:capacitor:2>, <MineFactoryReloaded:plastic.sheet>],
+  [<ThermalFoundation:material:64>, <MineFactoryReloaded:plastic.sheet>, null]]);
 
 recipes.addShaped(<more:billhook>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <TConstruct:materials:33>, <TConstruct:swordBlade:16>],
+  [null, <TConstruct:toolRod>, null],
+  [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:falcata>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ExtraTiC:swordBlade:115>],
+  [null, <ExtraTiC:mediumGuard:115>],
+  [<ExtraTiC:toolrod:115>, null]]);
 
 recipes.addShaped(<more:falx>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <Metallurgy:fantasy.nugget:1>, <ExtraTiC:toolrod:124>],
+  [null, <ExtraTiC:mediumGuard:124>, null],
+  [<ExtraTiC:toolrod:124>, null, null]]);
 
 recipes.addShaped(<more:fancy_golden_knife>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[<ExtraTiC:knifeBlade:112>],
+  [<ExtraTiC:crossbar:112>],
+  [<ExtraTiC:toolrod:112>]]);
 
 recipes.addShaped(<more:hooksword>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <Metallurgy:fantasy.nugget:3>, <ExtraTiC:toolrod:121>],
+  [<Metallurgy:fantasy.nugget:3>, <ExtraTiC:mediumGuard:121>, null],
+  [<ExtraTiC:toolrod:121>, null, null]]);
 
 recipes.addShaped(<more:japanese_jitte>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
-
-recipes.addShaped(<more:panabas>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <TConstruct:toolRod:1022>],
+  [<ThermalFoundation:material:99>, <TConstruct:handGuard:1022>],
+  [null, <TConstruct:toolRod:1022>]]);
 
 recipes.addShaped(<more:rapier>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <ExtraTiC:toolrod:105>],
+  [<minecraft:gold_nugget>, <ExtraTiC:mediumGuard:105>, null],
+  [<ExtraTiC:toolrod:105>, null, null]]);
 
 recipes.addShaped(<more:jousting_lance>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, <ore:dyeRed>, <TConstruct:materials:33>],
+  [<ore:dyeWhite>, <ExtraTiC:toughrod:124>, <ore:dyeWhite>],
+  [<ExtraTiC:toolrod:124>, <ore:dyeRed>, null]]);
 
 recipes.addShaped(<more:nodachi>,
- [[null, null, null],
-  [null, null, null],
-  [null, null, null]]);
+ [[null, null, <TConstruct:largeSwordBlade:16>],
+  [null, <TConstruct:handGuard:16>, null],
+  [<TConstruct:toolRod:16>, null, null]]);
   
 recipes.addShaped(<more:sewing_scissors>,
  [[<TConstruct:swordBlade:1025>, null, <ExtraTiC:swordBlade:190>],
