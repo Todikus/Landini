@@ -22,28 +22,28 @@ recipes.addShaped(<more:blade_trost>,
   [<TConstruct:toughRod>, null, null]]);
 
 recipes.addShaped(<more:blader_cutter>,
- [[<TConstruct:frypanHead:16>, <ImmersiveEngineering:material:15>, null],
-  [<Techguns:TechgunsAmmo:30>, <rfdrills:motor_te>, <minecraft:iron_ingot>],
-  [null, <Techguns:TechgunsAmmo:8>, <minecraft:iron_ingot>]]);
+ [[<EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:6>, null],
+  [<EnderIO:itemAlloy:6>, <rfdrills:motor_te>, <TConstruct:materials:16>],
+  [null, <TConstruct:materials:16>, <ThermalExpansion:capacitor:3>]]);
 
 recipes.addShaped(<more:blader_cutter_1>,
- [[<ExtraTiC:frypanHead:171>, <ImmersiveEngineering:material:15>, null],
-  [<Techguns:TechgunsAmmo:34>, <Techguns:TechgunsAmmo:64>, <TConstruct:materials:16>],
-  [null, <Techguns:TechgunsAmmo:8>, <TConstruct:materials:16>]]);
+ [[<EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:2>, null],
+  [<EnderIO:itemAlloy:2>, <Techguns:TechgunsAmmo:64>, <EnderIO:itemAlloy:6>],
+  [null, <EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:4>]]);
 
 recipes.addShaped(<more:blue_laser_sword>,
- [[<EnderIO:itemAlloy:2>, <EnderIO:itemMaterial:6>, <EnderIO:itemAlloy:2>],
-  [<EnderIO:itemAlloy:6>, <EnderIO:itemBasicCapacitor:2>, <EnderIO:itemAlloy:6>],
-  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:4>, <EnderIO:itemAlloy:6>]]);
+ [[<EnderIO:itemAlloy:6>, <EnderIO:itemMaterial:5>, <EnderIO:itemAlloy:6>],
+  [<TConstruct:materials:16>, <EnderIO:itemBasicCapacitor:1>, <TConstruct:materials:16>],
+  [<TConstruct:materials:16>, <ThermalExpansion:capacitor:3>, <TConstruct:materials:16>]]);
 
 recipes.addShaped(<more:chainsaw>,
- [[null, <EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:6>],
-  [<ImmersiveEngineering:metal:38>, <ExtraTiC:swordBlade:171>, <EnderIO:itemAlloy:6>],
-  [<ImmersiveEngineering:material:15>, <Techguns:TechgunsAmmo:64>, null]]);
+ [[null, <EnderIO:itemAlloy:2>, <EnderIO:itemAlloy:2>],
+  [<ThermalExpansion:capacitor:4>, <EnderIO:itemAlloy:6>, <EnderIO:itemAlloy:2>],
+  [<EnderIO:itemBasicCapacitor:2>, <Techguns:TechgunsAmmo:64>, null]]);
 
 recipes.addShaped(<more:chainsaw_1>,
  [[null, <TConstruct:materials:16>, <TConstruct:materials:16>],
-  [<ImmersiveEngineering:metal:38>, <TConstruct:swordBlade:16>, <TConstruct:materials:16>],
+  [<ThermalExpansion:capacitor:2>, <TConstruct:swordBlade:16>, <TConstruct:materials:16>],
   [<ImmersiveEngineering:material:15>, <rfdrills:motor_te>, null]]);
 
 recipes.addShaped(<more:claw>,
@@ -73,8 +73,8 @@ recipes.addShaped(<more:deepdrill>,
 
 recipes.addShaped(<more:dragon_wrath>,
  [[null, null, <minecraft:blaze_rod>],
-  [<EnderIO:itemBasicCapacitor:1>, <minecraft:blaze_rod>, null],
-  [<ImmersiveEngineering:material:16>, <ThermalExpansion:capacitor:4>, null]]);
+  [<EnderIO:itemBasicCapacitor>, <minecraft:blaze_rod>, null],
+  [<ImmersiveEngineering:material:16>, <ThermalExpansion:capacitor:2>, null]]);
 
 recipes.addShaped(<more:drill>,
  [[<ImmersiveEngineering:material:14>, null, null],
@@ -82,9 +82,9 @@ recipes.addShaped(<more:drill>,
   [null, <ThermalExpansion:capacitor:2>, <Techguns:TechgunsAmmo:30>]]);
 
 recipes.addShaped(<more:electroaxe>,
- [[<EnderIO:itemAlloy:1>, <EnderIO:itemBasicCapacitor:1>, null],
-  [<EnderIO:itemAlloy:1>, <ThermalExpansion:capacitor:4>, null],
-  [null, <TConstruct:materials:16>, null]]);
+ [[<minecraft:diamond>, <EnderIO:itemBasicCapacitor>, null],
+  [<minecraft:diamond>, <ThermalExpansion:capacitor:2>, null],
+  [null, <ImmersiveEngineering:material:15>, null]]);
 
 recipes.addShaped(<more:energy_glavie>,
  [[null, <Techguns:TechgunsAmmo:69>, <EnderIO:itemAlloy:1>],
@@ -119,10 +119,10 @@ recipes.addShaped(<more:hammer>,
 recipes.addShaped(<more:hand_drill>,
  [[<ImmersiveEngineering:material:15>, null, null],
   [<ImmersiveEngineering:metal:38>, <ImmersiveEngineering:material:15>, <ImmersiveEngineering:metal:38>],
-  [null, <ThermalExpansion:capacitor:3>, <Techguns:TechgunsAmmo:34>]]);
+  [null, <ThermalExpansion:capacitor:2>, <Techguns:TechgunsAmmo:34>]]);
 
 recipes.addShaped(<more:industrial_hammer>,
- [[<EnderIO:blockIngotStorage:2>, <Techguns:TechgunsAmmo:106>, <EnderIO:blockIngotStorage:2>],
+ [[<EnderIO:blockIngotStorage:2>, <ThermalExpansion:capacitor:5>, <EnderIO:blockIngotStorage:6>],
   [<EnderIO:itemBasicCapacitor:2>, <EnderIO:itemAlloy:6>, <EnderIO:itemBasicCapacitor:2>],
   [null, <EnderIO:itemAlloy:6>, null]]);
 
@@ -147,14 +147,14 @@ recipes.addShaped(<more:kris>,
   [null, <TConstruct:toolRod>]]);
 
 recipes.addShaped(<more:laser_razor>,
- [[<EnderIO:itemMaterial:6>, <EnderIO:itemBasicCapacitor:2>, null],
-  [<EnderIO:itemMaterial:6>, <ThermalExpansion:capacitor:4>, null],
-  [<EnderIO:itemMaterial:6>, <EnderIO:itemAlloy:6>, null]]);
+ [[<EnderIO:itemAlloy:4>, <EnderIO:itemBasicCapacitor:1>, null],
+  [<EnderIO:itemAlloy:4>, <ThermalExpansion:capacitor:3>, null],
+  [<EnderIO:itemAlloy:4>, <EnderIO:itemAlloy:6>, null]]);
 
 recipes.addShaped(<more:laser_sword>,
  [[<EnderIO:itemAlloy:6>, <EnderIO:blockIngotStorage:2>, <EnderIO:itemAlloy:6>],
   [<EnderIO:itemAlloy:6>, <EnderIO:itemBasicCapacitor:2>, <EnderIO:itemAlloy:6>],
-  [<EnderIO:itemAlloy:6>, <Techguns:TechgunsAmmo:106>, <EnderIO:itemAlloy:6>]]);
+  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:4>, <EnderIO:itemAlloy:6>]]);
 
 recipes.addShapeless(<more:light_item>,
  [<minecraft:glass_bottle>]);
@@ -181,23 +181,23 @@ recipes.addShaped(<more:machete_1>,
 
 recipes.addShaped(<more:magnet_mace>,
  [[null, null, <EnderIO:blockIngotStorage:6>],
-  [<EnderIO:itemBasicCapacitor:1>, <EnderIO:itemMaterial:6>, null],
-  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:4>, null]]);
+  [<EnderIO:itemBasicCapacitor:1>, <EnderIO:itemAlloy:5>, null],
+  [<TConstruct:materials:16>, <ThermalExpansion:capacitor:3>, null]]);
 
 recipes.addShaped(<more:monomolecural_blade>,
  [[null, null, <EnderIO:itemMaterial:5>],
-  [<EnderIO:itemBasicCapacitor:1>, <EnderIO:itemAlloy:6>, null],
-  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:3>, null]]);
+  [<EnderIO:itemBasicCapacitor>, <EnderIO:itemAlloy:6>, null],
+  [<EnderIO:itemAlloy:6>, <ThermalExpansion:capacitor:2>, null]]);
 
 recipes.addShaped(<more:negotiator>,
  [[null, null, <EnderIO:itemMaterial:5>],
-  [null, <EnderIO:itemAlloy:6>, null],
-  [<EnderIO:itemAlloy:6>, null, null]]);
+  [null, <TConstruct:materials:16>, null],
+  [<TConstruct:materials:16>, null, null]]);
 
 recipes.addShaped(<more:plasma_torch>,
  [[null, null, <EnderIO:itemMaterial:5>],
-  [null, <EnderIO:itemAlloy:6>, null],
-  [<EnderIO:itemBasicCapacitor:1>, null, null]]);
+  [null, <TConstruct:materials:16>, null],
+  [<EnderIO:itemBasicCapacitor>, null, null]]);
 
 recipes.addShaped(<more:poison_dagger>,
  [[<ExtraTiC:knifeBlade:129>],
@@ -206,13 +206,12 @@ recipes.addShaped(<more:poison_dagger>,
 
 recipes.addShaped(<more:positron_opressor>,
  [[null, <EnderIO:itemBasicCapacitor:2>, <EnderIO:blockIngotStorage:2>],
-  [null, <Techguns:TechgunsAmmo:106>, <EnderIO:itemBasicCapacitor:2>],
+  [null, <ThermalExpansion:capacitor:5>, <EnderIO:itemBasicCapacitor:2>],
   [<EnderIO:itemAlloy:6>, null, null]]);
 
 recipes.addShaped(<more:rogosvet>,
- [[null, null, <EnderIO:itemMaterial:5>],
-  [<EnderIO:itemBasicCapacitor:1>, <Botania:manaResource:9>, <EnderIO:itemMaterial:5>],
-  [<Botania:manaResource:4>, <ThermalExpansion:capacitor:4>.withTag({Energy: 0}), null]]);
+  [[<EnderIO:itemBasicCapacitor:1>, <EnderIO:itemMaterial:5>],
+  [<Botania:manaResource:4>, <ThermalExpansion:capacitor:3>]]);
 
 recipes.addShaped(<more:rope_hook>,
  [[null, null, <TConstruct:toolRod:16>],
