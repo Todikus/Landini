@@ -77,6 +77,7 @@ var steamPlate = <Techguns:TechgunsAmmo:67>;
 var bronzeBlock = <ThermalFoundation:Storage:9>;
 var coal = <minecraft:coal>;
 var spider = <minecraft:spider_eye>
+var paper = <minecraft:paper>;
 
 
 
@@ -154,10 +155,33 @@ recipes.addShaped(<flansmod:dwHeRound>,
 [null, gunpowder, sand]
 [null, badsteel, sand]
 recipes.addShaped(<flansmod:dwPoisonRound>,
-[[spuder, null, null],
+[[spider, null, null],
 [gunpowder, null, null],
 [badsteel, null, null]]);
-
+recipes.addShaped(<flansmod:dwShotgunPelletAmmo>,
+[[paper, gunpowder, paper],
+[badsteel, gunpowder, badsteel],
+[null, brassingot, null]]);
+recipes.addShaped(<flansmod:dwShotgunShockAmmo>,
+[[paper, skydust, paper],
+[badsteel, skydust, badsteel],
+[null, brassingot, null]]);
+recipes.addShaped(<flansmod:dwShotgunPoisonAmmo>,
+[[paper, spider, paper],
+[badsteel, spider, badsteel],
+[null, brassingot, null]]);
+recipes.addShaped(<flansmod:dwShotgunIncendiaryAmmo>,
+[[paper, blazePowder, paper],
+[badsteel, blazePowder, badsteel],
+[null, brassingot, null]]);
+recipes.addShaped(<flansmod:dwShotgunHEAmmo>,
+[[gunpowder, blazePowder, gunpowder],
+[medsteel, blazePowder, medsteel],
+[badsteel, brassingot, badsteel]]);
+recipes.addShaped(<flansmod:dwShotgunAPAmmo>,
+[[medsteel, blazepowder, medsteel],
+[medsteel, blazePowder, medsteel],
+[compos, brassingot, compos]]);
 
 
 recipes.addShaped(<flansmod:dwWinnow>, 
