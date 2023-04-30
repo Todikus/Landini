@@ -69,3 +69,4 @@ recipes.remove(<witchery:spinningwheel>);
 recipes.remove(<flansmod:flansWorkbench>);
 recipes.remove(<ArchimedesShips:marker>);
 recipes.remove(<ArchimedesShips:engine>);
+recipes.remove(<appliedenergistics2:tile.BlockInscriber>);

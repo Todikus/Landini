@@ -422,3 +422,43 @@ recipes.addShaped(<more:sewing_scissors>,
 
 recipes.addShaped(casing, [[plastic, copperCoil, plastic], [copperCoil, null, copperCoil], [plastic, copperCoil, plastic]]);
 recipes.addShaped(radio, [[cardBase, copperWireCoil, wirelessCard], [null, casing, null], [null, buttonGroup, null]]);
+
+recipes.addShaped(<more:lock_padlock>,
+ [[null, <minecraft:iron_ingot>, null],
+  [<TConstruct:binding:2>, <ImmersiveEngineering:material:11>, <TConstruct:binding:2>],
+  [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+
+recipes.addShaped(<more:lock_build_in>,
+ [[null, <TConstruct:materials:16>, null],
+  [<TConstruct:binding:16>, <ImmersiveEngineering:material:12>, <TConstruct:binding:16>],
+  [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
+
+recipes.addShaped(<more:lock_magical>,
+ [[<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>],
+  [<Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "tutamen"}]}), <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "machina"}]})],
+  [<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:2>]]);
+
+recipes.addShaped(<more:lock_lockpick>,
+ [[<TConstruct:toolRod:2>],
+  [<TConstruct:binding:2>],
+  [<ore:plankWood>]]);
+
+recipes.addShaped(<more:lock_digital>,
+ [[<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>],
+  [<appliedenergistics2:item.ItemMultiMaterial:22>, <OpenComputers:item:22>, <appliedenergistics2:item.ItemMultiMaterial:22>],
+  [<TConstruct:materials:16>, <TConstruct:materials:16>, <TConstruct:materials:16>]]);
+
+recipes.addShaped(<more:lock_access_tuner>,
+ [[<minecraft:iron_ingot>, <OpenComputers:item:113>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <OpenComputers:item:27>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <appliedenergistics2:item.ItemMultiMaterial:22>, <minecraft:iron_ingot>]]);
+  
+recipes.addShaped(<more:lock_magical_lockpick>,
+ [[<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "praecantatio"}]}), <Thaumcraft:blockCosmeticSolid:6>],
+  [<Thaumcraft:ItemResource:2>, <Thaumcraft:ItemResource:14>, <Thaumcraft:ItemResource:2>],
+  [<Thaumcraft:blockCosmeticSolid:6>, <Thaumcraft:ItemEssence:1>.withTag({Aspects: [{amount: 8, key: "machina"}]}), <Thaumcraft:blockCosmeticSolid:6>]]);
+
+recipes.addShaped(<more:lock_blank_key>,
+ [[<minecraft:clay_ball>, <ThermalFoundation:material:8>, <minecraft:clay_ball>],
+  [<minecraft:clay_ball>, <minecraft:iron_ingot>, <minecraft:clay_ball>]]);
+
