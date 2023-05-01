@@ -232,9 +232,9 @@ recipes.addShaped(<more:shock_baton>,
   [<ImmersiveEngineering:material:16>, <ThermalExpansion:capacitor:2>, null]]);
 
 recipes.addShaped(<more:short_blade>,
- [[null, null, <ExtraTiC:swordBlade:121>],
-  [null, <ExtraTiC:crossbar:121>, null],
-  [<ExtraTiC:toolrod:121>, null, null]]);
+ [[<ExtraTiC:swordBlade:121>],
+  [<ExtraTiC:crossbar:121>],
+  [<ExtraTiC:toolrod:121>]]);
 
 recipes.addShaped(<more:spear>,
  [[null, <minecraft:string>, <minecraft:flint>],
@@ -252,9 +252,9 @@ recipes.addShaped(<more:thermal_blade>,
   [<ImmersiveEngineering:material:15>, <ThermalExpansion:capacitor:4>, null]]);
 
 recipes.addShaped(<more:vibroblade>,
- [[null, null, <ExtraTiC:swordBlade:126>],
-  [null, <ExtraTiC:largeGuard:126>, null],
-  [<ExtraTiC:toolrod:126>, null, null]]);
+ [[<ExtraTiC:swordBlade:126>],
+  [<ExtraTiC:largeGuard:126>],
+  [<ExtraTiC:toolrod:126>]]);
 
 recipes.addShaped(<more:vibroblade_1>,
  [[null, null, <ExtraTiC:largeSwordBlade:119>],
@@ -277,9 +277,9 @@ recipes.addShaped(<more:cuauhololli>,
   [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:dao_sword>,
- [[null, null, <ExtraTiC:knifeBlade:121>],
-  [null, <ExtraTiC:crossbar:121>, null],
-  [<ExtraTiC:toolrod:121>, null, null]]);
+ [[<ExtraTiC:knifeBlade:121>],
+  [<ExtraTiC:crossbar:121>],
+  [<ExtraTiC:toolrod:121>]]);
 
 recipes.addShaped(<more:dark_battleaxe>,
  [[null, null, <TConstruct:broadAxeHead:12>],
@@ -292,9 +292,9 @@ recipes.addShaped(<more:dark_blade>,
   [<ExtraTiC:toolrod:171>, null, null]]);
 
 recipes.addShaped(<more:dwarven_axe>,
- [[null, null, <ExtraTiC:lumberaxeHead:124>],
-  [null, <ExtraTiC:binding:124>, null],
-  [<TConstruct:toughRod>, null, null]]);
+ [[<ExtraTiC:lumberaxeHead:124>],
+  [<ExtraTiC:binding:124>],
+  [<TConstruct:toughRod>]]);
 
 recipes.addShaped(<more:feathered_macuahuitl>,
  [[null, <minecraft:feather>, <TConstruct:swordBlade:4>],
@@ -303,7 +303,7 @@ recipes.addShaped(<more:feathered_macuahuitl>,
 
 recipes.addShaped(<more:halberd>,
  [[null, <ExtraTiC:axeHead:124>, <ExtraTiC:swordBlade:124>],
-  [null, <TConstruct:toolRod>, null],
+  [null, <TConstruct:toolRod>, <ExtraTiC:binding:124>],
   [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:heavy_greatsword>,
@@ -312,9 +312,9 @@ recipes.addShaped(<more:heavy_greatsword>,
   [<ExtraTiC:toughrod:171>, null, null]]);
 
 recipes.addShaped(<more:large_axe>,
- [[null, null, <ExtraTiC:axeHead:121>],
-  [null, <ExtraTiC:binding:121>, null],
-  [<TConstruct:toolRod>, null, null]]);
+ [[<ExtraTiC:axeHead:121>],
+  [<ExtraTiC:binding:121>],
+  [<TConstruct:toolRod>]]);
 
 recipes.addShaped(<more:orcish_blade>,
  [[null, null, <TConstruct:swordBlade:6>],
@@ -332,8 +332,8 @@ recipes.addShaped(<more:pitchfork>,
   [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:polearm>,
- [[null, <ExtraTiC:axeHead:121>, <ExtraTiC:binding:121>],
-  [null, <TConstruct:toolRod>, null],
+ [[null, <ExtraTiC:axeHead:121>, null],
+  [null, <TConstruct:toolRod>, <ExtraTiC:binding:121>],
   [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:polehammer>,
@@ -343,7 +343,7 @@ recipes.addShaped(<more:polehammer>,
 
 recipes.addShaped(<more:short_spear>,
  [[null, null, <TConstruct:swordBlade:16>],
-  [null, <TConstruct:toolRod>, null],
+  [null, <TConstruct:toolRod>, <TConstruct:binding:16>],
   [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:trident>,
@@ -362,7 +362,7 @@ recipes.addShaped(<more:wooden_axesword>,
 
 recipes.addShaped(<more:yari>,
  [[null, <TConstruct:materials:33>, <ExtraTiC:toolrod:171>],
-  [null, <TConstruct:toolRod>, <TConstruct:materials:33>],
+  [null, <TConstruct:toolRod>, <TConstruct:binding:16>],
   [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:microphone>,
@@ -372,7 +372,7 @@ recipes.addShaped(<more:microphone>,
 
 recipes.addShaped(<more:billhook>,
  [[null, <TConstruct:materials:33>, <TConstruct:swordBlade:16>],
-  [null, <TConstruct:toolRod>, null],
+  [null, <TConstruct:toolRod>, <TConstruct:binding:16>],
   [<TConstruct:toolRod>, null, null]]);
 
 recipes.addShaped(<more:falcata>,
@@ -381,9 +381,9 @@ recipes.addShaped(<more:falcata>,
   [<ExtraTiC:toolrod:115>, null]]);
 
 recipes.addShaped(<more:falx>,
- [[null, <Metallurgy:fantasy.nugget:1>, <ExtraTiC:toolrod:124>],
-  [null, <ExtraTiC:mediumGuard:124>, null],
-  [<ExtraTiC:toolrod:124>, null, null]]);
+ [[<Metallurgy:fantasy.nugget:1>, <ExtraTiC:toolrod:124>],
+  [null, <ExtraTiC:mediumGuard:124>],
+  [null, <ExtraTiC:toolrod:124>]]);
 
 recipes.addShaped(<more:fancy_golden_knife>,
  [[<ExtraTiC:knifeBlade:112>],

@@ -11,11 +11,6 @@ recipes.remove(<Botania:terraSword>);
 recipes.remove(<Botania:terraPick>);
 recipes.remove(<Botania:terraAxe>);
 
-recipes.addShaped(<Botania:glassPick>,
- [[<minecraft:glass>, <ExtraTiC:pickaxeHead:145>, <minecraft:glass>],
-  [null, <ExtraTiC:binding:145>, null],
-  [null, <TConstruct:toolRod>, null]]);
-  
 recipes.addShaped(<Botania:manasteelPick>,
  [[<ExtraTiC:pickaxeHead:145>],
   [<ExtraTiC:binding:145>],

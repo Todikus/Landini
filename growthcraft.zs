@@ -29,6 +29,13 @@ recipes.remove(<Growthcraft|Cellar:grc.fruitPress>);
 recipes.remove(<Growthcraft|Cellar:grc.fermentBarrel>);
 recipes.remove(<Growthcraft|Milk:grcmilk.ButterChurn>);
 recipes.remove(<Growthcraft|Milk:grcmilk.CheesePress>);
+recipes.remove(<Growthcraft:grc.rope>);
+
+recipes.addShaped(<Growthcraft:grc.rope>*4,
+ [[<ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>],
+  [<harvestcraft:beeswaxItem>, <minecraft:slime_ball>, <harvestcraft:beeswaxItem>],
+  [<ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>]]);
+
 
 recipes.addShaped(<Growthcraft|Bees:grc.beeBox>,
  [[null, <ore:plankWood>, null],
