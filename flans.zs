@@ -572,7 +572,124 @@ recipes.addShaped(<flansmod:dwMfp15>,
 [[badsteel, mainpart, badsteel],
 [null, flint, badsteel],
 [null, null, null]]);
-
-
-
+recipes.addShaped(<flansmod:dwMfp33>,
+[[<flansmod:dwMfp15>, skydust, skydust],
+[null, skydust, skydust],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwRurhicvtsy87>,
+[[<flansmod:dwMfp15>, badsteel, badsteel],
+[badsteel, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwArcanePawgun>,
+[[<flansmod:dwRurhicvtsy87>, brasscog, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMatriarchR015>,
+[[badsteel, iron, iron],
+[flint, flint, iron],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMapmp>,
+[<flansmod:dwMfp15>, mainpart, iron],
+[null, badsteel, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfpK9>,
+[[<flansmod:dwMapmp>, brasscog, brasscog],
+[null, brassingot, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSf94au>,
+[[<flansmod:dwMapmp>, badsteel, brasscog],
+[null, brassingot, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp5Compact>,
+[[<flansmod:dwMapmp>, null, flint],
+[null, brassingot, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwKp12>,
+[[receiver, pumppart, compos],
+[flint, medsteel, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwKpss12>,
+[[<flansmod:dwKp12>, medsteel, medsteel],
+[flint, medsteel, stock],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSF2012p>,
+[[subpart, iron, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAgmPredator>,
+[[receiver, mainpart, stock],
+[medsteel, pumppart, redwood],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwPaKat>,
+[[receiver, mainpart, stock],
+[compos, compos, badsteel],
+[null, null, flint]]);
+recipes.addShaped(<flansmod:dwKat3>,
+[[<flansmod:dwPaKat>, medsteel, brasscog],
+[null, compos, medsteel],
+[null, null, compos]]);
+recipes.addShaped(<flansmod:dwSf94>,
+[<flansmod:dwSF2012p>, null, badsteel],
+[null, null, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSf116bp>,
+[[<flansmod:dwSf94>, flint, compos],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSf112>,
+[<flansmod:dwSF2012p>, null, badsteel],
+[null, medsteel, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwPar38>,
+[[<flansmod:dwSf94>, brassingot, iron],
+[null, compos, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwPar60>,
+[[badsteel, <flansmod:dwPar38>, null],
+[null, brasscog, compos],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSf370b>,
+[[badsteel, <flansmod:dwSF2012p>, iron],
+[null, null, iron],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSfOrel>,
+[[receiver, mainpart, stock],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwDzky103>,
+[[<flansmod:dwSfOrel>, scope, badsteel],
+[null, null, compos],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMfp15>,
+[[badsteel, mainpart, badsteel],
+[null, flint, badsteel],
+[null, null, null]]);
 
