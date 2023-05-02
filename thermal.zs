@@ -83,6 +83,10 @@ recipes.remove(<ThermalFoundation:tool.axePlatinum>);
 recipes.remove(<ThermalFoundation:tool.hoePlatinum>);
 recipes.remove(<ThermalFoundation:tool.sicklePlatinum>);
 recipes.remove(<ThermalFoundation:tool.bowPlatinum>);
+recipes.remove(<ThermalExpansion:satchel:1>);
+recipes.remove(<ThermalExpansion:satchel:2>);
+recipes.remove(<ThermalExpansion:satchel:3>);
+recipes.remove(<ThermalExpansion:satchel:4>);
 
 recipes.addShaped(<ThermalFoundation:tool.bowIron>,
  [[null, <TConstruct:BowLimbPart:2>, <TConstruct:bowstring>],
@@ -243,3 +247,23 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
  [[<ThermalFoundation:material:69>, <ThermalFoundation:material:69>],
   [null, <ExtraTiC:binding:105>],
   [null, <ExtraTiC:toolrod:105>]]);
+  
+recipes.addShaped(<ThermalExpansion:satchel:1>,
+ [[<minecraft:leather>, <TConstruct:binding:2>, <minecraft:leather>],
+  [<TConstruct:toolRod>, <ImmersiveEngineering:material:4>, <TConstruct:toolRod>],
+  [<minecraft:leather>, <ImmersiveEngineering:material:4>, <minecraft:leather>]]);
+  
+recipes.addShaped(<ThermalExpansion:satchel:2>,
+ [[<harvestcraft:hardenedleatherItem>, <TConstruct:toughBinding:2>, <harvestcraft:hardenedleatherItem>],
+  [<TConstruct:toughRod:2>, <ThermalExpansion:satchel:1>, <TConstruct:toughRod:2>],
+  [<harvestcraft:hardenedleatherItem>, <ImmersiveEngineering:material:4>, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<ThermalExpansion:satchel:3>,
+ [[<Techguns:TechgunsAmmo:72>, <TConstruct:toughBinding:16>, <Techguns:TechgunsAmmo:72>],
+  [<TConstruct:toughRod:16>, <ThermalExpansion:satchel:2>, <TConstruct:toughRod:16>],
+  [<Techguns:TechgunsAmmo:72>, <TConstruct:heavyPlate:16>, <Techguns:TechgunsAmmo:72>]]);
+  
+recipes.addShaped(<ThermalExpansion:satchel:4>,
+ [[<Techguns:TechgunsAmmo:62>, <ExtraTiC:toughbind:189>, <Techguns:TechgunsAmmo:62>],
+  [<ExtraTiC:toolrod:189>, <ThermalExpansion:satchel:3>, <ExtraTiC:toolrod:189>],
+  [<Techguns:TechgunsAmmo:62>, <ExtraTiC:largeplate:189>, <Techguns:TechgunsAmmo:62>]]);

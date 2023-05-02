@@ -93,3 +93,8 @@ recipes.addShaped(<minecraft:diamond_hoe>,
 recipes.addShaped(<minecraft:golden_hoe>,
 [[<minecraft:gold_ingot>, <minecraft:gold_ingot>, null],
   [null, <TConstruct:toolRod>, null]]);
+  
+recipes.addShaped(<minecraft:saddle>,
+ [[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, <minecraft:iron_ingot>, <harvestcraft:hardenedleatherItem>],
+  [<TConstruct:binding:2>, null, <TConstruct:binding:2>]]);
