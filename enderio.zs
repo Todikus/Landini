@@ -13,3 +13,16 @@ recipes.addShaped(<EnderIO:item.darkSteel_sword>,
  [[null, null, <ExtraTiC:swordBlade:171>],
   [null, <ExtraTiC:fullGuard:171>, null],
   [<ExtraTiC:toolrod:171>, null, null]]);
+
+ recipes.remove(<EnderIO:itemMachinePart:1>);
+ recipes.addShaped(<EnderIO:itemMachinePart:1>,
+ [[null, <ore:ingotSteel>, null],
+  [<ore:ingotSteel>, null, <ore:ingotSteel>],
+  [null, <ore:ingotSteel>, null]]);
+  
+  recipes.remove(<EnderIO:itemBasicCapacitor>);
+ recipes.addShaped(<EnderIO:itemBasicCapacitor>,
+ [[null, <ore:nuggetCopper>, <minecraft:redstone>],
+  [<ore:nuggetCopper>, <ore:ingotElectrum>, <ore:nuggetCopper>],
+  [<minecraft:redstone>, <ore:nuggetCopper>, null]]);
+
