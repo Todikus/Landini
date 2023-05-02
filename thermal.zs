@@ -243,3 +243,9 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
  [[<ThermalFoundation:material:69>, <ThermalFoundation:material:69>],
   [null, <ExtraTiC:binding:105>],
   [null, <ExtraTiC:toolrod:105>]]);
+
+ recipes.remove(<ThermalExpansion:material:2>);
+ recipes.addShaped(<ThermalExpansion:material:2>,
+ [[null, null, <minecraft:redstone>],
+  [null, <ore:ingotSteel>, null],
+  [<minecraft:redstone>, null, null]]);
