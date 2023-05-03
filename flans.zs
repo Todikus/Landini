@@ -660,36 +660,40 @@ recipes.addShaped(<flansmod:dwDzky103>,
 [[<flansmod:dwSfOrel>, scope, badsteel],
 [null, null, compos],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
+recipes.addShaped(<flansmod:dwPagl>,
+[[mainpart, receiver, medsteel],
+[null, brasscog, stock],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
+recipes.addShaped(<flansmod:dwKgl40>,
+[[subpart, <flansmod:dwPagl>, medsteel],
+[medsteel, compos, medsteel],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
+recipes.addShaped(<flansmod:dwKgl3>,
+[[medsteel, <flansmod:dwPagl>, medsteel],
+[medsteel, compos, redwood],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
+recipes.addShaped(<flansmod:dwLk103>,
+[[medsteel, receiver, topsteel],
+[null, topsteel, stock],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
+recipes.addShaped(<flansmod:dwMbtСrossbow>,
+[[receiver, mainpart, stock],
+[compos, compos, compos],
+[null, null, medsteel]]);
+recipes.addShaped(<flansmod:dwMbtAutoСrossbow>,
+[[badsteel, <flansmod:dwMbtСrossbow>, badsteel],
+[null, compos, badsteel],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
-[null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
-[null, null, null]]);
-recipes.addShaped(<flansmod:dwMfp15>,
-[[badsteel, mainpart, badsteel],
-[null, flint, badsteel],
-[null, null, null]]);
+recipes.addShaped(<flansmod:dwXm240>,
+[[receiver, mainpart, compos],
+[compos, blazePowder, stock],
+[null, compos, null]]);
+recipes.addShaped(<flansmod:dwMfp15Ammo>,
+[[badsteel, brassammo, badsteel],
+[null, flint, null],
+[null, null, badsteel]);
+recipes.addShaped(<flansmod:dwMfp33Ammo>,
+[[badsteel, basesky, badsteel],
+[null, flint, null],
+[null, null, badsteel]);
 
