@@ -71,3 +71,4 @@ recipes.remove(<ArchimedesShips:marker>);
 recipes.remove(<ArchimedesShips:engine>);
 recipes.remove(<appliedenergistics2:tile.BlockInscriber>);
 recipes.remove(<BigReactors:BRReactorPart:1>);
+recipes.remove(<MineFactoryReloaded:machine.2:5>);
