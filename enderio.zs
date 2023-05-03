@@ -20,7 +20,7 @@ recipes.addShaped(<EnderIO:item.darkSteel_sword>,
   [<ore:ingotSteel>, null, <ore:ingotSteel>],
   [null, <ore:ingotSteel>, null]]);
   
-  recipes.remove(<EnderIO:itemBasicCapacitor>);
+ recipes.remove(<EnderIO:itemBasicCapacitor>);
  recipes.addShaped(<EnderIO:itemBasicCapacitor>,
  [[null, <ore:nuggetCopper>, <minecraft:redstone>],
   [<ore:nuggetCopper>, <ore:ingotElectrum>, <ore:nuggetCopper>],
