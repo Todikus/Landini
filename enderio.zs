@@ -26,3 +26,8 @@ recipes.addShaped(<EnderIO:item.darkSteel_sword>,
   [<ore:nuggetCopper>, <ore:ingotElectrum>, <ore:nuggetCopper>],
   [<minecraft:redstone>, <ore:nuggetCopper>, null]]);
 
+ recipes.remove(<EnderIO:blockStirlingGenerator>);
+ recipes.addShaped(<EnderIO:blockStirlingGenerator>,
+ [[<ore:ingotIron>, <ThermalExpansion:material:2>, <ore:ingotIron>],
+  [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>],
+  [<EnderIO:itemMachinePart:1>, <ore:craftingPiston>, <EnderIO:itemMachinePart:1>]]);
