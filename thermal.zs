@@ -280,6 +280,6 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
 
  recipes.remove(<ThermalExpansion:Machine:3>);
  recipes.addShaped(<ThermalExpansion:Machine:3>,
- [[null, <ImmersiveEngineering:metalDevice:12>, null],
-  [<ore:ingotEnergeticAlloy>, <ThermalExpansion:Frame>, <ore:ingotEnergeticAlloy>],
-  [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+ [[<EnderIO:itemBasicCapacitor:1>, <ImmersiveEngineering:metalDevice:12>, <EnderIO:itemBasicCapacitor:1>],
+  [<TConstruct:SmelteryNether:2>, <ThermalExpansion:Frame>, <TConstruct:SmelteryNether:2>>],
+  [<ore:gearSignalum>, <ThermalExpansion:material:1>, <ore:gearSignalum>]]);
