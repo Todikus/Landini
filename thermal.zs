@@ -265,3 +265,21 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
  [[null, <ore:ingotIron>, null],
   [<ore:gearTin>, <minecraft:lava_bucket>, <ore:gearTin>],
   [null, <ThermalExpansion:material>, null]]);
+
+ recipes.remove(<ThermalExpansion:Machine:6>);
+ recipes.addShaped(<ThermalExpansion:Machine:6>,
+ [[null, <Mariculture:crafting:9>, null],
+  [<cfm:ItemCoolPack>, <ThermalExpansion:Frame>, <cfm:ItemCoolPack>],
+  [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+
+ recipes.remove(<ThermalExpansion:Machine:6>);
+ recipes.addShaped(<ThermalExpansion:Machine:6>,
+ [[null, <Mariculture:crafting:9>, null],
+  [<cfm:ItemCoolPack>, <ThermalExpansion:Frame>, <cfm:ItemCoolPack>],
+  [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+
+ recipes.remove(<ThermalExpansion:Machine:3>);
+ recipes.addShaped(<ThermalExpansion:Machine:3>,
+ [[null, <ImmersiveEngineering:metalDevice:12>, null],
+  [<ore:ingotEnergeticAlloy>, <ThermalExpansion:Frame>, <ore:ingotEnergeticAlloy>],
+  [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
