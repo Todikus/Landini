@@ -37,3 +37,51 @@ recipes.addShaped(<EnderIO:item.darkSteel_sword>,
  [[<EnderIO:itemBasicCapacitor:1>, <ImmersiveEngineering:metalDevice:12>, <EnderIO:itemBasicCapacitor:1>],
   [<TConstruct:SmelteryNether:2>, <ore:itemMachineChassi>, <TConstruct:SmelteryNether:2>],
   [<EnderIO:itemMachinePart:1>, <minecraft:cauldron>, <EnderIO:itemMachinePart:1>]]);
+
+recipes.remove(<EnderIO:itemItemConduit>);
+recipes.addShaped(<EnderIO:itemItemConduit>*8,
+ [[<ore:itemConduitBinder>, <ore:ingotTin>, <ore:itemConduitBinder>],
+  [<ore:nuggetLead>, <ore:glass>, <ore:nuggetLead>],
+  [<ore:itemConduitBinder>, <ore:ingotTin>, <ore:itemConduitBinder>]]);
+
+recipes.remove(<EnderIO:itemLiquidConduit>);
+recipes.addShaped(<EnderIO:itemLiquidConduit>*8,
+ [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
+  [<ore:nuggetCopper>, <ore:glass>, <ore:nuggetCopper>],
+  [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
+  
+recipes.remove(<EnderIO:itemLiquidConduit:1>);
+recipes.addShaped(<EnderIO:itemLiquidConduit:1>*8,
+ [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
+  [<ore:nuggetBronze>, <ore:glass>, <ore:nuggetBronze>],
+  [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
+  
+recipes.remove(<EnderIO:itemRedstoneConduit>);
+recipes.addShaped(<EnderIO:itemRedstoneConduit>*8,
+ [[null, null, null],
+  [<minecraft:redstone>, <bluepower:red_alloy_ingot>, <minecraft:redstone>],
+  [null, null, null]]);
+  
+recipes.remove(<EnderIO:itemRedstoneConduit:2>);
+recipes.addShaped(<EnderIO:itemRedstoneConduit:2>*8,
+ [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
+  [<minecraft:redstone>, <bluepower:red_alloy_ingot>, <minecraft:redstone>],
+  [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
+  
+recipes.remove(<EnderIO:itemPowerConduit>);
+recipes.addShaped(<EnderIO:itemPowerConduit>*8,
+ [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
+  [<ore:nuggetLead>, <minecraft:redstone>, <ore:nuggetLead>],
+  [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
+  
+recipes.remove(<EnderIO:itemPowerConduit:1>);
+recipes.addShaped(<EnderIO:itemPowerConduit:1>*8,
+ [[<ore:itemConduitBinder>, <ore:ingotElectrum>, <ore:itemConduitBinder>],
+  [<ore:nuggetLead>, <minecraft:redstone>, <ore:nuggetLead>],
+  [<ore:itemConduitBinder>, <ore:ingotElectrum>, <ore:itemConduitBinder>]]);
+  
+recipes.remove(<EnderIO:itemOCConduit>);
+recipes.addShaped(<EnderIO:itemitemOCConduit>*8,
+ [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
+  [<bluepower:red_alloy_ingot>, <bluepower:red_alloy_ingot>, <bluepower:red_alloy_ingot>],
+  [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
