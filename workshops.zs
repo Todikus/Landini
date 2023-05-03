@@ -29,7 +29,6 @@ recipes.remove(<appliedenergistics2:tile.BlockController>);
 recipes.remove(<appliedenergistics2:tile.BlockQuantumRing>);
 recipes.remove(<ThermalExpansion:Machine:4>);
 recipes.remove(<Mariculture:machines_multi>);
-recipes.remove(<EnderIO:blockAlloySmelter>);
 recipes.remove(<EnderIO:blockSliceAndSplice>);
 recipes.remove(<Mariculture:machines_single_rendered:10>);
 recipes.remove(<Mariculture:machines_single_rendered:9>);
