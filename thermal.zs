@@ -249,3 +249,12 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
  [[null, null, <minecraft:redstone>],
   [null, <ore:ingotSteel>, null],
   [<minecraft:redstone>, null, null]]);
+
+ recipes.remove(<ore:dustInvar>);
+ recipes.remove(<ore:dustElectrum>);
+ recipes.remove(<ore:dustLamium>);
+ recipes.remove(<ore:dustEnderium>);
+ recipes.remove(<ore:dustSteel>);
+ 
+ mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
+ mods.tconstruct.Smeltery.removeAlloy(<liquid:lamium.molten>);
