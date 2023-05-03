@@ -259,3 +259,9 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
  
  mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
  mods.tconstruct.Smeltery.removeAlloy(<liquid:lamium.molten>);
+
+ recipes.remove(<ThermalExpansion:Device:5>);
+ recipes.addShaped(<ThermalExpansion:Device:5>,
+ [[null, <ore:ingotIron>, null],
+  [<ore:gearTin>, <minecraft:lava_bucket>, <ore:gearTin>],
+  [null, <ThermalExpansion:material>, null]]);
