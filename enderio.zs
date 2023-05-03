@@ -31,3 +31,9 @@ recipes.addShaped(<EnderIO:item.darkSteel_sword>,
  [[<ore:ingotIron>, <ThermalExpansion:material:2>, <ore:ingotIron>],
   [<ore:ingotIron>, <minecraft:furnace>, <ore:ingotIron>],
   [<EnderIO:itemMachinePart:1>, <ore:craftingPiston>, <EnderIO:itemMachinePart:1>]]);
+
+ recipes.remove(<EnderIO:blockAlloySmelter>);
+ recipes.addShaped(<EnderIO:blockAlloySmelter>,
+ [[<EnderIO:itemBasicCapacitor:1>, <ImmersiveEngineering:metalDevice:12>, <EnderIO:itemBasicCapacitor:1>],
+  [<TConstruct:SmelteryNether:2>, <ore:itemMachineChassi>, <TConstruct:SmelteryNether:2>],
+  [<EnderIO:itemMachinePart:1>, <minecraft:cauldron>, <EnderIO:itemMachinePart:1>]]);
