@@ -258,7 +258,7 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
  recipes.remove(<ore:dustSteel>);
  
  mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
- mods.tconstruct.Smeltery.removeAlloy(<liquid:lamium.molten>);
+ mods.tconstruct.Smeltery.removeAlloy(<liquid:lumium.molten>);
 
  recipes.remove(<ThermalExpansion:Device:5>);
  recipes.addShaped(<ThermalExpansion:Device:5>,
