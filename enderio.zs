@@ -41,19 +41,19 @@ recipes.addShaped(<EnderIO:item.darkSteel_sword>,
 recipes.remove(<EnderIO:itemItemConduit>);
 recipes.addShaped(<EnderIO:itemItemConduit>*8,
  [[<ore:itemConduitBinder>, <ore:ingotTin>, <ore:itemConduitBinder>],
-  [<ore:nuggetLead>, <ore:glass>, <ore:nuggetLead>],
+  [<ore:ingotLead>, <ore:glass>, <ore:ingotLead>],
   [<ore:itemConduitBinder>, <ore:ingotTin>, <ore:itemConduitBinder>]]);
 
 recipes.remove(<EnderIO:itemLiquidConduit>);
 recipes.addShaped(<EnderIO:itemLiquidConduit>*8,
  [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
-  [<ore:nuggetCopper>, <ore:glass>, <ore:nuggetCopper>],
+  [<ore:ingotCopper>, <ore:glass>, <ore:ingotCopper>],
   [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
   
 recipes.remove(<EnderIO:itemLiquidConduit:1>);
 recipes.addShaped(<EnderIO:itemLiquidConduit:1>*8,
  [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
-  [<ore:nuggetBronze>, <ore:glass>, <ore:nuggetBronze>],
+  [<ore:ingotBronze>, <ore:glass>, <ore:ingotBronze>],
   [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
   
 recipes.remove(<EnderIO:itemRedstoneConduit>);
@@ -71,13 +71,13 @@ recipes.addShaped(<EnderIO:itemRedstoneConduit:2>*8,
 recipes.remove(<EnderIO:itemPowerConduit>);
 recipes.addShaped(<EnderIO:itemPowerConduit>*8,
  [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
-  [<ore:nuggetLead>, <minecraft:redstone>, <ore:nuggetLead>],
+  [<ore:ingotLead>, <minecraft:redstone>, <ore:ingotLead>],
   [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
   
 recipes.remove(<EnderIO:itemPowerConduit:1>);
 recipes.addShaped(<EnderIO:itemPowerConduit:1>*8,
  [[<ore:itemConduitBinder>, <ore:ingotElectrum>, <ore:itemConduitBinder>],
-  [<ore:nuggetLead>, <minecraft:redstone>, <ore:nuggetLead>],
+  [<ore:ingotLead>, <minecraft:redstone>, <ore:ingotLead>],
   [<ore:itemConduitBinder>, <ore:ingotElectrum>, <ore:itemConduitBinder>]]);
   
 recipes.remove(<EnderIO:itemOCConduit>);
