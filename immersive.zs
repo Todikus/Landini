@@ -1,6 +1,7 @@
 recipes.remove(<ImmersiveEngineering:tool>);
 recipes.remove(<ImmersiveEngineering:revolver>);
 recipes.remove(<ImmersiveEngineering:railgun>);
+recipes.remove(<ImmersiveEngineering:woodenDevice:4>);
 
 recipes.addShaped(<ImmersiveEngineering:tool>,
  [[null, <TConstruct:materials:16>, <TConstruct:binding:16>],
@@ -27,3 +28,8 @@ recipes.remove(<ImmersiveEngineering:metalDevice:9>);
 recipes.addShaped(<ImmersiveEngineering:metalDevice:9>,
  [[<minecraft:redstone>, <ImmersiveEngineering:storage:8>, <minecraft:redstone>],
   [<ore:ingotSteel>, <ore:ingotSteel>, <ore:ingotSteel>]]);
+
+recipes.addShaped(<ImmersiveEngineering:woodenDevice:4>,
+ [[<ore:plankTreatedWood>, <TConstruct:toughBinding>, <ore:plankTreatedWood>],
+  [<TConstruct:toughBinding>, <minecraft:iron_ingot>, <TConstruct:toughBinding>],
+  [<ore:plankTreatedWood>, <TConstruct:toughBinding>, <ore:plankTreatedWood>]]);

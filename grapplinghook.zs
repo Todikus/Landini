@@ -13,9 +13,9 @@ recipes.addShaped(<grapplemod:grapplinghook>,
   [<Growthcraft:grc.rope>, <Growthcraft:grc.rope>, <Growthcraft:grc.rope>]]);
   
 recipes.addShaped(<grapplemod:hookshot>,
- [[<ImmersiveEngineering:metal:38>, <ImmersiveEngineering:metal:38>, <ImmersiveEngineering:metal:38>],
+ [[<Techguns:TechgunsAmmo:62>, <Techguns:TechgunsAmmo:62>, <Techguns:TechgunsAmmo:62>],
   [<grapplemod:grapplinghook>, <Techguns:TechgunsAmmo:32>, <rfdrills:motor_te:1>],
-  [<ImmersiveEngineering:metal:38>, <ImmersiveEngineering:metal:38>, <Techguns:TechgunsAmmo:54>]]);
+  [<Techguns:TechgunsAmmo:62>, <Techguns:TechgunsAmmo:62>, <Techguns:TechgunsAmmo:56>]]);
   
 recipes.addShapeless(<grapplemod:smarthook>,
  [<grapplemod:hookshot>, <Techguns:TechgunsAmmo:64>]);
