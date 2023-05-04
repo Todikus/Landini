@@ -81,7 +81,7 @@ recipes.addShaped(<EnderIO:itemPowerConduit:1>*8,
   [<ore:itemConduitBinder>, <ore:ingotElectrum>, <ore:itemConduitBinder>]]);
   
 recipes.remove(<EnderIO:itemOCConduit>);
-recipes.addShaped(<EnderIO:itemitemOCConduit>*8,
+recipes.addShaped(<EnderIO:itemOCConduit>*8,
  [[<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>],
   [<bluepower:red_alloy_ingot>, <bluepower:red_alloy_ingot>, <bluepower:red_alloy_ingot>],
   [<ore:itemConduitBinder>, <ore:ingotIron>, <ore:itemConduitBinder>]]);
