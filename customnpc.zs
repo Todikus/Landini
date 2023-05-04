@@ -6,6 +6,7 @@ recipes.remove(<customnpcs:npcDiamondBullet>);
 recipes.remove(<customnpcs:npcBronzeBullet>);
 recipes.remove(<customnpcs:npcEmeraldBullet>);
 recipes.remove(<customnpcs:npcGoldenBullet>);
+recipes.remove(<customnpcs:npcWand>);
 
 recipes.addShaped(<customnpcs:npcWoodenTrident>,
  [[null, <TConstruct:knifeBlade>, <TConstruct:knifeBlade>],
@@ -275,7 +276,7 @@ recipes.addShaped(<customnpcs:npcGoldenMace>,
 recipes.addShaped(<customnpcs:npcDiamondMace>,
  [[null, <minecraft:diamond>, <minecraft:diamond>],
   [null, <minecraft:diamond>, <minecraft:diamond>],
-  [null, null, null]]);
+  [<TConstruct:toolRod>, null, null]]);
   
 recipes.addShaped(<customnpcs:npcBronzeMace>,
  [[null, <ThermalFoundation:material:73>, <ThermalFoundation:material:73>],
@@ -800,3 +801,320 @@ recipes.addShaped(<customnpcs:npcClarinet>,
   [<ore:dyeBlack>, <ore:plankWood>, <ore:dyeBlack>],
   [<ore:plankWood>, <ore:dyeBlack>, null]]);
   
+recipes.addShaped(<customnpcs:npcCowleatherHead>,
+ [[<harvestcraft:hardenedleatherItem>, <TConstruct:binding:2>, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, <minecraft:leather_helmet>, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<customnpcs:npcCowleatherChest>,
+ [[<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, <minecraft:leather_chestplate>, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, <TConstruct:binding:2>, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<customnpcs:npcCowleatherLegs>,
+ [[<harvestcraft:hardenedleatherItem>, <TConstruct:binding:2>, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, <minecraft:leather_leggings>, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<customnpcs:npcCowleatherBoots>,
+ [[<harvestcraft:hardenedleatherItem>, <TConstruct:binding:2>, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, <minecraft:leather_boots>, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<customnpcs:npcNanorumHead>,
+ [[<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+  [<TConstruct:binding:2>, null, <TConstruct:binding:2>]]);
+  
+recipes.addShaped(<customnpcs:npcNanorumChest>,
+ [[<TConstruct:binding:2>, null, <TConstruct:binding:2>],
+  [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcNanorumLegs>,
+ [[<TConstruct:binding:2>, <minecraft:iron_ingot>, <TConstruct:binding:2>],
+  [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcNanorumBoots>,
+ [[<TConstruct:binding:2>, null, <TConstruct:binding:2>],
+  [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcTacticalHead>,
+ [[<Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>],
+  [<more:random_canister_2>, null, <more:random_canister_2>],
+  [null, null, null]]);
+  
+recipes.addShaped(<customnpcs:npcTacticalChest>,
+ [[<Techguns:TechgunsAmmo:39>, null, <Techguns:TechgunsAmmo:39>],
+  [<more:random_canister_2>, <more:random_canister_2>, <more:random_canister_2>],
+  [<Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>, <Techguns:TechgunsAmmo:39>]]);
+   
+recipes.addShaped(<customnpcs:npcFullEmeraldHead>,
+ [[<minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>],
+  [<minecraft:emerald>, null, <minecraft:emerald>]]);
+  
+recipes.addShaped(<customnpcs:npcFullEmeraldChest>,
+ [[<minecraft:emerald>, null, <minecraft:emerald>],
+  [<minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>],
+  [<minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>]]);
+  
+recipes.addShaped(<customnpcs:npcFullEmeraldLeggings>,
+ [[<minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>],
+  [<minecraft:emerald>, null, <minecraft:emerald>],
+  [<minecraft:emerald>, null, <minecraft:emerald>]]);
+  
+recipes.addShaped(<customnpcs:npcFullEmeraldBoots>,
+ [[<minecraft:emerald>, null, <minecraft:emerald>],
+  [<minecraft:emerald>, null, <minecraft:emerald>]]);
+  
+recipes.addShaped(<customnpcs:npcFullWoodenHead>,
+ [[<ore:logWood>, <ore:logWood>, <ore:logWood>],
+  [<TConstruct:binding>, null, <TConstruct:binding>]]);
+  
+recipes.addShaped(<customnpcs:npcFullWoodenChest>,
+ [[<TConstruct:binding>, null, <TConstruct:binding>],
+  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+  [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+  
+recipes.addShaped(<customnpcs:npcFullWoodenLeggings>,
+ [[<TConstruct:binding>, <ore:logWood>, <TConstruct:binding>],
+  [<ore:logWood>, null, <ore:logWood>],
+  [<ore:logWood>, null, <ore:logWood>]]);
+  
+recipes.addShaped(<customnpcs:npcFullWoodenBoots>,
+ [[<TConstruct:binding>, null, <TConstruct:binding>],
+  [<ore:logWood>, null, <ore:logWood>]]);
+  
+recipes.addShaped(<customnpcs:npcTuxedoChest>,
+ [[<TConstruct:binding:2>, null, <TConstruct:binding:2>],
+  [<minecraft:wool:15>, <ImmersiveEngineering:material:4>, <minecraft:wool:15>],
+  [<minecraft:wool:15>, <ImmersiveEngineering:material:4>, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcTuxedoPants>,
+ [[<minecraft:wool:15>, <TConstruct:binding:2>, <minecraft:wool:15>],
+  [<minecraft:wool:15>, null, <minecraft:wool:15>],
+  [<ImmersiveEngineering:material:4>, null, <ImmersiveEngineering:material:4>]]);
+  
+recipes.addShaped(<customnpcs:npcTuxedoBottom>,
+ [[<ImmersiveEngineering:material:4>, <TConstruct:binding:2>, <ImmersiveEngineering:material:4>],
+  [<minecraft:wool:15>, null, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcWizardHead>,
+ [[<Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>, <Thaumcraft:ItemResource:7>],
+  [<wizardry:magic_silk>, null, <wizardry:magic_silk>]]);
+  
+recipes.addShaped(<customnpcs:npcWizardChest>,
+ [[<Thaumcraft:ItemResource:7>, null, <Thaumcraft:ItemResource:7>],
+  [<Thaumcraft:ItemResource:7>, <wizardry:magic_silk>, <Thaumcraft:ItemResource:7>],
+  [<Thaumcraft:ItemResource:7>, <wizardry:magic_silk>, <Thaumcraft:ItemResource:7>]]);
+  
+recipes.addShaped(<customnpcs:npcWizardPants>,
+ [[<Thaumcraft:ItemResource:7>, <wizardry:magic_silk>, <Thaumcraft:ItemResource:7>],
+  [<Thaumcraft:ItemResource:7>, null, <Thaumcraft:ItemResource:7>],
+  [<Thaumcraft:ItemResource:7>, null, <Thaumcraft:ItemResource:7>]]);
+  
+recipes.addShaped(<customnpcs:npcAssassinHead>,
+ [[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
+  [<TConstruct:binding:2>, null, <TConstruct:binding:2>]]);
+  
+recipes.addShaped(<customnpcs:npcAssassinChest>,
+ [[<TConstruct:binding:2>, null, <TConstruct:binding:2>],
+  [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<customnpcs:npcAssassinLeggings>,
+ [[<TConstruct:binding:2>, <harvestcraft:hardenedleatherItem>, <TConstruct:binding:2>],
+  [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>],
+  [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<customnpcs:npcAssassinBoots>,
+ [[<TConstruct:binding:2>, null, <TConstruct:binding:2>],
+  [<harvestcraft:hardenedleatherItem>, null, <harvestcraft:hardenedleatherItem>]]);
+  
+recipes.addShaped(<customnpcs:npcSoldierHead>,
+ [[<Metallurgy:prometheum.ingot>, <Metallurgy:prometheum.ingot>, <Metallurgy:prometheum.ingot>],
+  [<ExtraTiC:binding:129>, null, <ExtraTiC:binding:129>]]);
+  
+recipes.addShaped(<customnpcs:npcSoldierChest>,
+ [[<ExtraTiC:binding:129>, null, <ExtraTiC:binding:129>],
+  [<Metallurgy:prometheum.ingot>, <Metallurgy:prometheum.ingot>, <Metallurgy:prometheum.ingot>],
+  [<Metallurgy:prometheum.ingot>, <Metallurgy:prometheum.ingot>, <Metallurgy:prometheum.ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcSoldierLegs>,
+ [[<ExtraTiC:binding:129>, <Metallurgy:prometheum.ingot>, <ExtraTiC:binding:129>],
+  [<Metallurgy:prometheum.ingot>, null, <Metallurgy:prometheum.ingot>],
+  [<Metallurgy:prometheum.ingot>, null, <Metallurgy:prometheum.ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcSoldierBottom>,
+ [[<ExtraTiC:binding:129>, null, <ExtraTiC:binding:129>],
+  [<Metallurgy:prometheum.ingot>, null, <Metallurgy:prometheum.ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcX407Head>,
+ [[<Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>],
+  [<ExtraTiC:binding:123>, <customnpcs:npcSoldierHead>, <ExtraTiC:binding:123>]]);
+  
+recipes.addShaped(<customnpcs:npcX407Chest>,
+ [[<ExtraTiC:binding:123>, null, <ExtraTiC:binding:123>],
+  [<Metallurgy:celenegil.ingot>, <customnpcs:npcSoldierChest>, <Metallurgy:celenegil.ingot>],
+  [<Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcX407Legs>,
+ [[<ExtraTiC:binding:123>, <Metallurgy:celenegil.ingot>, <ExtraTiC:binding:123>],
+  [<Metallurgy:celenegil.ingot>, <customnpcs:npcSoldierLegs>, <Metallurgy:celenegil.ingot>],
+  [<Metallurgy:celenegil.ingot>, null, <Metallurgy:celenegil.ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcX407Boots>,
+ [[<ExtraTiC:binding:123>, null, <ExtraTiC:binding:123>],
+  [<Metallurgy:celenegil.ingot>, <customnpcs:npcSoldierBottom>, <Metallurgy:celenegil.ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcMithrilHead>,
+ [[<ThermalFoundation:material:70>, <ThermalFoundation:material:70>, <ThermalFoundation:material:70>],
+  [<ExtraTiC:binding:126>, null, <ExtraTiC:binding:126>]]);
+  
+recipes.addShaped(<customnpcs:npcMithrilChest>,
+ [[<ExtraTiC:binding:126>, null, <ExtraTiC:binding:126>],
+  [<ThermalFoundation:material:70>, <ThermalFoundation:material:70>, <ThermalFoundation:material:70>],
+  [<ThermalFoundation:material:70>, <ThermalFoundation:material:70>, <ThermalFoundation:material:70>]]);
+  
+recipes.addShaped(<customnpcs:npcMithrilLegs>,
+ [[<ExtraTiC:binding:126>, <ThermalFoundation:material:70>, <ExtraTiC:binding:126>],
+  [<ThermalFoundation:material:70>, null, <ThermalFoundation:material:70>],
+  [<ThermalFoundation:material:70>, null, <ThermalFoundation:material:70>]]);
+  
+recipes.addShaped(<customnpcs:npcMithrilBoots>,
+ [[<ExtraTiC:binding:126>, null, <ExtraTiC:binding:126>],
+  [<ThermalFoundation:material:70>, null, <ThermalFoundation:material:70>]]);
+  
+recipes.addShaped(<customnpcs:npcDemonicHead>,
+ [[<Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>],
+  [<TConstruct:binding:53>, null, <TConstruct:binding:53>]]);
+  
+recipes.addShaped(<customnpcs:npcDemonicChest>,
+ [[<TConstruct:binding:53>, null, <TConstruct:binding:53>],
+  [<Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>],
+  [<Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>]]);
+  
+recipes.addShaped(<customnpcs:npcDemonicLegs>,
+ [[<TConstruct:binding:53>, <Techguns:TechgunsAmmo:40>, <TConstruct:binding:53>],
+  [<Techguns:TechgunsAmmo:40>, null, <Techguns:TechgunsAmmo:40>],
+  [<Techguns:TechgunsAmmo:40>, null, <Techguns:TechgunsAmmo:40>]]);
+  
+recipes.addShaped(<customnpcs:npcDemonicBoots>,
+ [[<TConstruct:binding:53>, null, <TConstruct:binding:53>],
+  [<Techguns:TechgunsAmmo:40>, null, <Techguns:TechgunsAmmo:40>]]);
+  
+recipes.addShaped(<customnpcs:npcCommissarHead>,
+ [[<minecraft:wool:15>, <Techguns:TechgunsAmmo:39>, <minecraft:wool:15>],
+  [<TConstruct:binding:16>, null, <TConstruct:binding:16>]]);
+  
+recipes.addShaped(<customnpcs:npcCommissarChest>,
+ [[<TConstruct:binding:16>, null, <TConstruct:binding:16>],
+  [<minecraft:wool:15>, <Techguns:TechgunsAmmo:39>, <minecraft:wool:15>],
+  [<minecraft:wool:15>, <Techguns:TechgunsAmmo:39>, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcCommissarLegs>,
+ [[<TConstruct:binding:16>, <Techguns:TechgunsAmmo:39>, <TConstruct:binding:16>],
+  [<minecraft:wool:15>, null, <minecraft:wool:15>],
+  [<minecraft:wool:15>, null, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcCommissarBottom>,
+ [[<Techguns:TechgunsAmmo:39>, <TConstruct:binding:16>, <Techguns:TechgunsAmmo:39>],
+  [<minecraft:wool:15>, null, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcInfantryHelmet>,
+ [[<Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>],
+  [<ExtraTiC:binding:123>, null, <ExtraTiC:binding:123>]]);
+  
+recipes.addShaped(<customnpcs:npcOfficerChest>,
+ [[<ExtraTiC:binding:123>, null, <ExtraTiC:binding:123>],
+  [<Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>],
+  [<Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>, <Metallurgy:celenegil.ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcCrown2>,
+ [[<minecraft:gold_nugget>, null, <minecraft:gold_nugget>],
+  [<minecraft:gold_ingot>, <ore:gemRuby>, <minecraft:gold_ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcCrown>,
+ [[<minecraft:diamond>, null, <minecraft:diamond>],
+  [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+  
+recipes.addShaped(<customnpcs:npcPaperCrown>,
+ [[<betterstorage:cardboardSheet>, null, <betterstorage:cardboardSheet>],
+  [<betterstorage:cardboardSheet>, <betterstorage:cardboardSheet>, <betterstorage:cardboardSheet>]]);
+  
+recipes.addShaped(<customnpcs:npcNinjaHead>,
+ [[<minecraft:wool:15>, <harvestcraft:hardenedleatherItem>, <minecraft:wool:15>],
+  [<TConstruct:binding:2>, null, <TConstruct:binding:2>]]);
+  
+recipes.addShaped(<customnpcs:npcNinjaChest>,
+ [[<TConstruct:binding:2>, null, <TConstruct:binding:2>],
+  [<minecraft:wool:15>, <harvestcraft:hardenedleatherItem>, <minecraft:wool:15>],
+  [<minecraft:wool:15>, <harvestcraft:hardenedleatherItem>, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcNinjaPants>,
+ [[<TConstruct:binding:2>, <harvestcraft:hardenedleatherItem>, <TConstruct:binding:2>],
+  [<minecraft:wool:15>, null, <minecraft:wool:15>],
+  [<minecraft:wool:15>, null, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcChainSkirt>,
+ [[<battlegear2:chain>, <battlegear2:chain>, <battlegear2:chain>],
+  [<battlegear2:chain>, <battlegear2:chain>, <battlegear2:chain>]]);
+  
+recipes.addShaped(<customnpcs:npcLeatherSkirt>,
+ [[<minecraft:leather>, <minecraft:leather>, <minecraft:leather>],
+  [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]]);
+  
+recipes.addShaped(<customnpcs:npcGoldSkirt>,
+ [[<minecraft:gold_ingot>, <TConstruct:binding:16>, <minecraft:gold_ingot>],
+  [<minecraft:gold_ingot>, <minecraft:gold_ingot>, <minecraft:gold_ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcIronSkirt>,
+ [[<minecraft:iron_ingot>, <TConstruct:binding:2>, <minecraft:iron_ingot>],
+  [<minecraft:iron_ingot>, <minecraft:iron_ingot>, <minecraft:iron_ingot>]]);
+  
+recipes.addShaped(<customnpcs:npcDiamondSkirt>,
+ [[<minecraft:diamond>, <TConstruct:binding:16>, <minecraft:diamond>],
+  [<minecraft:diamond>, <minecraft:diamond>, <minecraft:diamond>]]);
+  
+recipes.addShaped(<customnpcs:npcEmeraldSkirt>,
+ [[<minecraft:emerald>, <TConstruct:binding:16>, <minecraft:emerald>],
+  [<minecraft:emerald>, <minecraft:emerald>, <minecraft:emerald>]]);
+  
+recipes.addShaped(<customnpcs:npcBronzeSkirt>,
+ [[<ThermalFoundation:material:73>, <TConstruct:binding:14>, <ThermalFoundation:material:73>],
+  [<ThermalFoundation:material:73>, <ThermalFoundation:material:73>, <ThermalFoundation:material:73>]]);
+  
+recipes.addShaped(<customnpcs:npcDemonicSkirt>,
+ [[<Techguns:TechgunsAmmo:40>, <TConstruct:binding:53>, <Techguns:TechgunsAmmo:40>],
+  [<Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>, <Techguns:TechgunsAmmo:40>]]);
+  
+recipes.addShaped(<customnpcs:npcMithrilSkirt>,
+ [[<ThermalFoundation:material:70>, <ExtraTiC:binding:126>, <ThermalFoundation:material:70>],
+  [<ThermalFoundation:material:70>, <ThermalFoundation:material:70>, <ThermalFoundation:material:70>]]);
+  
+recipes.addShaped(<customnpcs:npcBanditMask>,
+ [[<minecraft:string>, null, <minecraft:string>],
+  [<minecraft:wool:15>, <minecraft:wool:15>, <minecraft:wool:15>]]);
+  
+recipes.addShaped(<customnpcs:npcRing>,
+ [[null, <minecraft:gold_ingot>, null],
+  [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>],
+  [null, <minecraft:gold_ingot>, null]]);
+  
+recipes.addShaped(<customnpcs:npcNecklace>,
+ [[<minecraft:gold_nugget>, <minecraft:gold_ingot>, <minecraft:gold_nugget>],
+  [<minecraft:gold_ingot>, null, <minecraft:gold_ingot>],
+  [<minecraft:gold_nugget>, <minecraft:gold_ingot>, <minecraft:gold_nugget>]]);
+  
+recipes.addShaped(<customnpcs:npcPendant>,
+ [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+  [<minecraft:gold_nugget>, null, <minecraft:gold_nugget>],
+  [null, <ore:gemRuby>, null]]);
+  
+recipes.addShaped(<customnpcs:npcLocket>,
+ [[<TConstruct:materials:33>, <TConstruct:materials:33>, <TConstruct:materials:33>],
+  [<TConstruct:materials:33>, null, <TConstruct:materials:33>],
+  [null, <TConstruct:materials:16>, null]]);
+  
+recipes.addShaped(<customnpcs:npcPhone>,
+ [[<OpenComputers:item:25>, <OpenComputers:item:13>, <OpenComputers:item:25>],
+  [<OpenComputers:item:3>, <OpenComputers:item:74>, <OpenComputers:item:105>],
+  [<OpenComputers:item:25>, <OpenComputers:item:42>, <OpenComputers:item:25>]]);
