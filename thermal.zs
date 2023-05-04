@@ -247,6 +247,46 @@ recipes.addShaped(<ThermalFoundation:tool.hoePlatinum>,
  [[<ThermalFoundation:material:69>, <ThermalFoundation:material:69>],
   [null, <ExtraTiC:binding:105>],
   [null, <ExtraTiC:toolrod:105>]]);
+
+ recipes.remove(<ThermalExpansion:material:2>);
+ recipes.addShaped(<ThermalExpansion:material:2>,
+ [[null, null, <minecraft:redstone>],
+  [null, <ore:ingotSteel>, null],
+  [<minecraft:redstone>, null, null]]);
+
+ recipes.remove(<ore:dustInvar>);
+ recipes.remove(<ore:dustElectrum>);
+ recipes.remove(<ore:dustLamium>);
+ recipes.remove(<ore:dustEnderium>);
+ recipes.remove(<ore:dustSignalum>);
+ recipes.remove(<ore:dustSteel>);
+ 
+ mods.tconstruct.Smeltery.removeAlloy(<liquid:enderium.molten>);
+ mods.tconstruct.Smeltery.removeAlloy(<liquid:lumium.molten>);
+
+ recipes.remove(<ThermalExpansion:Device:5>);
+ recipes.addShaped(<ThermalExpansion:Device:5>,
+ [[null, <ore:ingotIron>, null],
+  [<ore:gearTin>, <minecraft:lava_bucket>, <ore:gearTin>],
+  [null, <ThermalExpansion:material>, null]]);
+
+ recipes.remove(<ThermalExpansion:Machine:6>);
+ recipes.addShaped(<ThermalExpansion:Machine:6>,
+ [[null, <Mariculture:crafting:9>, null],
+  [<cfm:ItemCoolPack>, <ThermalExpansion:Frame>, <cfm:ItemCoolPack>],
+  [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+
+ recipes.remove(<ThermalExpansion:Machine:6>);
+ recipes.addShaped(<ThermalExpansion:Machine:6>,
+ [[null, <Mariculture:crafting:9>, null],
+  [<cfm:ItemCoolPack>, <ThermalExpansion:Frame>, <cfm:ItemCoolPack>],
+  [<ore:gearCopper>, <ThermalExpansion:material:1>, <ore:gearCopper>]]);
+
+ recipes.remove(<ThermalExpansion:Machine:3>);
+ recipes.addShaped(<ThermalExpansion:Machine:3>,
+ [[<EnderIO:itemBasicCapacitor:1>, <ImmersiveEngineering:metalDevice:12>, <EnderIO:itemBasicCapacitor:1>],
+  [<TConstruct:SmelteryNether:2>, <ThermalExpansion:Frame>, <TConstruct:SmelteryNether:2>>],
+  [<ore:gearSignalum>, <ThermalExpansion:material:1>, <ore:gearSignalum>]]);
   
 recipes.addShaped(<ThermalExpansion:satchel:1>,
  [[<minecraft:leather>, <TConstruct:binding:2>, <minecraft:leather>],
