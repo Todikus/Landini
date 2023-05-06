@@ -19,11 +19,6 @@ recipes.addShaped(<grapplemod:hookshot>,
   
 recipes.addShapeless(<grapplemod:smarthook>,
  [<grapplemod:hookshot>, <Techguns:TechgunsAmmo:64>]);
-  
-recipes.addShaped(<grapplemod:longfallboots>,
- [[<Techguns:TechgunsAmmo:62>, <ore:blockWool>, <Techguns:TechgunsAmmo:62>],
-  [<Techguns:TechgunsAmmo:62>, <Metallurgy:metallurgy.steel.boots>, <Techguns:TechgunsAmmo:62>],
-  [<Techguns:TechgunsAmmo:32>, <ore:blockWool>, <Techguns:TechgunsAmmo:32>]]);
 
 recipes.addShapeless(<grapplemod:enderhook>,
  [<grapplemod:grapplinghook>, <minecraft:ender_pearl>]);

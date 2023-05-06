@@ -4,7 +4,7 @@ recipes.remove(<MineFactoryReloaded:machine.2:2>);
 recipes.remove(<MineFactoryReloaded:machine.2:12>);
 
 recipes.remove(<MineFactoryReloaded:machine.0>);
-recipes.addShaped(<<MineFactoryReloaded:machine.0>>,
+recipes.addShaped(<MineFactoryReloaded:machine.0>,
  [[null, <minecraft:flower_pot>, null],
   [<ImmersiveEngineering:material:12>, <ThermalExpansion:Frame>, <ImmersiveEngineering:material:12>],
   [<ore:gearLumium>, <ThermalExpansion:material:1>, <ore:gearLumium>]]);
