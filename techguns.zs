@@ -150,6 +150,12 @@ var antigrav = <Techguns:antiGravPack>;
 var capacitor = <EnderIO:blockCapBank:3>.withTag({type: "VIBRANT", storedEnergyRF: 25000000});
 var nuclearCell = <Techguns:TechgunsAmmo:106>;
 
+recipes.remove(<Techguns:nukelauncher>.withTag({ammo: 1 as short, camo: 0 as byte}));
+recipes.remove(<Techguns:nukelauncher>.withTag({ammo: 0 as short, camo: 0 as byte}));
+recipes.remove(<Techguns:nukelauncher>);
+recipes.remove(<Techguns:TechgunsAmmo:105>);
+recipes.remove(<Techguns:TechgunsAmmo:103>);
+
 recipes.remove(stielGranate);
 recipes.remove(fragGrenade);
 recipes.remove(rocket);
