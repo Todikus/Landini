@@ -1258,9 +1258,4 @@ recipes.addShaped(<flansmod:dwShockSkymare>,
 [[medsteel, tnt, medsteel],
 [null, skyunit, skyglass],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwLupineInjectorCombat>,
-[[badsteel, brassammo, null],
-[null, brassammo, null],
-[null, brassammo, iron]]);
-
 
