@@ -462,3 +462,14 @@ recipes.addShaped(<more:lock_blank_key>,
  [[<minecraft:clay_ball>, <ThermalFoundation:material:8>, <minecraft:clay_ball>],
   [<minecraft:clay_ball>, <minecraft:iron_ingot>, <minecraft:clay_ball>]]);
 
+recipes.addShaped(<more:wall_clay_blue_window>*4,
+ [[<more:wall_clay_lightdark>, <more:wall_clay_lightdark>, <more:wall_clay_lightdark>],
+  [<more:wall_clay_lightdark>, <ore:blockGlass>, null]]);
+  
+recipes.addShaped(<more:stonebrick_wallgap_arch>*4,
+ [[<ore:bricksStone>, <ore:bricksStone>, <ore:bricksStone>],
+  [<ore:bricksStone>, <ore:blockGlass>, null]]);
+  
+recipes.addShaped(<more:glazed_terracotta_white>*16,
+ [[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
+  [<minecraft:clay>, <ore:dye>, null]]);
