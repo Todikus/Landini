@@ -898,6 +898,166 @@ recipes.addShaped(<flansmod:dwSmcThreatSight>,
 [[<flansmod:dwSmcCalibratedSight>, skyunit, skyglass],
 [null, null, skyunit],
 [null, null, null]]);
+recipes.addShaped(<flansmod:dwSmcSMTPStock>,
+[[badsteel, stock, badsteel],
+[null, null, skydust],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSmcSolidStock>,
+[[badsteel, stock, medsteel],
+[null, null, skydust],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSmcStandardLight>,
+[[badsteel, skydust, skydust],
+[liqglow, null, liqglow],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSmcSuppressorSmg>,
+[[compos, skydust, skydust],
+[null, medsteel, medsteel],
+[null, null, flint]]);
+recipes.addShaped(<flansmod:dwGs5>,
+[[<flansmod:dwGsx>, skyunit, skyglass],
+[null, medsteel, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwGsx>,
+[[<flansmod:dwGsSkylite>, skyglass, skyunit],
+[null, null, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwGsSkylite>,
+[[badsteel, skyglass, compos],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSkychaser>,
+[[<flansmod:dwGsSkylite>, badsteel, skydust],
+[null, null, skydust],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwUmx45>,
+[[<flansmod:dwSkychaser>, badsteel, medsteel],
+[null, null, skyglass],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMatriarchSkymare>,
+[[mainpart, skyunit, medsteel],
+[null, skyglass, flint],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwDusterwing>,
+[[<flansmod:dwSkychaser>, badsteel, stock],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwPwr57>,
+[[<flansmod:dwSkychaser>, badsteel, badsteel],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwInkstriker45>,
+[[<flansmod:dwDusterwing>, medsteel, skyglass],
+[null, null, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAegisDisrupter>,
+[[<flansmod:dwSkychaser>, skydust, stock],
+[null, null, badsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwCrossfire>,
+[[skyrifle, scope, stock],
+[null, pumppart, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwFeatherduster>,
+[[mainpart, <flansmod:dwCrossfire>, medsteel],
+[null, null, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwIronhoof>,
+[[skyrifle, scope, stock],
+[mainpart, pumppart, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwHpar>,
+[[<flansmod:dwMpar>, medsteel, medsteel],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMpar>,
+[[skyrifle, scope, stock],
+[null, null skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwMparA2>,
+[[<flansmod:dwMpar>, medsteel, skyunit],
+[null, skyglass, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSkyComm>,
+[[<flansmod:dwMparA2>, medsteel, stock],
+[medsteel, medsteel, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSc7>,
+[[skyrifle, mainpart, stock],
+[null, null skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwScSTND>,
+[[subpart, <flansmod:dwSc7>, medsteel],
+[null, medsteel, liqglow],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwFeathershock>,
+[[skyrifle, badsteel, stock],
+[null, null skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAirmare>,
+[[subpart, <flansmod:dwHpar>, medsteel],
+[skyunit, skyglass, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAirmare>,
+[[subpart, <flansmod:dwAirmare>, medsteel],
+[skyunit, skyglass, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwCloudpuncher>,
+[[mainpart, <flansmod:dwFeathershock>, medsteel],
+[skyunit, skyglass, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwAirdropper>,
+[[medsteel, <flansmod:dwCloudpuncher>, medsteel],
+[skyunit, skyglass, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSkyswatterSS>,
+[[topsteel, topsteel, stock],
+[scope, topsteel, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwFlightchaser>,
+[[skyrifle, <flansmod:dwSkyswatterSS>, badsteel],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSkyswatter>,
+[[<flansmod:dwSkyswatterSS>, <flansmod:dwSkyswatterSS>, <flansmod:dwSkyswatterSS>l],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSkylighter>,
+[[skyglass, <flansmod:dwFeathershock>, medsteel],
+[skyunit, skyglass, skyunit],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwSkylighterAEC>,
+[[skyrifle, <flansmod:dwSkylighter>, skyglass],
+[skydust, skydust, skydust],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwDroneDeployer>,
+[[skyrifle, <flansmod:dwSkyswatterSS>, medsteel],
+[null, mainpart, stock],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwGs5ShockAmmo>,
+[[badsteel, skyammo, badsteel],
+[null, badsteel, skyglass],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwGs5Ammo>,
+[[badsteel, brassammo, badsteel],
+[null, badsteel, medsteel],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
 recipes.addShaped(<flansmod:dwLpmAimpointSight>,
 [[scope, badsteel, null],
 [null, null, null],
@@ -918,4 +1078,61 @@ recipes.addShaped(<flansmod:dwLpmAimpointSight>,
 [[scope, badsteel, null],
 [null, null, null],
 [null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+recipes.addShaped(<flansmod:dwLpmAimpointSight>,
+[[scope, badsteel, null],
+[null, null, null],
+[null, null, null]]);
+
 
