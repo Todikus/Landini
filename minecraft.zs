@@ -98,3 +98,6 @@ recipes.addShaped(<minecraft:saddle>,
  [[<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>],
   [<harvestcraft:hardenedleatherItem>, <minecraft:iron_ingot>, <harvestcraft:hardenedleatherItem>],
   [<TConstruct:binding:2>, null, <TConstruct:binding:2>]]);
+  
+recipes.addShapeless(<minecraft:mossy_cobblestone>,
+ [<minecraft:cobblestone>, <minecraft:vine>]);

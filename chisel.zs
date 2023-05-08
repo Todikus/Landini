@@ -1,3 +1,17 @@
+recipes.remove(<chisel:paperwall_block>);
+recipes.remove(<chisel:paperwall>);
+
+recipes.addShaped(<chisel:paperwall_block>*16,
+ [[<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+  [<minecraft:paper>, <ore:stickWood>, <minecraft:paper>],
+  [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]]);
+  
+recipes.addShaped(<chisel:paperwall>*8,
+ [[<chisel:paperwall_block>, <chisel:paperwall_block>, <chisel:paperwall_block>],
+  [<chisel:paperwall_block>, <chisel:paperwall_block>, <chisel:paperwall_block>]]);
+
+mods.chisel.Groups.removeGroup("concrete"); 
+
 mods.chisel.Groups.addGroup("claywindow");
 mods.chisel.Groups.addGroup("wallgap"); 
 mods.chisel.Groups.addGroup("terracotta"); 
@@ -44,6 +58,29 @@ mods.chisel.Groups.addGroup("lamp1");
 mods.chisel.Groups.addGroup("nostradamus");
 mods.chisel.Groups.addGroup("chain");
 mods.chisel.Groups.addGroup("vine");
+mods.chisel.Groups.addGroup("concrete1");
+mods.chisel.Groups.addGroup("metalthin");
+mods.chisel.Groups.addGroup("hardware");
+mods.chisel.Groups.addGroup("plankrefined");
+mods.chisel.Groups.addGroup("golddeco");
+mods.chisel.Groups.addGroup("bottle");
+mods.chisel.Groups.addGroup("fish");
+mods.chisel.Groups.addGroup("meat");
+mods.chisel.Groups.addGroup("pan");
+mods.chisel.Groups.addGroup("stalacnite");
+mods.chisel.Groups.addGroup("transmitter");
+mods.chisel.Groups.addGroup("vase");
+mods.chisel.Groups.addGroup("irondeco");
+mods.chisel.Groups.addGroup("tincan");
+mods.chisel.Groups.addGroup("book");
+mods.chisel.Groups.addGroup("game");
+mods.chisel.Groups.addGroup("cloth");
+mods.chisel.Groups.addGroup("wheal");
+mods.chisel.Groups.addGroup("chainwood");
+mods.chisel.Groups.addGroup("wheal1");
+mods.chisel.Groups.addGroup("smoke");
+mods.chisel.Groups.addGroup("effectlightning");
+mods.chisel.Groups.addGroup("chest");
 
 //mods.chisel.Groups.addGroup("");
 
@@ -75,6 +112,7 @@ mods.chisel.Groups.addVariation("terracotta", <more:glazed_terracotta_green>);
 mods.chisel.Groups.addVariation("terracotta", <more:glazed_terracotta_red>);
 mods.chisel.Groups.addVariation("terracotta", <more:glazed_terracotta_black>);
 
+mods.chisel.Groups.addVariation("greencobblestone", <minecraft:mossy_cobblestone>);
 mods.chisel.Groups.addVariation("greencobblestone", <more:green_cobblestone>);
 mods.chisel.Groups.addVariation("greencobblestone", <more:green_cobblestone_stairs>);
 mods.chisel.Groups.addVariation("greencobblestone", <more:green_cobblestone_slab>);
@@ -331,17 +369,18 @@ mods.chisel.Groups.addVariation("grid", <more:crusted_metal_grid>);
 mods.chisel.Groups.addVariation("grid", <more:railing_grid_reed>);
 mods.chisel.Groups.addVariation("grid", <more:railing_grid_big_rusty>);
 mods.chisel.Groups.addVariation("grid", <more:railing_wire_fence>);
-mods.chisel.Groups.addVariation("grid", <more:railing_iron>);
-mods.chisel.Groups.addVariation("grid", <more:old_metal_louvers_thin>);
-mods.chisel.Groups.addVariation("grid", <more:rusty_sheet_metal_thin>);
-mods.chisel.Groups.addVariation("grid", <more:sheet_metal_blue_thin>);
-mods.chisel.Groups.addVariation("grid", <more:sheet_metal_old_thin>);
-mods.chisel.Groups.addVariation("grid", <more:sheet_metal_red_thin>);
-mods.chisel.Groups.addVariation("grid", <more:crusted_metal_plate>);
-mods.chisel.Groups.addVariation("grid", <more:object_flat_metal_patch>);
-mods.chisel.Groups.addVariation("grid", <more:object_flat_metal_patch_old>);
-mods.chisel.Groups.addVariation("grid", <more:object_flat_metal_patch_red>);
-mods.chisel.Groups.addVariation("grid", <more:object_flat_metal_patch_blue>);
+
+mods.chisel.Groups.addVariation("metalthin", <more:railing_iron>);
+mods.chisel.Groups.addVariation("metalthin", <more:old_metal_louvers_thin>);
+mods.chisel.Groups.addVariation("metalthin", <more:rusty_sheet_metal_thin>);
+mods.chisel.Groups.addVariation("metalthin", <more:sheet_metal_blue_thin>);
+mods.chisel.Groups.addVariation("metalthin", <more:sheet_metal_old_thin>);
+mods.chisel.Groups.addVariation("metalthin", <more:sheet_metal_red_thin>);
+mods.chisel.Groups.addVariation("metalthin", <more:crusted_metal_plate>);
+mods.chisel.Groups.addVariation("metalthin", <more:object_flat_metal_patch>);
+mods.chisel.Groups.addVariation("metalthin", <more:object_flat_metal_patch_old>);
+mods.chisel.Groups.addVariation("metalthin", <more:object_flat_metal_patch_red>);
+mods.chisel.Groups.addVariation("metalthin", <more:object_flat_metal_patch_blue>);
 
 
 mods.chisel.Groups.addVariation("brickCustom", <more:brick_scarlet>);
@@ -421,18 +460,18 @@ mods.chisel.Groups.addVariation("blanket", <more:blanket_pink>);
 mods.chisel.Groups.addVariation("blanket", <more:blanket_cyan>);
 mods.chisel.Groups.addVariation("blanket", <more:blanket_blue>);
 
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_arch_brown>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_arch_green>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_arch_white>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_arch_yellow>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_clear>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_gothic_black>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_round_brown>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_round_green>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_round_white>);
-mods.chisel.Groups.addVariation("metalwindow", <more:glass_round_yellow>);
-mods.chisel.Groups.addVariation("metalwindow", <more:window_wooden_arch>);
-mods.chisel.Groups.addVariation("metalwindow", <more:railing_glass>);
+mods.chisel.Groups.addVariation("glass", <more:glass_arch_brown>);
+mods.chisel.Groups.addVariation("glass", <more:glass_arch_green>);
+mods.chisel.Groups.addVariation("glass", <more:glass_arch_white>);
+mods.chisel.Groups.addVariation("glass", <more:glass_arch_yellow>);
+mods.chisel.Groups.addVariation("glass", <more:glass_clear>);
+mods.chisel.Groups.addVariation("glass", <more:glass_gothic_black>);
+mods.chisel.Groups.addVariation("glass", <more:glass_round_brown>);
+mods.chisel.Groups.addVariation("glass", <more:glass_round_green>);
+mods.chisel.Groups.addVariation("glass", <more:glass_round_white>);
+mods.chisel.Groups.addVariation("glass", <more:glass_round_yellow>);
+mods.chisel.Groups.addVariation("glass", <more:window_wooden_arch>);
+mods.chisel.Groups.addVariation("glass", <more:railing_glass>);
 
 mods.chisel.Groups.addVariation("metal", <more:metal_patch>);
 mods.chisel.Groups.addVariation("metal", <more:metal_tile_medium>);
@@ -551,19 +590,38 @@ mods.chisel.Groups.addVariation("plasteel", <more:doom_box_steel>);
 mods.chisel.Groups.addVariation("plasteel", <more:doom_box_copper>);
 mods.chisel.Groups.addVariation("plasteel", <more:doom_panel_olive_bars>);
 
-mods.chisel.Groups.addVariation("concrete", <more:doom_panel_olive_round>);
-mods.chisel.Groups.addVariation("concrete", <more:old_concrete>);
-mods.chisel.Groups.addVariation("concrete", <more:old_plaster_brick>);
-mods.chisel.Groups.addVariation("concrete", <more:old_brick>);
-mods.chisel.Groups.addVariation("concrete", <more:old_plaster_base>);
-mods.chisel.Groups.addVariation("concrete", <more:old_concrete_block>);
-mods.chisel.Groups.addVariation("concrete", <more:old_concrete_block_carved>);
-mods.chisel.Groups.addVariation("concrete", <more:old_concrete_pillar>);
-mods.chisel.Groups.addVariation("concrete", <more:old_concrete_capital>);
-mods.chisel.Groups.addVariation("concrete", <more:old_concrete_base_carved>);
-mods.chisel.Groups.addVariation("concrete", <more:old_concrete_base>);
-mods.chisel.Groups.addVariation("concrete", <ImmersiveEngineering:stoneDecoration:4>);
-mods.chisel.Groups.addVariation("concrete", <ImmersiveEngineering:stoneDecoration:5>);
+mods.chisel.Groups.addVariation("concrete1", <more:doom_panel_olive_round>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_concrete>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_plaster_brick>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_brick>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_plaster_base>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_concrete_block>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_concrete_block_carved>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_concrete_pillar>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_concrete_capital>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_concrete_base_carved>);
+mods.chisel.Groups.addVariation("concrete1", <more:old_concrete_base>);
+mods.chisel.Groups.addVariation("concrete1", <ImmersiveEngineering:stoneDecoration:4>);
+mods.chisel.Groups.addVariation("concrete1", <ImmersiveEngineering:stoneDecoration:5>);
+mods.chisel.Groups.addVariation("concrete1", <more:concrete_dark_ornament>);
+mods.chisel.Groups.addVariation("concrete1", <more:concrete_dark_ornament_round>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:1>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:2>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:3>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:4>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:5>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:6>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:7>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:8>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:9>);
+mods.chisel.Groups.addVariation("concrete1", <chisel:concrete:10>);
+mods.chisel.Groups.addVariation("concrete1", <Techguns:concrete>);
+mods.chisel.Groups.addVariation("concrete1", <Techguns:concrete:1>);
+mods.chisel.Groups.addVariation("concrete1", <Techguns:concrete:2>);
+mods.chisel.Groups.addVariation("concrete1", <Techguns:concrete:3>);
+mods.chisel.Groups.addVariation("concrete1", <Techguns:concrete:4>);
+mods.chisel.Groups.addVariation("concrete1", <Techguns:concrete:5>);
+mods.chisel.Groups.addVariation("concrete1", <Techguns:concrete:6>);
 
 mods.chisel.Groups.addVariation("leaves", <more:leaves_berries>);
 mods.chisel.Groups.addVariation("leaves", <more:leaves_apples>);
@@ -573,6 +631,12 @@ mods.chisel.Groups.addVariation("leaves", <more:leaves_oranges>);
 mods.chisel.Groups.addVariation("leaves", <more:leaves_scarlet>);
 mods.chisel.Groups.addVariation("leaves", <more:leaves_hedge>);
 mods.chisel.Groups.addVariation("leaves", <more:leaves_hedge_dark>);
+mods.chisel.Groups.addVariation("leaves", <minecraft:leaves>);
+mods.chisel.Groups.addVariation("leaves", <minecraft:leaves:1>);
+mods.chisel.Groups.addVariation("leaves", <minecraft:leaves:2>);
+mods.chisel.Groups.addVariation("leaves", <minecraft:leaves:3>);
+mods.chisel.Groups.addVariation("leaves", <minecraft:leaves2>);
+mods.chisel.Groups.addVariation("leaves", <minecraft:leaves2:1>);
 
 mods.chisel.Groups.addVariation("barrel", <more:bag_gold>);
 mods.chisel.Groups.addVariation("barrel", <more:barrel_apples>);
@@ -691,9 +755,6 @@ mods.chisel.Groups.addVariation("bone", <BiomesOPlenty:bones:2>);
 mods.chisel.Groups.addVariation("bone", <BiomesOPlenty:bones:1>);
 mods.chisel.Groups.addVariation("bone", <BiomesOPlenty:bones>);
 
-mods.chisel.Groups.addVariation("kitchen", <more:sink_dirty_white>);
-mods.chisel.Groups.addVariation("kitchen", <more:scrap_oven>);
-
 mods.chisel.Groups.addVariation("railingstone", <more:railing_stonebrick>);
 mods.chisel.Groups.addVariation("railingstone", <more:railing_cobblestone>);
 mods.chisel.Groups.addVariation("railingstone", <more:railing_sandstone>);
@@ -741,6 +802,11 @@ mods.chisel.Groups.addVariation("metaltable", <more:table_rusty>);
 mods.chisel.Groups.addVariation("metaltable", <more:table_iron_ornament>);
 mods.chisel.Groups.addVariation("metaltable", <more:table_office>);
 
+mods.chisel.Groups.addVariation("lamp", <more:object_light_bulb>);
+mods.chisel.Groups.addVariation("lamp", <more:torch_1>);
+mods.chisel.Groups.addVariation("lamp", <more:torch_lantern_1>);
+mods.chisel.Groups.addVariation("lamp", <more:torch_lantern_3>);
+mods.chisel.Groups.addVariation("lamp", <more:torch_tech>);
 mods.chisel.Groups.addVariation("lamp", <more:lamp_black_blue>);
 mods.chisel.Groups.addVariation("lamp", <more:lamp_black_blue_thin>);
 mods.chisel.Groups.addVariation("lamp", <more:lamp_black_light_blue>);
@@ -755,6 +821,7 @@ mods.chisel.Groups.addVariation("lamp", <more:object_glowglobe_1>);
 mods.chisel.Groups.addVariation("lamp", <more:object_glowglobe_2>);
 mods.chisel.Groups.addVariation("lamp", <more:object_flat_lamp_lime>);
 mods.chisel.Groups.addVariation("lamp", <more:object_flat_lamp_white>);
+mods.chisel.Groups.addVariation("lamp", <more:searchlight>);
 
 mods.chisel.Groups.addVariation("curtain", <more:curtain_blue_flat>);
 mods.chisel.Groups.addVariation("curtain", <more:curtain_green_flat>);
@@ -763,16 +830,11 @@ mods.chisel.Groups.addVariation("curtain", <more:curtain_white_flat>);
 mods.chisel.Groups.addVariation("curtain", <more:curtain_black_flat>);
 mods.chisel.Groups.addVariation("curtain", <more:curtain_worn_brown_flat>);
 
-mods.chisel.Groups.addVariation("lamp1", <more:torch_1>);
-mods.chisel.Groups.addVariation("lamp1", <more:torch_lantern_1>);
 mods.chisel.Groups.addVariation("lamp1", <more:torch_lantern_2>);
-mods.chisel.Groups.addVariation("lamp1", <more:torch_lantern_3>);
-mods.chisel.Groups.addVariation("lamp1", <more:torch_tech>);
 mods.chisel.Groups.addVariation("lamp1", <more:object_lamp_01>);
 mods.chisel.Groups.addVariation("lamp1", <more:object_lamp_02>);
 mods.chisel.Groups.addVariation("lamp1", <more:object_lamp_03>);
 mods.chisel.Groups.addVariation("lamp1", <more:object_lamp_04>);
-mods.chisel.Groups.addVariation("lamp1", <more:object_light_bulb>);
 mods.chisel.Groups.addVariation("lamp1", <more:gaslamp_black>);
 mods.chisel.Groups.addVariation("lamp1", <more:gaslamp_white>);
 
@@ -786,6 +848,7 @@ mods.chisel.Groups.addVariation("chain", <more:object_chain_rusticmossy>);
 mods.chisel.Groups.addVariation("chain", <more:object_craneclaw>);
 mods.chisel.Groups.addVariation("chain", <more:object_cranehook>);
 
+mods.chisel.Groups.addVariation("vine", <minecraft:vine>);
 mods.chisel.Groups.addVariation("vine", <more:object_vine_moss>);
 mods.chisel.Groups.addVariation("vine", <more:object_roots>);
 mods.chisel.Groups.addVariation("vine", <more:object_vine>);
@@ -797,5 +860,150 @@ mods.chisel.Groups.addVariation("vine", <more:object_flat_roots>);
 mods.chisel.Groups.addVariation("vine", <more:object_flat_vine>);
 mods.chisel.Groups.addVariation("vine", <more:object_flat_vine_moss>);
 mods.chisel.Groups.addVariation("vine", <more:object_flat_vine_dead>);
+
+mods.chisel.Groups.addVariation("marble", <more:plaster_masonry>);
+mods.chisel.Groups.addVariation("marble", <more:plaster_white_trim_02>);
+mods.chisel.Groups.addVariation("marble", <more:plaster_white_trim_01>);
+
+mods.chisel.Groups.addVariation("hardware", <more:generator>);
+mods.chisel.Groups.addVariation("hardware", <more:server>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_01>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_02>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_03>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_04>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_05>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_06>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_07>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_08>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_09>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_10>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_11>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_12>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_13>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_14>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_15>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_16>);
+mods.chisel.Groups.addVariation("hardware", <more:hardware_old_17>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_hardware_battery>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_hardware_control_panel_big>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_hardware_tape_computer>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_hardware_sheath>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_wires>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_hardware_monitor_hazard>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_hardware_monitor_planner>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_mechanism_part>);
+mods.chisel.Groups.addVariation("hardware", <more:computer_chip>);
+mods.chisel.Groups.addVariation("hardware", <more:doom_switchboard>);
+mods.chisel.Groups.addVariation("hardware", <more:sink_dirty_white>);
+mods.chisel.Groups.addVariation("hardware", <more:scrap_oven>);
+mods.chisel.Groups.addVariation("hardware", <more:clock_alarm>);
+mods.chisel.Groups.addVariation("hardware", <more:object_flat_pda_01>);
+
+mods.chisel.Groups.addVariation("plankrefined", <yegamolchattels:refined_plank>);
+mods.chisel.Groups.addVariation("plankrefined", <yegamolchattels:refined_plank:1>);
+mods.chisel.Groups.addVariation("plankrefined", <yegamolchattels:refined_plank:2>);
+mods.chisel.Groups.addVariation("plankrefined", <yegamolchattels:refined_plank:3>);
+mods.chisel.Groups.addVariation("plankrefined", <yegamolchattels:refined_plank:4>);
+mods.chisel.Groups.addVariation("plankrefined", <yegamolchattels:refined_plank:5>);
+
+mods.chisel.Groups.addVariation("golddeco", <more:object_astrolabe>);
+mods.chisel.Groups.addVariation("golddeco", <more:object_goblet>);
+mods.chisel.Groups.addVariation("golddeco", <more:object_scales>);
+mods.chisel.Groups.addVariation("golddeco", <more:object_sextant>);
+
+mods.chisel.Groups.addVariation("bottle", <more:object_bottle>);
+mods.chisel.Groups.addVariation("bottle", <more:object_bottle_broken>);
+mods.chisel.Groups.addVariation("bottle", <more:beer_mug>);
+mods.chisel.Groups.addVariation("bottle", <more:cocktail_lightblue_stem>);
+mods.chisel.Groups.addVariation("bottle", <more:bottle_brown>);
+
+mods.chisel.Groups.addVariation("fish", <more:object_fish>);
+mods.chisel.Groups.addVariation("fish", <more:object_fish_big>);
+mods.chisel.Groups.addVariation("fish", <more:object_fish_exotic>);
+
+mods.chisel.Groups.addVariation("meat", <more:object_rabbit>);
+mods.chisel.Groups.addVariation("meat", <more:object_ribcage>);
+mods.chisel.Groups.addVariation("meat", <more:object_toad>);
+mods.chisel.Groups.addVariation("meat", <more:object_hamleg>);
+
+mods.chisel.Groups.addVariation("pan", <more:object_pan_01>);
+mods.chisel.Groups.addVariation("pan", <more:object_pan_02>);
+mods.chisel.Groups.addVariation("pan", <more:object_pan_03>);
+
+mods.chisel.Groups.addVariation("stalacnite", <more:object_stalacnite>);
+mods.chisel.Groups.addVariation("stalacnite", <more:object_stalagmite>);
+
+mods.chisel.Groups.addVariation("transmitter", <more:object_transmitter_01>);
+mods.chisel.Groups.addVariation("transmitter", <more:object_transmitter_02>);
+
+mods.chisel.Groups.addVariation("vase", <more:object_amphora>);
+mods.chisel.Groups.addVariation("vase", <more:object_urn_small>);
+
+mods.chisel.Groups.addVariation("irondeco", <more:object_windvane>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_ashtray>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_food>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_rack_gun>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_rack_tool_01>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_rack_tool_02>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_rack_tool_03>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_rack_weapon_01>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_rack_weapon_02>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_saw>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_screws>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_shield_01>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_spareparts>);
+mods.chisel.Groups.addVariation("irondeco", <more:object_flat_valve>);
+
+mods.chisel.Groups.addVariation("tincan", <more:object_tincan>);
+mods.chisel.Groups.addVariation("tincan", <more:object_pills>);
+mods.chisel.Groups.addVariation("tincan", <more:object_chemicals>);
+
+mods.chisel.Groups.addVariation("book", <more:object_flat_book>);
+mods.chisel.Groups.addVariation("book", <more:object_flat_papers>);
+mods.chisel.Groups.addVariation("book", <more:object_flat_paperwork_01>);
+mods.chisel.Groups.addVariation("book", <more:object_flat_parchment>);
+mods.chisel.Groups.addVariation("book", <more:object_flat_map>);
+mods.chisel.Groups.addVariation("book", <more:garland_photo>);
+mods.chisel.Groups.addVariation("book", <more:object_flat_star_chart_2x2>);
+mods.chisel.Groups.addVariation("book", <more:object_flat_star_chart_3x3>);
+
+mods.chisel.Groups.addVariation("game", <more:object_flat_chessboard>);
+mods.chisel.Groups.addVariation("game", <more:object_flat_cards>);
+
+mods.chisel.Groups.addVariation("cloth", <more:object_flat_cloth_01>);
+mods.chisel.Groups.addVariation("cloth", <more:object_flat_cloth_02>);
+mods.chisel.Groups.addVariation("cloth", <more:hangerrack_clothes_natural>);
+mods.chisel.Groups.addVariation("cloth", <more:object_flat_flags>);
+
+mods.chisel.Groups.addVariation("wheal", <more:object_flat_wheel_wooden_02>);
+mods.chisel.Groups.addVariation("wheal", <more:object_flat_wheel_wooden_01>);
+
+mods.chisel.Groups.addVariation("chainwood", <more:rounded_chain>);
+mods.chisel.Groups.addVariation("chainwood", <more:chain>);
+
+mods.chisel.Groups.addVariation("wheal1", <more:wheel_tire>);
+mods.chisel.Groups.addVariation("wheal1", <more:wheel_iron>);
+
+mods.chisel.Groups.addVariation("smoke", <more:effect_smoke_black>);
+mods.chisel.Groups.addVariation("smoke", <more:effect_rising_steam>);
+mods.chisel.Groups.addVariation("smoke", <more:effect_smoke_white>);
+
+mods.chisel.Groups.addVariation("effectlightning", <more:effect_forcefield_staticnoise>);
+mods.chisel.Groups.addVariation("effectlightning", <more:effect_matrix>);
+mods.chisel.Groups.addVariation("effectlightning", <more:effect_lightning>);
+
+mods.chisel.Groups.addVariation("chest", <minecraft:chest>);
+mods.chisel.Groups.addVariation("chest", <more:chest_fancy>);
+mods.chisel.Groups.addVariation("chest", <more:chest_fancy_2>);
+mods.chisel.Groups.addVariation("chest", <more:chest_generic>);
+mods.chisel.Groups.addVariation("chest", <more:chest_generic_2>);
+mods.chisel.Groups.addVariation("chest", <more:chest_generic_gold>);
+mods.chisel.Groups.addVariation("chest", <more:chest_generic_gold_2>);
+mods.chisel.Groups.addVariation("chest", <more:chest_generic_gold_3>);
+mods.chisel.Groups.addVariation("chest", <more:chest_horror>);
+mods.chisel.Groups.addVariation("chest", <more:chest_supply>);
+mods.chisel.Groups.addVariation("chest", <more:chest_supply_2>);
+mods.chisel.Groups.addVariation("chest", <more:chest_tech>);
+mods.chisel.Groups.addVariation("chest", <more:chest_tech_2>);
 
 //mods.chisel.Groups.addVariation("", );

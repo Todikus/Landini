@@ -473,3 +473,682 @@ recipes.addShaped(<more:stonebrick_wallgap_arch>*4,
 recipes.addShaped(<more:glazed_terracotta_white>*16,
  [[<minecraft:clay>, <minecraft:clay>, <minecraft:clay>],
   [<minecraft:clay>, <ore:dye>, null]]);
+
+recipes.addShaped(<more:mosaic_romani>*9,
+ [[<chisel:andesite:1>, <chisel:andesite:1>, <chisel:andesite:1>],
+  [<chisel:granite:1>, <chisel:granite:1>, <chisel:granite:1>],
+  [<chisel:diorite:1>, <chisel:diorite:1>, <chisel:diorite:1>]]);
+  
+recipes.addShaped(<more:wall_sindarin_01>*4,
+ [[null, <ore:sandstone>, null],
+  [<ore:sandstone>, <ore:dye>, <ore:sandstone>],
+  [null, <ore:sandstone>, null]]);
+  
+recipes.addShaped(<more:tiles_clay_dark>*16,
+ [[<minecraft:brick>, <minecraft:clay>, <minecraft:brick>],
+  [<minecraft:clay>, <minecraft:brick>, <minecraft:clay>],
+  [<minecraft:brick>, <minecraft:clay>, <minecraft:brick>]]);
+  
+recipes.addShaped(<more:tile_roof_black>*8,
+ [[<minecraft:brick>, null, null],
+  [<minecraft:brick>, <minecraft:brick>, null],
+  [<minecraft:brick>, <minecraft:brick>, <minecraft:brick>]]);
+  
+recipes.addShaped(<more:tile_roof_black_slab>*6,
+  [[<more:tile_roof_black>, <more:tile_roof_black>, <more:tile_roof_black>]]);
+  
+recipes.addShaped(<more:tile_roof_black_stairs>*4,
+ [[<more:tile_roof_black>, null, null],
+  [<more:tile_roof_black>, <more:tile_roof_black>, null],
+  [<more:tile_roof_black>, <more:tile_roof_black>, <more:tile_roof_black>]]);
+  
+recipes.addShaped(<more:grid_arrows_gold>*12,
+ [[<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>],
+  [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]]);
+  
+recipes.addShaped(<more:wall_clay_lightdark>*8,
+ [[<ImmersiveEngineering:stoneDecoration:4>, <minecraft:brick>, <ImmersiveEngineering:stoneDecoration:4>],
+  [<minecraft:brick>, <ImmersiveEngineering:stoneDecoration:4>, <minecraft:brick>],
+  [<ImmersiveEngineering:stoneDecoration:4>, <minecraft:brick>, <ImmersiveEngineering:stoneDecoration:4>]]);
+
+recipes.addShaped(<more:old_metal_plate>*32,
+ [[<ImmersiveEngineering:metalDecoration:10>, <ore:plateIron>, <ImmersiveEngineering:metalDecoration:10>],
+  [<ore:plateIron>, null, <ore:plateIron>],
+  [<ImmersiveEngineering:metalDecoration:10>, <ore:plateIron>, <ImmersiveEngineering:metalDecoration:10>]]);
+
+recipes.addShaped(<more:railing_iron>*12,
+ [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:old_metal_plate_double_stairs>*4,
+ [[<more:old_metal_plate>, null, null],
+  [<more:old_metal_plate>, <more:old_metal_plate>, null],
+  [<more:old_metal_plate>, <more:old_metal_plate>, <more:old_metal_plate>]]);
+
+recipes.addShaped(<more:old_metal_plate_double_slab>*6,
+ [[<more:old_metal_plate>, <more:old_metal_plate>, <more:old_metal_plate>]]);
+
+recipes.addShaped(<more:cladding_white_pink>*16,
+ [[<ImmersiveEngineering:metal:32>, <Techguns:TechgunsAmmo:72>, <ImmersiveEngineering:metal:32>],
+  [<Techguns:TechgunsAmmo:72>, null, <Techguns:TechgunsAmmo:72>],
+  [<ImmersiveEngineering:metal:32>, <Techguns:TechgunsAmmo:72>, <ImmersiveEngineering:metal:32>]]);
+
+recipes.addShaped(<more:generator>*4,
+ [[null, <ore:plateIron>, null],
+  [<ore:plateIron>, <Techguns:TechgunsAmmo:30>, <ore:plateIron>],
+  [null, <ore:plateIron>, null]]);
+
+recipes.addShaped(<more:box_wooden_01>*4,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, null, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:box_bound>*4,
+ [[<ImmersiveEngineering:metal:30>, <ore:sheetPlastic>, <ImmersiveEngineering:metal:30>],
+  [<ore:sheetPlastic>, null, <ore:sheetPlastic>],
+  [<ImmersiveEngineering:metal:30>, <ore:sheetPlastic>, <ImmersiveEngineering:metal:30>]]);
+
+recipes.addShaped(<more:box_cardboard_01>*4,
+ [[<betterstorage:cardboardSheet>, <betterstorage:cardboardSheet>, <betterstorage:cardboardSheet>],
+  [<betterstorage:cardboardSheet>, null, <betterstorage:cardboardSheet>],
+  [<betterstorage:cardboardSheet>, <betterstorage:cardboardSheet>, <betterstorage:cardboardSheet>]]);
+
+recipes.addShaped(<more:box_wicker>*4,
+ [[<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>],
+  [<minecraft:wheat>, null, <minecraft:wheat>],
+  [<minecraft:wheat>, <minecraft:wheat>, <minecraft:wheat>]]);
+
+recipes.addShaped(<more:pile_bones_01>*2,
+ [[<minecraft:bone>, <minecraft:bone>, <minecraft:bone>],
+  [<minecraft:bone>, <minecraft:bone>, <minecraft:bone>],
+  [<minecraft:bone>, <minecraft:bone>, <minecraft:bone>]]);
+
+recipes.addShaped(<more:railing_planks_oak>*8,
+ [[<minecraft:wooden_slab>, <minecraft:wooden_slab>, <minecraft:wooden_slab>]]);
+
+recipes.addShaped(<more:locker_wooden_01>,
+ [[<ore:singlePlankWoodRefined>, <BiblioCraft:item.FramingSheet>, <ore:singlePlankWoodRefined>],
+  [<ore:singlePlankWoodRefined>, <BiblioCraft:item.FramingSheet>, <ore:singlePlankWoodRefined>],
+  [<ore:singlePlankWoodRefined>, <BiblioCraft:item.FramingSheet>, <ore:singlePlankWoodRefined>]]);
+
+recipes.addShaped(<more:locker_wooden_01_half>,
+ [[<ore:singlePlankWoodRefined>, <BiblioCraft:item.FramingSheet>, <ore:singlePlankWoodRefined>],
+  [<ore:singlePlankWoodRefined>, <BiblioCraft:item.FramingSheet>, <ore:singlePlankWoodRefined>]]);
+
+recipes.addShaped(<more:railing_stonebrick>*8,
+ [[<minecraft:stone_slab:5>, <minecraft:stone_slab:5>, <minecraft:stone_slab:5>]]);
+
+recipes.addShaped(<more:pillow_purple_big>*4,
+ [[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
+  [<ore:blockWool>, <ore:blockWool>, <ore:blockWool>]]);
+
+recipes.addShaped(<more:stool_dark_red>*4,
+ [[<ore:blockWool>, <ore:blockWool>, <ore:blockWool>],
+  [<BiblioCraft:item.FramingBoard>, null, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:table_iron_ornament>*4,
+ [[<ore:plateIron>, <ore:plateIron>, <ore:plateIron>],
+  [<ImmersiveEngineering:material:14>, null, <ImmersiveEngineering:material:14>],
+  [<ImmersiveEngineering:material:14>, null, <ImmersiveEngineering:material:14>]]);
+
+recipes.addShaped(<more:table_wooden>*4,
+ [[<ore:singlePlankWoodRefined>, <ore:singlePlankWoodRefined>, <ore:singlePlankWoodRefined>],
+  [<BiblioCraft:item.FramingBoard>, null, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, null, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:object_light_bulb>*4,
+ [[null, <ImmersiveEngineering:metal:32>, null],
+  [<ImmersiveEngineering:metal:32>, <minecraft:redstone_lamp>, <ImmersiveEngineering:metal:32>],
+  [null, <ImmersiveEngineering:metal:32>, null]]);
+
+recipes.addShaped(<more:object_lamp_02>*4,
+ [[null, <ore:plateIron>, null],
+  [<minecraft:glass_pane>, <minecraft:torch>, <minecraft:glass_pane>],
+  [null, <ore:plateIron>, null]]);
+
+recipes.addShaped(<more:pile_books>*4,
+ [[<minecraft:book>, <minecraft:book>, <minecraft:book>],
+  [<minecraft:book>, <minecraft:book>, <minecraft:book>],
+  [<minecraft:book>, <minecraft:book>, <minecraft:book>]]);
+
+recipes.addShaped(<more:chain>*4,
+ [[<battlegear2:chain>, <ore:logWood>, <battlegear2:chain>],
+  [<battlegear2:chain>, <ore:logWood>, <battlegear2:chain>],
+  [<battlegear2:chain>, <ore:logWood>, <battlegear2:chain>]]);
+
+recipes.addShaped(<more:firewood>*4,
+ [[<ImmersiveEngineering:coil:3>, <ore:logWood>, <ore:logWood>],
+  [<ore:logWood>, <ore:logWood>, <ore:logWood>],
+  [<ore:logWood>, <ore:logWood>, <ore:logWood>]]);
+
+recipes.addShaped(<more:fish>*4,
+ [[<ore:fish>, <ore:fish>, <ore:fish>],
+  [<ore:fish>, <ore:fish>, <ore:fish>],
+  [<ore:fish>, <ore:fish>, <ore:fish>]]);
+
+recipes.addShaped(<more:torch_dim_nostradamus_1>*4,
+ [[null, <minecraft:rotten_flesh>, null],
+  [<minecraft:rotten_flesh>, <minecraft:rotten_flesh>, <minecraft:rotten_flesh>],
+  [null, <minecraft:rotten_flesh>, null]]);
+
+recipes.addShaped(<more:curtain_blue_flat>*8,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>],
+  [<ore:blockWool>, <ore:blockWool>],
+  [<ore:blockWool>, <ore:blockWool>]]);
+
+recipes.addShaped(<more:object_amphora>*2,
+ [[<ore:ingotBrick>, null, <ore:ingotBrick>],
+  [<ore:ingotBrick>, null, <ore:ingotBrick>],
+  [<ore:ingotBrick>, <ore:ingotBrick>, <ore:ingotBrick>]]);
+
+recipes.addShaped(<more:object_astrolabe>*2,
+ [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+  [<minecraft:gold_nugget>, null, <minecraft:gold_nugget>],
+  [null, <minecraft:gold_ingot>, null]]);
+
+recipes.addShaped(<more:object_bananas>*2,
+ [[<harvestcraft:bananaItem>, <harvestcraft:bananaItem>],
+  [<harvestcraft:bananaItem>, <harvestcraft:bananaItem>],
+  [<harvestcraft:bananaItem>, <harvestcraft:bananaItem>]]);
+
+recipes.addShaped(<more:object_barbwire>*16,
+ [[<TConstruct:materials:33>, <TConstruct:materials:33>, <TConstruct:materials:33>],
+  [<ImmersiveEngineering:coil:4>, <ImmersiveEngineering:coil:4>, <ImmersiveEngineering:coil:4>],
+  [<TConstruct:materials:33>, <TConstruct:materials:33>, <TConstruct:materials:33>]]);
+
+recipes.addShapeless(<more:object_bottle>,
+ [<minecraft:glass_bottle>]);
+
+recipes.addShapeless(<more:object_bottle_colored>,
+ [<Thaumcraft:ItemBucketDeath>]);
+
+recipes.addShapeless(<Thaumcraft:ItemBucketDeath>,
+ [<more:object_bottle_colored>]);
+
+recipes.addShaped(<more:object_carrots>*2,
+ [[<minecraft:carrot>, <minecraft:carrot>, <minecraft:carrot>],
+  [<minecraft:carrot>, <minecraft:carrot>, <minecraft:carrot>]]);
+
+recipes.addShaped(<more:object_chain_fancy>*4,
+ [[<battlegear2:chain>],
+  [<battlegear2:chain>],
+  [<battlegear2:chain>]]);
+
+recipes.addShaped(<more:object_chandelier>*2,
+ [[null, <ImmersiveEngineering:material:14>, null],
+  [<ore:blockTorch>, <minecraft:iron_ingot>, <ore:blockTorch>],
+  [<ore:blockTorch>, <minecraft:iron_ingot>, <ore:blockTorch>]]);
+
+recipes.addShaped(<more:object_fish>*2,
+ [[<ore:fish>, <ore:fish>, <ore:fish>],
+  [<ore:fish>, <ore:fish>, <ore:fish>]]);
+
+recipes.addShaped(<more:object_ribcage>*2,
+ [[<ore:listAllmeatraw>, <ore:listAllmeatraw>, <ore:listAllmeatraw>],
+  [<ore:listAllmeatraw>, <ore:listAllmeatraw>, <ore:listAllmeatraw>]]);
+
+recipes.addShapeless(<more:object_icicles>*8,
+ [<minecraft:ice>]);
+
+recipes.addShaped(<more:object_herbs>*2,
+ [[<harvestcraft:spiceleafItem>, <harvestcraft:spiceleafItem>, <harvestcraft:spiceleafItem>],
+  [<harvestcraft:spiceleafItem>, <harvestcraft:spiceleafItem>, <harvestcraft:spiceleafItem>]]);
+
+recipes.addShaped(<more:object_net>*4,
+ [[<ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>],
+  [<ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>, <ImmersiveEngineering:coil:3>]]);
+
+recipes.addShapeless(<more:object_flat_net>*4,
+ [<more:object_net>]);
+
+recipes.addShaped(<more:object_onions>*2,
+ [[<harvestcraft:garlicItem>, <harvestcraft:garlicItem>],
+  [<harvestcraft:garlicItem>, <harvestcraft:garlicItem>],
+  [<harvestcraft:garlicItem>, <harvestcraft:garlicItem>]]);
+
+recipes.addShaped(<more:object_pan_02>*4,
+ [[<ImmersiveEngineering:metal:32>, <ImmersiveEngineering:metal:32>, <ImmersiveEngineering:metal:32>],
+  [<ImmersiveEngineering:metal:32>, null, <ImmersiveEngineering:metal:32>],
+  [<TConstruct:materials:11>, <TConstruct:materials:11>, <TConstruct:materials:11>]]);
+
+recipes.addShaped(<more:object_paperlamp>*4,
+ [[<minecraft:paper>, <betterstorage:cardboardSheet>, <minecraft:paper>],
+  [<minecraft:paper>, <minecraft:torch>, <minecraft:paper>],
+  [<minecraft:paper>, <betterstorage:cardboardSheet>, <minecraft:paper>]]);
+
+recipes.addShapeless(<more:object_rope>*4,
+ [<ImmersiveEngineering:coil:3>]);
+  
+recipes.addShaped(<more:object_sack>*4,
+ [[null, <ImmersiveEngineering:coil:3>, null],
+  [<minecraft:leather>, null, <minecraft:leather>],
+  [null, <minecraft:leather>, null]]);
+  
+recipes.addShaped(<more:object_sandglass>*2,
+ [[<BiblioCraft:item.FramingBoard>, <minecraft:glass>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <ore:sand>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <minecraft:glass>, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:object_stalacnite>,
+ [[<minecraft:stone>],
+  [<minecraft:stone>]]);
+
+recipes.addShaped(<more:object_transmitter_01>*4,
+ [[<OpenComputers:item:24>],
+  [<ore:plateIron>]]);
+
+recipes.addShapeless(<more:object_windvane>,
+ [<ore:plateIron>]);
+
+recipes.addShapeless(<more:object_flat_gears>,
+ [<ThermalFoundation:material:128>]);
+
+recipes.addShaped(<more:globe_colonial>*2,
+ [[null, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <ore:plankWood>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:object_tincan>,
+ [[<ImmersiveEngineering:metal:32>],
+  [<ImmersiveEngineering:metal:32>]]);
+
+recipes.addShapeless(<more:object_flat_bones>*2,
+ [<minecraft:bone>, <minecraft:bone>]);
+
+recipes.addShapeless(<more:object_flat_book>*2,
+ [<minecraft:book>]);
+
+recipes.addShaped(<more:object_flat_chessboard>,
+ [[<minecraft:paper>],
+  [<yegamolchattels:refined_plank>]]);
+
+recipes.addShaped(<more:object_flat_cloth_01>*4,
+ [[<ImmersiveEngineering:coil:3>],
+  [<ore:blockWool>]]);
+
+recipes.addShaped(<more:object_flat_coins>*4,
+ [[<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>],
+  [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]]);
+
+recipes.addShaped(<more:object_flat_fanblade>*4,
+ [[null, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <ImmersiveEngineering:material:11>, <BiblioCraft:item.FramingBoard>],
+  [null, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShaped(<more:object_flat_wheel_wooden_02>*2,
+ [[null, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, null, <BiblioCraft:item.FramingBoard>],
+  [null, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShapeless(<more:object_flat_icicles>*4,
+ [<more:object_icicles>]);
+
+recipes.addShapeless(<more:object_flat_sausages>*2,
+ [<more:object_meat>]);
+
+recipes.addShapeless(<more:object_flat_rats>*2,
+ [<more:object_meat>]);
+
+recipes.addShapeless(<more:object_flat_pipeweed>*2,
+ [<more:object_herbs>]);
+
+recipes.addShapeless(<more:object_flat_garbage>*4,
+ [<more:object_bottle_broken>, <BiomesOPlenty:misc:1>, <minecraft:paper>]);
+
+recipes.addShaped(<more:rounded_rope>*4,
+ [[<ImmersiveEngineering:coil:3>, <ore:logWood>, <ImmersiveEngineering:coil:3>],
+  [<ImmersiveEngineering:coil:3>, <ore:logWood>, <ImmersiveEngineering:coil:3>],
+  [<ImmersiveEngineering:coil:3>, <ore:logWood>, <ImmersiveEngineering:coil:3>]]);
+
+recipes.addShapeless(<more:wheel_tire>,
+ [<flansmod:wheel>]);
+ 
+recipes.addShapeless(<more:effect_smoke_black>*4,
+ [<ore:dyeBlack>]);
+
+recipes.addShapeless(<more:effect_flies>*4,
+ [<minecraft:rotten_flesh>]);
+
+recipes.addShapeless(<more:effect_fireflies>*4,
+ [<minecraft:glowstone_dust>]);
+
+recipes.addShapeless(<more:effect_forcefield_staticnoise>*8,
+ [<OpenComputers:hologram1>.reuse(), <OpenComputers:item:26>]);
+ 
+for item in <minecraft:flint_and_steel>.items {
+  recipes.addShapeless(<more:effect_fire_cross> * 4, [item.anyDamage().reuse().transformDamage()]);
+}
+
+recipes.addShapeless(<more:effect_fire_flat>,
+ [<more:effect_fire_cross>]);
+ 
+recipes.addShapeless(<more:object_flat_rope>,
+ [<more:object_rope>]);
+ 
+recipes.addShaped(<more:door_broken_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_broken_2_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_face_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_fancy_2_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_fancy_3_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_fancy_4_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_cell_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_fancy_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_2_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_3_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_5_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_6_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_7_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_8_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_9_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_10_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_generic_11_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_iron_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_2_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_3_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_4_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_5_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_6_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_7_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_8_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_iron_9_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_modern_item>,
+ [[<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>]]);
+
+recipes.addShaped(<more:door_modern_2_item>,
+ [[<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>]]);
+
+recipes.addShaped(<more:door_modern_3_item>,
+ [[<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>]]);
+
+recipes.addShaped(<more:door_modern_4_item>,
+ [[<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>]]);
+
+recipes.addShaped(<more:door_modern_5_item>,
+ [[<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ore:sheetPlastic>]]);
+
+recipes.addShaped(<more:door_reinforced_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_reinforced_2_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_reinforced_3_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_reinforced_4_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_shutters_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:door_shutters_blue_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <ore:dyeBlue>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShaped(<more:door_shutters_shut_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:door_shutters_green_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <ore:dyeGreen>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShaped(<more:door_shutters_shut_2_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:door_shutters_orange_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <ore:dyeOrange>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShaped(<more:door_shutters_red_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <ore:dyeRed>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShaped(<more:door_shutters_white_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <ore:dyeWhite>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShaped(<more:door_shutters_yellow_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, <ore:dyeYellow>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingBoard>, null]]);
+
+recipes.addShaped(<more:door_dungeon_1_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_dungeon_2_item>,
+ [[<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>],
+  [<ore:plateIron>, <ore:plateIron>]]);
+
+recipes.addShaped(<more:door_oldwood_jungle_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_oldwood_spruce_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_oldwood_lion_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_airlock_1_item>,
+ [[<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>]]);
+
+recipes.addShaped(<more:door_airlock_2_item>,
+ [[<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>]]);
+
+recipes.addShaped(<more:door_airlock_3_item>,
+ [[<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>]]);
+
+recipes.addShaped(<more:door_doom_pipes_item>,
+ [[<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>],
+  [<Techguns:TechgunsAmmo:65>, <Techguns:TechgunsAmmo:65>]]);
+
+recipes.addShaped(<more:door_common_natural_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_common_cyan_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_common_pink_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:door_common_purple_item>,
+ [[<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>],
+  [<BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingSheet>]]);
+
+recipes.addShaped(<more:bed_1_item>,
+ [[<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>]]);
+
+recipes.addShaped(<more:bed_2_item>,
+ [[<minecraft:wool>, <minecraft:wool:13>, <minecraft:wool:13>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>]]);
+  
+recipes.addShaped(<more:bed_3_item>,
+ [[<minecraft:wool>, <minecraft:wool:14>, <minecraft:wool:14>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>]]);
+  
+recipes.addShaped(<more:bed_4_item>,
+ [[<minecraft:wool>, <minecraft:wool:10>, <minecraft:wool:10>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>]]);
+  
+recipes.addShaped(<more:bed_5_item>,
+ [[<minecraft:wool>, <minecraft:wool:11>, <minecraft:wool:11>],
+  [<BiblioCraft:item.FramingBoard>, <BiblioCraft:item.FramingSheet>, <BiblioCraft:item.FramingBoard>]]);
+  
+recipes.addShaped(<more:bed_6_item>,
+ [[<minecraft:wool>, <minecraft:wool:15>, <minecraft:wool:15>],
+  [<ImmersiveEngineering:material:16>, <BiblioCraft:item.FramingSheet>, <ImmersiveEngineering:material:16>]]);
+  
+recipes.addShaped(<more:bed_7_item>,
+ [[<minecraft:wool>, <minecraft:wool>, <minecraft:wool>],
+  [<BiblioCraft:item.FramingBoard>, <ImmersiveEngineering:metal:32>, <BiblioCraft:item.FramingBoard>]]);
+  
+recipes.addShaped(<more:bed_8_item>,
+ [[<minecraft:wool>, <minecraft:leather>, <minecraft:leather>],
+  [<BiblioCraft:item.FramingBoard>, <ImmersiveEngineering:metal:32>, <BiblioCraft:item.FramingBoard>]]);
+  
+recipes.addShaped(<more:bed_9_item>,
+ [[<TConstruct:materials:25>, <TConstruct:materials:25>, <TConstruct:materials:25>],
+  [<ImmersiveEngineering:material:16>, <ImmersiveEngineering:metal:32>, <ImmersiveEngineering:material:16>]]);
+  
+recipes.addShaped(<more:bed_10_item>,
+ [[<ImmersiveEngineering:material:14>, <ore:plateIron>, <ImmersiveEngineering:material:14>]]);
