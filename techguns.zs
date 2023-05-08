@@ -64,7 +64,6 @@ titanArmorPlate.displayName = "Titan Armor Plates";
 
 recipes.remove(heavyCloth);
 recipes.remove(hardenedLeather);
-recipes.remove(ironParts);
 recipes.remove(plasticSheet);
 recipes.remove(pumpMech);
 recipes.remove(biomass);
@@ -224,7 +223,6 @@ recipes.addShaped(shotgunShell*2, [[lead, lead, lead], [copperNugget, gunpowder,
 
 recipes.addShaped(heavyCloth*2, [[hardenedLeather, slimeball, hardenedLeather], [tar, <ore:blockClothRock>, tar], [hardenedLeather, slimeball, hardenedLeather]]);
 recipes.addShaped(hardenedLeather, [[itemString, wax, itemString], [null, leather, null], [itemString, null, itemString]]);
-recipes.addShaped(ironParts, [[null, steel, null], [iron, flint, iron], [null, steel, null]]);
 recipes.addShaped(plasticSheet*2, [[rawPlastic, rawPlastic], [rawPlastic, rawPlastic]]);
 recipes.addShaped(pumpMech, [[steel, steel, steel], [hardenedGlass, heavyEngineering, hardenedGlass], [steel, steel, steel]]);
 recipes.addShaped(biomass, [[slimeball, greenDye, slimeball], [greenDye, <minecraft:fermented_spider_eye>, greenDye], [slimeball, greenDye, slimeball]]);
