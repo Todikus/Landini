@@ -363,7 +363,7 @@ recipes.addShaped(<flansmod:dwModCannonLauncher>,
 [[subpart, mainpart, stock],
 [topsteel, brasscog, topsteel],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwNeurotoixnRifle>,
+recipes.addShaped(<flansmod:dwNeurotoxinRifle>,
 [[subpart, mainpart, badsteel],
 [brassingot, spider, compos],
 [null, null, null]]);
@@ -613,7 +613,7 @@ recipes.addShaped(<flansmod:dwKpss12>,
 [[<flansmod:dwKp12>, medsteel, medsteel],
 [flint, medsteel, stock],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwSF2012p>,
+recipes.addShaped(<flansmod:dwSf2012p>,
 [[subpart, iron, badsteel],
 [null, flint, badsteel],
 [null, null, null]]);
