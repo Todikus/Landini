@@ -1152,3 +1152,8 @@ recipes.addShaped(<more:bed_9_item>,
   
 recipes.addShaped(<more:bed_10_item>,
  [[<ImmersiveEngineering:material:14>, <ore:plateIron>, <ImmersiveEngineering:material:14>]]);
+ 
+recipes.addShaped(<more:ri_tech_batter>,
+ [[null, <ImmersiveEngineering:metalDevice:6>, null],
+  [<ore:sheetPlastic>, <ThermalExpansion:capacitor:4>.withTag({Energy: 4000000}), <ore:sheetPlastic>],
+  [<ore:sheetPlastic>, <ImmersiveEngineering:metal:36>, <ore:sheetPlastic>]]);
