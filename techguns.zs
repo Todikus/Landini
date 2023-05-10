@@ -259,7 +259,7 @@ recipes.addShaped(reactionHousing*3, [[carbonPlate, carbonParts, carbonPlate], [
 
 recipes.addShaped(heatRay, [[eliteCircuit, <MineFactoryReloaded:machine.2:1>, eliteCircuit], [carbonPlate, <ThermalExpansion:Light>.withTag({Style: 0 as byte}), carbonPlate], [carbonPlate, <ThermalExpansion:Light>.withTag({Style: 0 as byte}), carbonPlate]]);
 
-recipes.addShaped(energyCell, [[<ImmersiveEngineering:metalDevice:2>, <ImmersiveEngineering:metalDevice:6>, <ImmersiveEngineering:metalDevice:2>], [<ore:sheetPlastic>, <ThermalExpansion:capacitor:4>, <ore:sheetPlastic>], [<ore:ingotGold>, <ThermalExpansion:Frame:7>, <ore:ingotGold>]]);
+recipes.addShaped(energyCell, [[<ImmersiveEngineering:metalDevice:2>, <ImmersiveEngineering:metalDevice:6>, <ImmersiveEngineering:metalDevice:2>], [<ore:sheetPlastic>, <ThermalExpansion:capacitor:2>, <ore:sheetPlastic>], [<ore:ingotGold>, <ThermalExpansion:Frame:4>, <ore:ingotGold>]]);
 
 recipes.addShapeless(obsidianPlate, [obsidianSteel, <ImmersiveEngineering:tool>]);
 

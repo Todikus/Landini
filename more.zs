@@ -1156,4 +1156,17 @@ recipes.addShaped(<more:bed_10_item>,
 recipes.addShaped(<more:ri_tech_batter>,
  [[null, <ImmersiveEngineering:metalDevice:6>, null],
   [<ore:sheetPlastic>, <ThermalExpansion:capacitor:4>.withTag({Energy: 4000000}), <ore:sheetPlastic>],
+<<<<<<< Updated upstream
   [<ore:sheetPlastic>, <ImmersiveEngineering:metal:36>, <ore:sheetPlastic>]]);
+=======
+  [<ore:sheetPlastic>, <ImmersiveEngineering:metal:36>, <ore:sheetPlastic>]]);
+  
+recipes.addShaped(<more:repair_kit>,
+ [[<ImmersiveEngineering:fluidContainers:2>, <ImmersiveEngineering:fluidContainers:2>, <minecraft:diamond>],
+  [<ImmersiveEngineering:material:15>, <ImmersiveEngineering:toolbox>, <yegamolchattels:grindstoneStone>],
+  [<harvestcraft:hardenedleatherItem>, <harvestcraft:hardenedleatherItem>, <minecraft:diamond>]]);
+
+recipes.addShapeless(<more:remote_book_editor>,
+ [<minecraft:writable_book>]);
+ 
+>>>>>>> Stashed changes
