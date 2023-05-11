@@ -1,7 +1,6 @@
 var subpart = <flansmod:dwGunBarrel>;
 var mainpart = <flansmod:dwGunPart>;
 var badsteel = <flansmod:dwSteelIngot>;
-var medsteel = <flansmod:dwMidSteelIngot>;
 var topsteel = <flansmod:dwHighSteelIngot>;
 var compos = <flansmod:dwCompSteelIngot>;
 var liqglow = <flansmod:dwLiquidGlowstone>;
@@ -41,8 +40,9 @@ var mm40smoke = <flansmod:dw40mmSmoke>;
 var mm40AP = <flansmod:dw40mmAP>;
 var mm40timed = <flansmod:dw40mmTimed>;
 var mm40He = <flansmod:dw40mmHE>;
-var mm40Shock = <flansmod:dw40mmShock>;
+var mm40shock = <flansmod:dw40mmShock>;
 var mm40In = <flansmod:dw40mmIncendiary>;
+var skyammo = <flansmod:dwShockRound>;
 
 var heavyCloth = <Techguns:TechgunsAmmo:39>;
 var treatedLeather = <Techguns:TechgunsAmmo:109>;
@@ -52,7 +52,6 @@ var wax = <ore:materialPressedwax>;
 var leather = <ore:itemLeather>;
 var itemString = <minecraft:string>;
 var diamond = <minecraft:diamond>;
-var blazePowder = <minecraft:blaze_powder>;
 var blazeRod = <minecraft:blaze_rod>;
 var quartz = <minecraft:quartz>;
 var flint = <minecraft:flint>;
@@ -120,28 +119,28 @@ recipes.remove(<flansmod:dwHighSteelIngot>);
 recipes.addShapeless(<flansmod:dwBrassDust>*2,
 [<ore:dustCopper>, <ore:dustCopper>, <ore:dustCopper>, <ore:dustZinc>]);
 recipes.addShapeless(<flansmod:dwDustIron>,
-[[iron, coal, coal, coal]]);
+[iron, coal, coal, coal]);
 recipes.addShapeless(<flansmod:dwHighSteelIngot>,
 [compos, darkSteel, darkSteel, darkSteel]);
 recipes.addShapeless(<flansmod:dwCompSteelIngot>,
-[[steel, badsteel, badsteel, coal]]);
+[steel, badsteel, badsteel, coal]);
 recipes.addShapeless(<flansmod:dwRedwood>,
-[[<Techguns:TechgunsAmmo:26>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]]);
+[<Techguns:TechgunsAmmo:26>, <minecraft:redstone>, <minecraft:redstone>, <minecraft:redstone>]);
 recipes.addShaped(<flansmod:dwPumpPart>,
-[[badsteel, medsteel, badsteel],
+[[badsteel, <flansmod:dwMidSteelIngot>, badsteel],
 [steel, redwood, steel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwStockPart>,
-[[medsteel, medsteel, badsteel],
-[medsteel, badsteel, plasticSheet],
+[[<flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>, badsteel],
+[<flansmod:dwMidSteelIngot>, badsteel, plasticSheet],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwBrassRounds>,
 [[gunpowder, null, null],
 [gunpowder, null, null],
 [brassingot, null, null]]);
 recipes.addShaped(<flansmod:dwBrassRounds>,
-[[blazePowder, null, null],
-[blazePowder, null, null],
+[[<minecraft:blaze_powder>, null, null],
+[<minecraft:blaze_powder>, null, null],
 [skyglass, null, null]]);
 recipes.addShaped(<flansmod:dwShockRound>,
 [[skydust, null, null],
@@ -176,19 +175,19 @@ recipes.addShaped(<flansmod:dwShotgunPoisonAmmo>,
 [badsteel, spider, badsteel],
 [null, brassingot, null]]);
 recipes.addShaped(<flansmod:dwShotgunIncendiaryAmmo>,
-[[paper, blazePowder, paper],
-[badsteel, blazePowder, badsteel],
+[[paper, <minecraft:blaze_powder>, paper],
+[badsteel, <minecraft:blaze_powder>, badsteel],
 [null, brassingot, null]]);
 recipes.addShaped(<flansmod:dwShotgunHEAmmo>,
-[[gunpowder, blazePowder, gunpowder],
-[medsteel, blazePowder, medsteel],
+[[gunpowder, <minecraft:blaze_powder>, gunpowder],
+[<flansmod:dwMidSteelIngot>, <minecraft:blaze_powder>, <flansmod:dwMidSteelIngot>],
 [badsteel, brassingot, badsteel]]);
 recipes.addShaped(<flansmod:dwShotgunAPAmmo>,
-[[medsteel, blazepowder, medsteel],
-[medsteel, blazePowder, medsteel],
+[[<flansmod:dwMidSteelIngot>, <minecraft:blaze_powder>, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, <minecraft:blaze_powder>, <flansmod:dwMidSteelIngot>],
 [compos, brassingot, compos]]);
 recipes.addShaped(<flansmod:dwShotgunTungstenAmmo>,
-[[paper, medsteel, paper],
+[[paper, <flansmod:dwMidSteelIngot>, paper],
 [flint, gunpowder, flint],
 [badsteel, <bluepower:tungsten_ingot>, badsteel]]);
 recipes.addShaped(<flansmod:dw40mmFrag>,
@@ -205,11 +204,11 @@ recipes.addShaped(<flansmod:dw40mmSmoke>,
 [null, badsteel, null]]);
 recipes.addShaped(<flansmod:dw40mmAP>,
 [[compos, tnt, compos],
-[compos, medsteel, compos],
+[compos, <flansmod:dwMidSteelIngot>, compos],
 [null, badsteel, null]]);
 recipes.addShaped(<flansmod:dw40mmIncendiary>,
 [[compos, tnt, compos],
-[compos, blazePowder, compos],
+[compos, <minecraft:blaze_powder>, compos],
 [null, badsteel, null]]);
 recipes.addShaped(<flansmod:dw40mmIncendiary>,
 [[compos, tnt, compos],
@@ -232,7 +231,7 @@ recipes.addShaped(<flansmod:dwGenSingleFire>,
 recipes.addShaped(<flansmod:dwGenAutoFire>,
 [[badsteel, badsteel, badsteel]]);
 recipes.addShaped(<flansmod:dwGenMeleeStock>,
-[[badsteel, medsteel, badsteel]]);
+[[badsteel, <flansmod:dwMidSteelIngot>, badsteel]]);
 recipes.addShaped(<flansmod:dwGenHardenedRecoilBolt>,
 [[badsteel, flint, flint]]);
 recipes.addShaped(<flansmod:dwGenBarrelRifling>,
@@ -265,11 +264,11 @@ recipes.addShaped(<flansmod:dwWinnowBp>,
 [null, brasscog, null]]);
 recipes.addShaped(<flansmod:dwOverwatch>, 
 [[subpart, mainpart, scope],
-[null, redwood, medsteel],
+[null, redwood, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwKrystalOverwatch>, 
 [[<flansmod:dwOverwatch>, badsteel, compos],
-[null, brasscog, medsteel],
+[null, brasscog, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwWinnowMp>,
 [[<flansmod:dwWinnow>, mainpart, badsteel],
@@ -277,46 +276,46 @@ recipes.addShaped(<flansmod:dwWinnowMp>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwWolfstedt>,
 [[mainpart, brasscog, redwood],
-[null, brassingot, medsteel],
+[null, brassingot, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwWolfstedtM2088>,
-[[<flansmod:dwWolfstedt>, scope, medsteel],
-[null, brasscog, medsteel],
+[[<flansmod:dwWolfstedt>, scope, <flansmod:dwMidSteelIngot>],
+[null, brasscog, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwWolfstedtRep>,
-[[<flansmod:dwWolfstedtM2088>, mediumsteel, stock],
+[[<flansmod:dwWolfstedtM2088>, <flansmod:dwMidSteelIngot>, stock],
 [null, brassingot, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAt51sp>,
-[[<flansmod:dwWinnowMp>, medsteel, redwood],
+[[<flansmod:dwWinnowMp>, <flansmod:dwMidSteelIngot>, redwood],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPepperbox>,
 [[subpart, mainpart, brassingot],
-[brasscog, pumppart, medsteel],
+[brasscog, pumppart, <flansmod:dwMidSteelIngot>],
 [liqglow, liqglow, null]]);
 recipes.addShaped(<flansmod:dwSteelBluss>,
 [[mainpart, brassingot, badsteel],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwMatriarchScatter>,
-[[mainpart, pumppart, medsteel],
-[null, brasscog, medsteel],
+[[mainpart, pumppart, <flansmod:dwMidSteelIngot>],
+[null, brasscog, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwRoselup>,
-[[mainpart, pumppart, medsteel],
+[[mainpart, pumppart, <flansmod:dwMidSteelIngot>],
 [brasscog, brassingot, stock],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwRoselupHca>,
 [[<flansmod:dwRoselup>, brasscog, brasscog],
-[liqglow, mainpart, medsteel],
+[liqglow, mainpart, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAmbirconSteamRifle>,
 [[subpart, mainpart, redwood],
 [brasscog, brassingot, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAmbirconSteamRifle2>,
-[[<flansmod:dwAmbirconSteamRifle>, medsteel, medsteel],
+[[<flansmod:dwAmbirconSteamRifle>, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
 [liqglow, brasscog, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwStumbreonSV>,
@@ -332,12 +331,12 @@ recipes.addShaped(<flansmod:dwMk47>,
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwClockwing>,
-[[<flansmod:dwCinderfire>, medsteel, stock],
-[brasscog, medsteel, medsteel],
+[[<flansmod:dwCinderfire>, <flansmod:dwMidSteelIngot>, stock],
+[brasscog, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
 [null, null, brassingot]]);
 recipes.addShaped(<flansmod:dwHVFPeforator>,
-[[<flansmod:dwMk47>, medsteel, liqglow],
-[null, medsteel, brasscog],
+[[<flansmod:dwMk47>, <flansmod:dwMidSteelIngot>, liqglow],
+[null, <flansmod:dwMidSteelIngot>, brasscog],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAutoRifle2097>,
 [[receiver, <flansmod:dwAmbirconSteamRifle>, stock],
@@ -404,8 +403,8 @@ recipes.addShaped(<flansmod:dwWolfstedtPoisonAmmo>,
 [brassammo, brassingot, brassdust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwTimemarkerAmmo>,
-[[medsteel, brassammo, medsteel],
-[brassammo, brassingot, medsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[brassammo, brassingot, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwWolfstedtM2088PoisonAmmo>,
 [[badsteel, poisonammo, spider],
@@ -432,8 +431,8 @@ recipes.addShaped(<flansmod:dwPepperboxAmmo>,
 [g12, badsteel, brassdust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwMatriarchScatterAmmo>,
-[[medsteel, g12, brassdust],
-[g12, medsteel, brassdust],
+[[<flansmod:dwMidSteelIngot>, g12, brassdust],
+[g12, <flansmod:dwMidSteelIngot>, brassdust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwRoselupAmmo>,
 [[badsteel, g12, g12],
@@ -448,12 +447,12 @@ recipes.addShaped(<flansmod:dwRoselupHcaAmmo>,
 [g12, g12, brassingot],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAmbirconSteamRifleHPAmmo>,
-[[medsteel, apammo, brassdust],
-[apammo, medsteel, brassdust],
+[[<flansmod:dwMidSteelIngot>, apammo, brassdust],
+[apammo, <flansmod:dwMidSteelIngot>, brassdust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAmbirconSteamRifleAmmo>,
-[[medsteel, brassammo, brasscog],
-[brassammo, medsteel, brasscog],
+[[<flansmod:dwMidSteelIngot>, brassammo, brasscog],
+[brassammo, <flansmod:dwMidSteelIngot>, brasscog],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwStumbreonSVAmmo>,
 [[<flansmod:dwWinnowMpAmmo>, brassammo, flint],
@@ -461,11 +460,11 @@ recipes.addShaped(<flansmod:dwStumbreonSVAmmo>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwClockwingHEAmmo>,
 [[he, he, flint],
-[he, medsteel, flint],
+[he, <flansmod:dwMidSteelIngot>, flint],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwClockwingAmmo>,
 [[brassammo, brassammo, flint],
-[brassammo, medsteel, flint],
+[brassammo, <flansmod:dwMidSteelIngot>, flint],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwCinderfireAPAmmo>,
 [[apammo, apammo, flint],
@@ -484,7 +483,7 @@ recipes.addShaped(<flansmod:dwHVFPeforatorAmmo>,
 [badsteel, brassammo, badsteel],
 [badsteel, brassammo, badsteel]]);
 recipes.addShaped(<flansmod:dwAutoRifle2097Ammo>,
-[[medsteel, brassammo, flint],
+[[<flansmod:dwMidSteelIngot>, brassammo, flint],
 [brassammo, brassammo, flint],
 [null, brassammo, flint]]);
 recipes.addShaped(<flansmod:dwHeavyDupletMGAmmo>,
@@ -505,11 +504,11 @@ recipes.addShaped(<flansmod:dwNeurotoxinRifleAmmo>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwStumbreonSteamerGasAmmo>,
 [[compos, spider, spider],
-[compos, blazePowder, blazePowder],
+[compos, <minecraft:blaze_powder>, <minecraft:blaze_powder>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwStumbreonSteamerAmmo>,
 [[compos, gunpowder, gunpowder],
-[compos, blazePowder, blazePowder],
+[compos, <minecraft:blaze_powder>, <minecraft:blaze_powder>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwKrystalOverwatchAmmo>,
 [[badsteel, brassammo, gunpowder],
@@ -526,7 +525,7 @@ recipes.addShaped(<flansmod:dwAbtApertureSight>,
 recipes.addShaped(<flansmod:dwAbtHeatsinkRail>,
 [[badsteel, null, badsteel],
 [brasscog, null, brasscog],
-[null, blazePowder, null]]);
+[null, <minecraft:blaze_powder>, null]]);
 recipes.addShaped(<flansmod:dwAbtHoloSight>,
 [[badsteel, <flansmod:dwAbtAmbirconSight>, brasscog],
 [badsteel, null, brasscog],
@@ -538,11 +537,11 @@ recipes.addShaped(<flansmod:dwAbtIronPipeStock>,
 recipes.addShaped(<flansmod:dwAbtLanternRail>,
 [[badsteel, <flansmod:dwAbtHeatsinkRail>, badsteel],
 [brasscog, null, brasscog],
-[null, blazePowder, null]]);
+[null, <minecraft:blaze_powder>, null]]);
 recipes.addShaped(<flansmod:dwAbtModernRail>,
 [[badsteel, <flansmod:dwAbtHeatsinkRail>, badsteel],
-[brasscog, blazePowder, brasscog],
-[null, blazePowder, null]]);
+[brasscog, <minecraft:blaze_powder>, brasscog],
+[null, <minecraft:blaze_powder>, null]]);
 recipes.addShaped(<flansmod:dwAbtPressureStock>,
 [[badsteel, <flansmod:dwAbtIronPipeStock>, badsteel],
 [null, null, null],
@@ -552,17 +551,17 @@ recipes.addShaped(<flansmod:dwAbtTorchRail>,
 [brasscog, skydust, brasscog],
 [null, skydust, null]]);
 recipes.addShaped(<flansmod:dwAbtSharedSuppressor>,
-[[subpart, blazePowder, badsteel],
+[[subpart, <minecraft:blaze_powder>, badsteel],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAbtSharedMuzzleBrake>,
-[[subpart, blazePowder, brassingot],
+[[subpart, <minecraft:blaze_powder>, brassingot],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAbtRoundRail>,
 [[badsteel, null, badsteel],
-[brasscog, medsteel, brasscog],
-[null, blazePowder, null]]);
+[brasscog, <flansmod:dwMidSteelIngot>, brasscog],
+[null, <minecraft:blaze_powder>, null]]);
 recipes.addShaped(<flansmod:dwAbtReflexSight>,
 [[badsteel, scope, flint],
 [brasscog, brassingot, brassingot],
@@ -607,11 +606,11 @@ recipes.addShaped(<flansmod:dwMfp5Compact>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwKp12>,
 [[receiver, pumppart, compos],
-[flint, medsteel, badsteel],
+[flint, <flansmod:dwMidSteelIngot>, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwKpss12>,
-[[<flansmod:dwKp12>, medsteel, medsteel],
-[flint, medsteel, stock],
+[[<flansmod:dwKp12>, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
+[flint, <flansmod:dwMidSteelIngot>, stock],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSf2012p>,
 [[subpart, iron, badsteel],
@@ -619,18 +618,18 @@ recipes.addShaped(<flansmod:dwSf2012p>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAgmPredator>,
 [[receiver, mainpart, stock],
-[medsteel, pumppart, redwood],
+[<flansmod:dwMidSteelIngot>, pumppart, redwood],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPaKat>,
 [[receiver, mainpart, stock],
 [compos, compos, badsteel],
 [null, null, flint]]);
 recipes.addShaped(<flansmod:dwKat3>,
-[[<flansmod:dwPaKat>, medsteel, brasscog],
-[null, compos, medsteel],
+[[<flansmod:dwPaKat>, <flansmod:dwMidSteelIngot>, brasscog],
+[null, compos, <flansmod:dwMidSteelIngot>],
 [null, null, compos]]);
 recipes.addShaped(<flansmod:dwSf94>,
-[[<flansmod:dwSF2012p>, null, badsteel],
+[[<flansmod:dwSf2012p>, null, badsteel],
 [null, null, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSf116bp>,
@@ -638,8 +637,8 @@ recipes.addShaped(<flansmod:dwSf116bp>,
 [null, flint, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSf112>,
-[[<flansmod:dwSF2012p>, null, badsteel],
-[null, medsteel, badsteel],
+[[<flansmod:dwSf2012p>, null, badsteel],
+[null, <flansmod:dwMidSteelIngot>, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPar38>,
 [[<flansmod:dwSf94>, brassingot, iron],
@@ -650,7 +649,7 @@ recipes.addShaped(<flansmod:dwPar60>,
 [null, brasscog, compos],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSf370b>,
-[[badsteel, <flansmod:dwSF2012p>, iron],
+[[badsteel, <flansmod:dwSf2012p>, iron],
 [null, null, iron],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSfOrel>,
@@ -662,32 +661,24 @@ recipes.addShaped(<flansmod:dwDzky103>,
 [null, null, compos],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPagl>,
-[[mainpart, receiver, medsteel],
+[[mainpart, receiver, <flansmod:dwMidSteelIngot>],
 [null, brasscog, stock],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwKgl40>,
-[[subpart, <flansmod:dwPagl>, medsteel],
-[medsteel, compos, medsteel],
+[[subpart, <flansmod:dwPagl>, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, compos, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwKgl3>,
-[[medsteel, <flansmod:dwPagl>, medsteel],
-[medsteel, compos, redwood],
+[[<flansmod:dwMidSteelIngot>, <flansmod:dwPagl>, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, compos, redwood],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwLk103>,
-[[medsteel, receiver, topsteel],
+[[<flansmod:dwMidSteelIngot>, receiver, topsteel],
 [null, topsteel, stock],
-[null, null, null]]);
-recipes.addShaped(<flansmod:dwMbtСrossbow>,
-[[receiver, mainpart, stock],
-[compos, compos, compos],
-[null, null, medsteel]]);
-recipes.addShaped(<flansmod:dwMbtAutoСrossbow>,
-[[badsteel, <flansmod:dwMbtСrossbow>, badsteel],
-[null, compos, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwXm240>,
 [[receiver, mainpart, compos],
-[compos, blazePowder, stock],
+[compos, <minecraft:blaze_powder>, stock],
 [null, compos, null]]);
 recipes.addShaped(<flansmod:dwMfp15Ammo>,
 [[badsteel, brassammo, badsteel],
@@ -732,59 +723,59 @@ recipes.addShaped(<flansmod:dwSf2012pAmmo>,
 recipes.addShaped(<flansmod:dwAgmPredatorAmmo>,
 [[badsteel, g12, iron],
 [compos, g12, badsteel],
-[medsteel, badsteel, badsteel]]);
+[<flansmod:dwMidSteelIngot>, badsteel, badsteel]]);
 recipes.addShaped(<flansmod:dwPaKatAmmo>,
-[[medsteel, brassammo, medsteel],
-[medsteel, brassammo, medsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
 [null, null, badsteel]]);
 recipes.addShaped(<flansmod:dwSf94Ammo>,
-[[medsteel, brassammo, badsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, badsteel],
 [badsteel, brassammo, badsteel],
 [badsteel, null, badsteel]]);
 recipes.addShaped(<flansmod:dwSf112Ammo>,
-[[medsteel, brassammo, badsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, badsteel],
 [badsteel, brassammo, badsteel],
-[badsteel, null, medsteel]]);
+[badsteel, null, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwSf116bpAmmo>,
-[[medsteel, brassammo, badsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, badsteel],
 [badsteel, brassammo, badsteel],
-[badsteel, brassammo, medsteel]]);
+[badsteel, brassammo, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwPar38Ammo>,
-[[medsteel, brassammo, badsteel],
-[medsteel, brassammo, badsteel],
-[badsteel, brassammo, medsteel]]);
+[[<flansmod:dwMidSteelIngot>, brassammo, badsteel],
+[<flansmod:dwMidSteelIngot>, brassammo, badsteel],
+[badsteel, brassammo, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwSf370bAmmo>,
-[[medsteel, brassammo, medsteel],
-[medsteel, brassammo, medsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
 [brassammo, brassammo, compos]]);
 recipes.addShaped(<flansmod:dwLk103Ammo>,
-[[medsteel, m40, medsteel],
-[medsteel, m40, medsteel],
+[[<flansmod:dwMidSteelIngot>, mm40, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, mm40, <flansmod:dwMidSteelIngot>],
 [null, null, badsteel]]);
 recipes.addShaped(<flansmod:dwDzky103Ammo>,
-[[medsteel, brassammo, medsteel],
-[medsteel, brassammo, medsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
 [flint, brassammo, compos]]);
 recipes.addShaped(<flansmod:dwSfOrelAmmo>,
-[[medsteel, brassammo, medsteel],
-[medsteel, brassammo, medsteel],
+[[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
 [flint, brassammo, gunpowder]]);
 recipes.addShaped(<flansmod:dwMbtCrossbowAmmo>*4,
-[[medsteel, medsteel, medsteel],
-[medsteel, medsteel, medsteel],
-[flint, medsteel, badsteel]]);
+[[<flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
+[flint, <flansmod:dwMidSteelIngot>, badsteel]]);
 recipes.addShaped(<flansmod:dwMbtAutoCrossbowAmmo>,
-[[medsteel, <flansmod:dwMbtCrossbowAmmo>, <flansmod:dwMbtCrossbowAmmo>],
-[medsteel, <flansmod:dwMbtCrossbowAmmo>, <flansmod:dwMbtCrossbowAmmo>],
-[flint, medsteel, medsteel]]);
+[[<flansmod:dwMidSteelIngot>, <flansmod:dwMbtCrossbowAmmo>, <flansmod:dwMbtCrossbowAmmo>],
+[<flansmod:dwMidSteelIngot>, <flansmod:dwMbtCrossbowAmmo>, <flansmod:dwMbtCrossbowAmmo>],
+[flint, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwXm240Ammo>,
-[[medsteel, blazePowder, medsteel],
-[medsteel, blazePowder, medsteel],
-[medsteel, blazePowder, medsteel]]);
+[[<flansmod:dwMidSteelIngot>, <minecraft:blaze_powder>, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, <minecraft:blaze_powder>, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, <minecraft:blaze_powder>, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwPar60Ammo>,
-[[medsteel, brassammo, medsteel],
-[medsteel, brassammo, medsteel],
-[brassammo, brassammo, medsteel]]);
+[[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, brassammo, <flansmod:dwMidSteelIngot>],
+[brassammo, brassammo, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwLpmAimpointSight>,
 [[scope, badsteel, null],
 [null, null, null],
@@ -822,7 +813,7 @@ recipes.addShaped(<flansmod:dwLpmRedDotSight>,
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwLpmTacticalStock>,
-[[stock, badsteel, medsteel],
+[[stock, badsteel, <flansmod:dwMidSteelIngot>],
 [null, null, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwLpmWoodenStock>,
@@ -869,11 +860,11 @@ recipes.addShaped(<flansmod:dwSmcPistolLight>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcShotgunComp>,
 [[badsteel, skydust, skydust],
-[null, medsteel, null],
+[null, <flansmod:dwMidSteelIngot>, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcPistolSuppressor>,
 [[compos, skydust, skydust],
-[null, medsteel, null],
+[null, <flansmod:dwMidSteelIngot>, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcRedDotSight>,
 [[scope, skyglass, skyunit],
@@ -885,15 +876,15 @@ recipes.addShaped(<flansmod:dwSmcRifleGrip>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcSpeedMod>,
 [[compos, skydust, skydust],
-[skyglass, medsteel, null],
+[skyglass, <flansmod:dwMidSteelIngot>, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcSharedMuzzleBrake>,
 [[compos, badsteel, skydust],
-[null, medsteel, null],
+[null, <flansmod:dwMidSteelIngot>, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcSharedSuppressor>,
 [[compos, skydust, skydust],
-[null, medsteel, compos],
+[null, <flansmod:dwMidSteelIngot>, compos],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcThreatSight>,
 [[<flansmod:dwSmcCalibratedSight>, skyunit, skyglass],
@@ -904,7 +895,7 @@ recipes.addShaped(<flansmod:dwSmcSMTPStock>,
 [null, null, skydust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcSolidStock>,
-[[badsteel, stock, medsteel],
+[[badsteel, stock, <flansmod:dwMidSteelIngot>],
 [null, null, skydust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcStandardLight>,
@@ -913,46 +904,46 @@ recipes.addShaped(<flansmod:dwSmcStandardLight>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSmcSuppressorSmg>,
 [[compos, skydust, skydust],
-[null, medsteel, medsteel],
+[null, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
 [null, null, flint]]);
 recipes.addShaped(<flansmod:dwGs5>,
 [[<flansmod:dwGsx>, skyunit, skyglass],
-[null, medsteel, medsteel],
+[null, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwGsx>,
 [[<flansmod:dwGsSkylite>, skyglass, skyunit],
-[null, null, medsteel],
+[null, null, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwGsSkylite>,
 [[badsteel, skyglass, compos],
 [null, null, null],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwSkychaser>,
+recipes.addShaped(<flansmod:dwSkyChaser>,
 [[<flansmod:dwGsSkylite>, badsteel, skydust],
 [null, null, skydust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwUmx45>,
-[[<flansmod:dwSkychaser>, badsteel, medsteel],
+[[<flansmod:dwSkyChaser>, badsteel, <flansmod:dwMidSteelIngot>],
 [null, null, skyglass],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwMatriarchSkymare>,
-[[mainpart, skyunit, medsteel],
+[[mainpart, skyunit, <flansmod:dwMidSteelIngot>],
 [null, skyglass, flint],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwDusterwing>,
-[[<flansmod:dwSkychaser>, badsteel, stock],
+[[<flansmod:dwSkyChaser>, badsteel, stock],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPwr57>,
-[[<flansmod:dwSkychaser>, badsteel, badsteel],
+[[<flansmod:dwSkyChaser>, badsteel, badsteel],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwInkstriker45>,
-[[<flansmod:dwDusterwing>, medsteel, skyglass],
-[null, null, medsteel],
+[[<flansmod:dwDusterwing>, <flansmod:dwMidSteelIngot>, skyglass],
+[null, null, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAegisDisrupter>,
-[[<flansmod:dwSkychaser>, skydust, stock],
+[[<flansmod:dwSkyChaser>, skydust, stock],
 [null, null, badsteel],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwCrossfire>,
@@ -960,15 +951,15 @@ recipes.addShaped(<flansmod:dwCrossfire>,
 [null, pumppart, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwFeatherduster>,
-[[mainpart, <flansmod:dwCrossfire>, medsteel],
-[null, null, medsteel],
+[[mainpart, <flansmod:dwCrossfire>, <flansmod:dwMidSteelIngot>],
+[null, null, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwIronhoof>,
 [[skyrifle, scope, stock],
 [mainpart, pumppart, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwHpar>,
-[[<flansmod:dwMpar>, medsteel, medsteel],
+[[<flansmod:dwMpar>, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwMpar>,
@@ -976,39 +967,39 @@ recipes.addShaped(<flansmod:dwMpar>,
 [null, null, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwMparA2>,
-[[<flansmod:dwMpar>, medsteel, skyunit],
+[[<flansmod:dwMpar>, <flansmod:dwMidSteelIngot>, skyunit],
 [null, skyglass, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSkyComm>,
-[[<flansmod:dwMparA2>, medsteel, stock],
-[medsteel, medsteel, medsteel],
+[[<flansmod:dwMparA2>, <flansmod:dwMidSteelIngot>, stock],
+[<flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSc7>,
 [[skyrifle, mainpart, stock],
 [null, null, skyunit],
 [null, null, null]]);
-recipes.addShaped(<flansmod:dwScSTND>,
-[[subpart, <flansmod:dwSc7>, medsteel],
-[null, medsteel, liqglow],
+recipes.addShaped(<flansmod:dwSc7Stnd>,
+[[subpart, <flansmod:dwSc7>, <flansmod:dwMidSteelIngot>],
+[null, <flansmod:dwMidSteelIngot>, liqglow],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwFeathershock>,
 [[skyrifle, badsteel, stock],
 [null, null, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAirmare>,
-[[subpart, <flansmod:dwHpar>, medsteel],
+[[subpart, <flansmod:dwHpar>, <flansmod:dwMidSteelIngot>],
 [skyunit, skyglass, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAirmare>,
-[[subpart, <flansmod:dwAirmare>, medsteel],
+[[subpart, <flansmod:dwAirmare>, <flansmod:dwMidSteelIngot>],
 [skyunit, skyglass, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwCloudpuncher>,
-[[mainpart, <flansmod:dwFeathershock>, medsteel],
+[[mainpart, <flansmod:dwFeathershock>, <flansmod:dwMidSteelIngot>],
 [skyunit, skyglass, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAirdropper>,
-[[medsteel, <flansmod:dwCloudpuncher>, medsteel],
+[[<flansmod:dwMidSteelIngot>, <flansmod:dwCloudpuncher>, <flansmod:dwMidSteelIngot>],
 [skyunit, skyglass, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSkyswatterSS>,
@@ -1024,7 +1015,7 @@ recipes.addShaped(<flansmod:dwSkyswatter>,
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSkylighter>,
-[[skyglass, <flansmod:dwFeathershock>, medsteel],
+[[skyglass, <flansmod:dwFeathershock>, <flansmod:dwMidSteelIngot>],
 [skyunit, skyglass, skyunit],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSkylighterAEC>,
@@ -1032,7 +1023,7 @@ recipes.addShaped(<flansmod:dwSkylighterAEC>,
 [skydust, skydust, skydust],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwDroneDeployer>,
-[[skyrifle, <flansmod:dwSkyswatterSS>, medsteel],
+[[skyrifle, <flansmod:dwSkyswatterSS>, <flansmod:dwMidSteelIngot>],
 [null, mainpart, stock],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwGs5ShockAmmo>,
@@ -1041,7 +1032,7 @@ recipes.addShaped(<flansmod:dwGs5ShockAmmo>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwGs5Ammo>,
 [[badsteel, brassammo, badsteel],
-[null, badsteel, medsteel],
+[null, badsteel, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwGsxAmmo>,
 [[badsteel, brassammo, badsteel],
@@ -1057,50 +1048,50 @@ recipes.addShaped(<flansmod:dwUmx45ShockAmmo>,
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwUmx45Ammo>,
 [[badsteel, brassammo, badsteel],
-[skydust, brassammo, medsteel],
+[skydust, brassammo, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwMatriarchSkymareAmmo>,
-[[badsteel, skyammo, medsteel],
+[[badsteel, skyammo, <flansmod:dwMidSteelIngot>],
 [skyammo, skyammo, skyglass],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwDusterwingAmmo>,
-[[badsteel, brassammo, medsteel],
+[[badsteel, brassammo, <flansmod:dwMidSteelIngot>],
 [brassammo, brassammo, skyglass],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPwrAmmo>,
-[[badsteel, brassammo, medsteel],
+[[badsteel, brassammo, <flansmod:dwMidSteelIngot>],
 [brassammo, brassammo, skydust],
 [null, null, skydust]]);
 recipes.addShaped(<flansmod:dwInkstriker45Ammo>,
-[[badsteel, brassammo, medsteel],
-[brassammo, brassammo, medsteel],
+[[badsteel, brassammo, <flansmod:dwMidSteelIngot>],
+[brassammo, brassammo, <flansmod:dwMidSteelIngot>],
 [null, null, skydust]]);
 recipes.addShaped(<flansmod:dwAegisDisrupterAmmo>,
-[[iron, brassammo, medsteel],
-[brassammo, brassammo, medsteel],
+[[iron, brassammo, <flansmod:dwMidSteelIngot>],
+[brassammo, brassammo, <flansmod:dwMidSteelIngot>],
 [null, null, skydust]]);
 recipes.addShaped(<flansmod:dwFeatherdusterAmmo>,
-[[iron, g12shock, medsteel],
-[g12shock, g12shock, medsteel],
+[[iron, g12shock, <flansmod:dwMidSteelIngot>],
+[g12shock, g12shock, <flansmod:dwMidSteelIngot>],
 [null, null, skydust]]);
 recipes.addShaped(<flansmod:dwIronhoofShockAmmo>,
 [[g12shock, g12shock, g12shock],
 [g12shock, g12shock, g12shock],
-[medsteel, skyunit, medsteel]]);
+[<flansmod:dwMidSteelIngot>, skyunit, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwIronhoofAmmo>,
 [[g12, g12, g12],
 [g12, g12, g12],
-[medsteel, skyunit, medsteel]]);
+[<flansmod:dwMidSteelIngot>, skyunit, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwSc7StndAmmo>,
-[[iron, skyammo, medsteel],
+[[iron, skyammo, <flansmod:dwMidSteelIngot>],
 [skyammo, skyammo, skyglass],
 [null, flint, skyglass]]);
 recipes.addShaped(<flansmod:dwMparAmmo>,
-[[medsteel, skyammo, medsteel],
+[[<flansmod:dwMidSteelIngot>, skyammo, <flansmod:dwMidSteelIngot>],
 [skyammo, skyammo, skyglass],
 [null, flint, skyglass]]);
 recipes.addShaped(<flansmod:dwSkyCommAmmo>,
-[[medsteel, skyammo, medsteel],
+[[<flansmod:dwMidSteelIngot>, skyammo, <flansmod:dwMidSteelIngot>],
 [skyammo, skyammo, skyglass],
 [null, skyunit, skyglass]]);
 recipes.addShaped(<flansmod:dwSc7Ammo>,
@@ -1113,10 +1104,10 @@ recipes.addShaped(<flansmod:dwFeathershockAmmo>,
 [null, gunpowder, skyglass]]);
 recipes.addShaped(<flansmod:dwHparAmmo>,
 [[<flansmod:dwMparAmmo>, <flansmod:dwMparAmmo>, <flansmod:dwMparAmmo>],
-[skyglass, medsteel, medsteel],
+[skyglass, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwAirmareAmmo>,
-[[skyammo, <flansmod:dwHparAmmo>, medsteel],
+[[skyammo, <flansmod:dwHparAmmo>, <flansmod:dwMidSteelIngot>],
 [brassammo, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwIronhoofM40Ammo>,
@@ -1124,31 +1115,31 @@ recipes.addShaped(<flansmod:dwIronhoofM40Ammo>,
 [brassammo, brassammo, brassammo],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwCloudpuncherAmmo>,
-[[iron, brassammo, medsteel],
+[[iron, brassammo, <flansmod:dwMidSteelIngot>],
 [brassammo, brassammo, skyglass],
 [brassammo, flint, skyglass]]);
 recipes.addShaped(<flansmod:dwAirdropperShockAmmo>,
-[[iron, skyammo, medsteel],
+[[iron, skyammo, <flansmod:dwMidSteelIngot>],
 [skyammo, skyammo, skyglass],
 [skyammo, skyunit, skyglass]]);
 recipes.addShaped(<flansmod:dwAirdropperAmmo>,
-[[iron, brassammo, medsteel],
+[[iron, brassammo, <flansmod:dwMidSteelIngot>],
 [brassammo, brassammo, skyglass],
 [brassammo, skyunit, skyglass]]);
 recipes.addShaped(<flansmod:dwSkyswatterTrackAmmo>,
-[[medsteel, mm40, medsteel],
-[medsteel, mm40shock, medsteel],
+[[<flansmod:dwMidSteelIngot>, mm40, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, mm40shock, <flansmod:dwMidSteelIngot>],
 [skyunit, skyunit, skyunit]]);
 recipes.addShaped(<flansmod:dwSkyswatterAmmo>,
-[[medsteel, mm40, medsteel],
-[medsteel, mm40shock, medsteel],
-[medsteel, medsteel, medsteel]]);
+[[<flansmod:dwMidSteelIngot>, mm40, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, mm40shock, <flansmod:dwMidSteelIngot>],
+[<flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>]]);
 recipes.addShaped(<flansmod:dwSkylighterAmmo>,
 [[iron, skyammo, iron],
 [skyammo, skyammo, skyglass],
 [null, liqglow, skyglass]]);
 recipes.addShaped(<flansmod:dwSkylighterAECAmmo>,
-[[medsteel, skyammo, medsteel],
+[[<flansmod:dwMidSteelIngot>, skyammo, <flansmod:dwMidSteelIngot>],
 [skyammo, skyammo, skyglass],
 [null, liqglow, skyglass]]);
 recipes.addShaped(<flansmod:dwDroneDeployerAmmo>,
@@ -1162,15 +1153,15 @@ recipes.addShaped(<flansmod:dwDuskDusterwingAmmo>,
 
 
 recipes.addShaped(<flansmod:dwMatriarchSnubShort>,
-[[compos, medsteel, compos],
+[[compos, <flansmod:dwMidSteelIngot>, compos],
 [null, null, compos],
 [null, null, badsteel]]);
 recipes.addShaped(<flansmod:dwSilverSec>,
-[[compos, medsteel, compos],
+[[compos, <flansmod:dwMidSteelIngot>, compos],
 [badsteel, null, compos],
 [null, null, badsteel]]);
 recipes.addShaped(<flansmod:dwPup227>,
-[[compos, medsteel, compos],
+[[compos, <flansmod:dwMidSteelIngot>, compos],
 [badsteel, flint, compos],
 [null, null, badsteel]]);
 recipes.addShaped(<flansmod:dwBreacher870>,
@@ -1178,7 +1169,7 @@ recipes.addShaped(<flansmod:dwBreacher870>,
 [null, pumppart, stock],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwFlakwater>,
-[[medsteel, <flansmod:dwBreacher870>, medsteel],
+[[<flansmod:dwMidSteelIngot>, <flansmod:dwBreacher870>, <flansmod:dwMidSteelIngot>],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwLuabella>,
@@ -1190,7 +1181,7 @@ recipes.addShaped(<flansmod:dwCrm15>,
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwPup762>,
-[[subpart, <flansmod:dwLuabella>, medsteel],
+[[subpart, <flansmod:dwLuabella>, <flansmod:dwMidSteelIngot>],
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwSilverSecAmmo>,
@@ -1206,15 +1197,15 @@ recipes.addShaped(<flansmod:dwBreacher870Ammo>,
 [null, null, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwLuabellaAmmo>,
-[[badsteel, medsteel, null],
+[[badsteel, <flansmod:dwMidSteelIngot>, null],
 [null, brassammo, null],
 [null, brassammo, badsteel]]);
 recipes.addShaped(<flansmod:dwPup762Ammo>,
-[[medsteel, medsteel, null],
+[[<flansmod:dwMidSteelIngot>, <flansmod:dwMidSteelIngot>, null],
 [null, brassammo, null],
 [null, brassammo, badsteel]]);
 recipes.addShaped(<flansmod:dwCrm15Ammo>,
-[[badsteel, medsteel, null],
+[[badsteel, <flansmod:dwMidSteelIngot>, null],
 [null, brassammo, null],
 [null, brassammo, iron]]);
 recipes.addShaped(<flansmod:dwMatriarchSnubShortAmmo>,
@@ -1231,31 +1222,31 @@ recipes.addShaped(<flansmod:dwFlashAmbircon>,
 [null, null, liqglow],
 [null, brassammo, iron]]);
 recipes.addShaped(<flansmod:dwSmokeAmbircon>,
-[[liqglow, <flansmod:dwFragAmbircon>, blazePowder],
+[[liqglow, <flansmod:dwFragAmbircon>, <minecraft:blaze_powder>],
 [null, null, liqglow],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwFlameLupine>,
 [[badsteel, tnt, <flansmod:dwGrenadePin>],
-[null, blazePowder, blazePowder],
+[null, <minecraft:blaze_powder>, <minecraft:blaze_powder>],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwFragLupine>,
-[[medsteel, tnt, <flansmod:dwGrenadePin>],
-[null, blazePowder, gunpowder],
+[[<flansmod:dwMidSteelIngot>, tnt, <flansmod:dwGrenadePin>],
+[null, <minecraft:blaze_powder>, gunpowder],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwLupineRemote>,
-[[skyglass, skyunite, badsteel],
-[null, skyunite, null],
+[[skyglass, skyunit, badsteel],
+[null, skyunit, null],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwLupineC4>,
-[[medsteel, tnt, medsteel],
-[null, blazePowder, gunpowder],
+[[<flansmod:dwMidSteelIngot>, tnt, <flansmod:dwMidSteelIngot>],
+[null, <minecraft:blaze_powder>, gunpowder],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwFragSkymare>,
-[[medsteel, tnt, medsteel],
+[[<flansmod:dwMidSteelIngot>, tnt, <flansmod:dwMidSteelIngot>],
 [null, gunpowder, skyglass],
 [null, null, null]]);
 recipes.addShaped(<flansmod:dwShockSkymare>,
-[[medsteel, tnt, medsteel],
+[[<flansmod:dwMidSteelIngot>, tnt, <flansmod:dwMidSteelIngot>],
 [null, skyunit, skyglass],
 [null, null, null]]);
 
