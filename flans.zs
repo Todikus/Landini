@@ -156,8 +156,8 @@ recipes.addShaped(<flansmod:dwHpRound>,
 [badsteel, null, null]]);
 recipes.addShaped(<flansmod:dwHeRound>,
 [[sand, gunpowder, sand],
-[null, gunpowder, sand],
-[null, badsteel, sand]]);
+[sand, gunpowder, sand],
+[sand, badsteel, sand]]);
 recipes.addShaped(<flansmod:dwPoisonRound>,
 [[spider, null, null],
 [gunpowder, null, null],
