@@ -9,6 +9,8 @@ recipes.remove(<witchery:stockade:5>);
 recipes.remove(<witchery:stockade:6>);
 recipes.remove(<witchery:stockade:7>);
 recipes.remove(<witchery:stockade:8>);
+recipes.remove(<witchery:ingredient:52>);
+recipes.remove(<witchery:ingredient:53>);
 
 recipes.addShaped(<witchery:arthana>*9,
  [[null, <minecraft:gold_ingot>, null],
@@ -65,3 +67,12 @@ recipes.addShaped(<witchery:stockade:8>*9,
   [<minecraft:log2:1>, null, <minecraft:log2:1>],
   [<minecraft:log2:1>, <minecraft:log2:1>, <minecraft:log2:1>]]);
   
+  recipes.addShaped(<witchery:ingredient:52>,
+ [[<BiblioCraft:item.FramingBoard>, <witchery:witchwood:0>, null],
+  [<BiblioCraft:item.FramingBoard>, <witchery:witchwood:0>, null],
+  [<BiblioCraft:item.FramingBoard>, <witchery:witchwood:0>, null]]);
+
+    recipes.addShaped(<witchery:ingredient:53>,
+ [[<BiblioCraft:item.FramingBoard>, <witchery:witchwood:1>, null],
+  [<BiblioCraft:item.FramingBoard>, <witchery:witchwood:1>, null],
+  [<BiblioCraft:item.FramingBoard>, <witchery:witchwood:1>, null]]);
